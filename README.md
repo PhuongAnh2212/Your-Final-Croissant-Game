@@ -19,7 +19,7 @@
 ### About the Project
 
 <p align="center">
-  <img alt="Demo screenshot" src="![itch demo]((https://github.com/PhuongAnh2212/Yuri/assets/119726597/7cf081df-0e1d-46e9-8208-766d049d630b)">
+  <img alt="Demo screenshot" src="itchdemo.png">
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
