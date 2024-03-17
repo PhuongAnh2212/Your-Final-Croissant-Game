@@ -1,7 +1,6 @@
 <br />
 <div align="center">
-    <img src="![5tcwov](https://github.com/PhuongAnh2212/Yuri/assets/119726597/dbfccf93-729c-47a0-84f1-45667d9e17dd)
-" alt="Logo" width="150" height="80">
+    <img src="![5tcwov](https://github.com/PhuongAnh2212/Yuri/assets/119726597/dbfccf93-729c-47a0-84f1-45667d9e17dd)" alt="Logo" width="150" height="80">
 
 
 <h3 align="center">Indie Game: Your Final Croissant</h3>
@@ -20,8 +19,7 @@
 ### About the Project
 
 <p align="center">
-  <img alt="Demo screenshot" src="![itch demo](https://github.com/PhuongAnh2212/Yuri/assets/119726597/7cf081df-0e1d-46e9-8208-766d049d630b)
-">
+  <img alt="Demo screenshot" src="![itch demo]((https://github.com/PhuongAnh2212/Yuri/assets/119726597/7cf081df-0e1d-46e9-8208-766d049d630b)">
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
