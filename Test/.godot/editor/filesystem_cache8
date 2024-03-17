@@ -1,5 +1,5 @@
 da105cf5d3a45662f98f74fe8edd6d60
-::res://::1702015361
+::res://::1710688653
 icon.svg::CompressedTexture2D::5140637267571475186::1701882716::1701882716::1::::<><>::
 thanh_mai.gd::GDScript::-1::1701882716::0::1::::<>CharacterBody2D<>::
 TX Props.png::CompressedTexture2D::6428452000721822599::1701882716::1701882716::1::::<><>::
@@ -169,7 +169,7 @@ TX Props.png::CompressedTexture2D::225024698073524512::1701882716::1701882716::1
 TX Tileset Grass.png::CompressedTexture2D::4184483445945552643::1701882716::1701882716::1::::<><>::
 Water.png::CompressedTexture2D::5728266869344538032::1701882716::1701882716::1::::<><>::
 Wood Bridge.png::CompressedTexture2D::1007207514787497192::1701882716::1701882716::1::::<><>::
-::res://dialogue/::1702015364
+::res://dialogue/::1702016011
 main.dialogue::Resource::6027829666435371285::1702016011::1702016011::1::::<><>::res://addons/dialogue_manager/dialogue_resource.gd
 ::res://dream_room/::1702015124
 dream_room.tscn::PackedScene::253019507088719227::1702015124::0::1::::<><>::
@@ -182,8 +182,8 @@ thanh_mai.tscn::PackedScene::4069580822546751224::1701882716::0::1::::<><>::res:
 ::res://player/::1701882716
 player.gd::GDScript::-1::1701882716::0::1::::<>CharacterBody2D<>::
 player.tscn::PackedScene::6127179413461639337::1701882716::0::1::::<><>::res://player/player.gd<>uid://ctd80abodw34k
-::res://scenes/::1702015324
-world.tscn::PackedScene::1337570090994655695::1702015324::0::1::::<><>::uid://ctkb0qycx8uir::::res://player/player.tscn<>uid://du2w8oo0fgfgc::::res://arts/Grass.png<>uid://ctols0edprkkx::::res://arts/Hills.png<>uid://b08hh6to0eqrf::::res://arts/Atlas-Props.png<>uid://bk8lio5mjju88::::res://arts/T1 - House Tileset.png<>uid://b4kdjipf28wpi::::res://arts/Tilled Dirt.png<>uid://dv4nq1f6e4647::::res://arts/GRASS+.png<>uid://dhaehh2bfpw7::::res://arts/TX Props.png<>uid://fk4ljitdutu4::::res://arts/roads2W.png<>uid://d34pcxx1yvgfr::::res://arts/HillsDeep.png<>uid://b3b2mmi82ix7j::::res://arts/overworld_tileset_grass.png<>uid://d2hk35oijuxtv::::res://arts/bakery.png<>uid://c2ds1j3o7818i::::res://arts/house-1.png<>uid://dw8yoi2imfcys::::res://arts/house_asset5.png<>uid://cnu2yorc8tl0k::::res://arts/Water.png<>uid://8umaowsbyefw::::res://arts/Cats.png<>uid://mpone3bdn38b::::res://arts/Basic Grass Biom things 1.png<>uid://dytwwxn35lv7x::::res://arts/house-2.png<>uid://b0u83ivnitu64::::res://arts/TX Tileset Grass.png<>uid://besd2xqnd7voo::::res://arts/house-3.png<>uid://c28cx1wf2x81y::::res://npc/bartender.tscn<>res://npc/bartender.gd<>uid://cus7ac3fojdys::::res://npc/anh_long.tscn<>uid://bx8lnwhp8txcq::::res://npc/thanh_mai.tscn
+::res://scenes/::1702016051
+world.tscn::PackedScene::1337570090994655695::1702016051::0::1::::<><>::uid://ctkb0qycx8uir::::res://player/player.tscn<>uid://du2w8oo0fgfgc::::res://arts/Grass.png<>uid://ctols0edprkkx::::res://arts/Hills.png<>uid://b08hh6to0eqrf::::res://arts/Atlas-Props.png<>uid://bk8lio5mjju88::::res://arts/T1 - House Tileset.png<>uid://b4kdjipf28wpi::::res://arts/Tilled Dirt.png<>uid://dv4nq1f6e4647::::res://arts/GRASS+.png<>uid://dhaehh2bfpw7::::res://arts/TX Props.png<>uid://fk4ljitdutu4::::res://arts/roads2W.png<>uid://d34pcxx1yvgfr::::res://arts/HillsDeep.png<>uid://b3b2mmi82ix7j::::res://arts/overworld_tileset_grass.png<>uid://d2hk35oijuxtv::::res://arts/bakery.png<>uid://c2ds1j3o7818i::::res://arts/house-1.png<>uid://dw8yoi2imfcys::::res://arts/house_asset5.png<>uid://cnu2yorc8tl0k::::res://arts/Water.png<>uid://8umaowsbyefw::::res://arts/Cats.png<>uid://mpone3bdn38b::::res://arts/Basic Grass Biom things 1.png<>uid://dytwwxn35lv7x::::res://arts/house-2.png<>uid://b0u83ivnitu64::::res://arts/TX Tileset Grass.png<>uid://besd2xqnd7voo::::res://arts/house-3.png<>uid://c28cx1wf2x81y::::res://npc/bartender.tscn<>res://npc/bartender.gd<>uid://cus7ac3fojdys::::res://npc/anh_long.tscn<>uid://bx8lnwhp8txcq::::res://npc/thanh_mai.tscn
 ::res://title screen/::1702015124
 ka1.ttf::FontFile::880485355741413893::1701882716::1701882716::1::::<><>::
 opening.mp3::AudioStreamMP3::6061852684100907623::1701882716::1701882716::1::::<><>::

@@ -4,6 +4,10 @@ extends CharacterBody2D
 @onready var animations = $AnimationPlayer
 
 func handleInput():
+	if Input.is_action_just_pressed("ui_accept"):
+		DialogueManager.show_dialogue_balloon(load("res://dialogue/main.dialogue"), "start")
+		return
+	
 	var moveDirection = Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down")
 	velocity = moveDirection*speed
 	
