@@ -1,14 +1,14 @@
 [gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
 
-[ext_resource type="Script" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_hjlyk"]
+[ext_resource type="Script" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_wefvk"]
 
 [resource]
-script = ExtResource("1_hjlyk")
+script = ExtResource("1_wefvk")
 using_states = PackedStringArray()
 titles = {
 "start": "3"
 }
-character_names = PackedStringArray("Thanh Mai", "Lam Anh", "Nathan")
+character_names = PackedStringArray("Thanh Mai")
 first_title = "3"
 lines = {
 "1": {
@@ -18,31 +18,7 @@ lines = {
 "type": "title"
 },
 "10": {
-"character": "",
-"character_replacements": Array[Dictionary]([]),
 "id": "10",
-"next_id": "end",
-"next_id_after": "11",
-"responses": PackedStringArray("10"),
-"tags": PackedStringArray(),
-"text": "End the conversation",
-"text_replacements": Array[Dictionary]([]),
-"translation_key": "End the conversation",
-"type": "response"
-},
-"11": {
-"character": "Nathan",
-"character_replacements": Array[Dictionary]([]),
-"id": "11",
-"next_id": "13",
-"tags": PackedStringArray(),
-"text": "For more information see the online documentation.",
-"text_replacements": Array[Dictionary]([]),
-"translation_key": "For more information see the online documentation.",
-"type": "dialogue"
-},
-"13": {
-"id": "13",
 "is_snippet": false,
 "next_id": "end",
 "type": "goto"
@@ -62,61 +38,50 @@ lines = {
 "character": "",
 "character_replacements": Array[Dictionary]([]),
 "id": "4",
-"next_id": "5",
-"next_id_after": "9",
-"responses": PackedStringArray("4", "6"),
-"tags": PackedStringArray(),
-"text": "First:",
-"text_replacements": Array[Dictionary]([]),
-"translation_key": "First:",
-"type": "response"
-},
-"5": {
-"character": "Lam Anh",
-"character_replacements": Array[Dictionary]([]),
-"id": "5",
-"next_id": "9",
-"parent_id": "4",
+"next_id": "7",
+"next_id_after": "7",
+"responses": PackedStringArray("4", "5"),
 "tags": PackedStringArray(),
 "text": "Getting the hang of it.",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "Getting the hang of it.",
-"type": "dialogue"
+"type": "response"
 },
-"6": {
+"5": {
 "character": "",
 "character_replacements": Array[Dictionary]([]),
-"id": "6",
+"id": "5",
 "next_id": "7",
-"next_id_after": "9",
+"next_id_after": "7",
 "tags": PackedStringArray(),
-"text": "Second",
+"text": "It’s not hard navigating in this town",
 "text_replacements": Array[Dictionary]([]),
-"translation_key": "Second",
+"translation_key": "It’s not hard navigating in this town",
 "type": "response"
 },
 "7": {
-"character": "Lam Anh",
+"character": "Thanh Mai",
 "character_replacements": Array[Dictionary]([]),
 "id": "7",
-"next_id": "9",
-"parent_id": "6",
-"tags": PackedStringArray(),
-"text": "It’s not hard navigating in this town.",
-"text_replacements": Array[Dictionary]([]),
-"translation_key": "It’s not hard navigating in this town.",
-"type": "dialogue"
-},
-"9": {
-"character": "Lam Anh",
-"character_replacements": Array[Dictionary]([]),
-"id": "9",
-"next_id": "10",
+"next_id": "8",
 "tags": PackedStringArray(),
 "text": "But I barely survive the small talk that comes with every order.",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "But I barely survive the small talk that comes with every order.",
 "type": "dialogue"
+},
+"8": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "8",
+"next_id": "end!",
+"next_id_after": "10",
+"responses": PackedStringArray("8"),
+"tags": PackedStringArray(),
+"text": "End the conversation",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "End the conversation",
+"type": "response"
 }
 }
 metadata/dialogue_manager_version = "2.30.0"
