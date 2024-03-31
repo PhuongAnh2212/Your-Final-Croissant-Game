@@ -1,0 +1,3 @@
+res://mini_map/MiniMap.tscn
+res://mini_map/Camera2D.gd
+res://scenes/world.tscn

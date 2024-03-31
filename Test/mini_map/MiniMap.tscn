@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=3 uid="uid://bweqkmo0bcuaj"]
+
+[ext_resource type="Script" path="res://mini_map/Camera2D.gd" id="1_hxjof"]
+
+[node name="MiniMap" type="Node2D"]
+
+[node name="Map" type="TileMap" parent="."]
+format = 2
+
+[node name="Fog" type="TileMap" parent="."]
+format = 2
+
+[node name="Camera2D" type="Camera2D" parent="."]
+script = ExtResource("1_hxjof")
+
+[node name="Dot" type="Sprite2D" parent="."]
+
+[node name="FogTimer" type="Timer" parent="."]
