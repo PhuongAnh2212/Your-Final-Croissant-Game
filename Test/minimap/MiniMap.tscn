@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://veprjydnsyyc"]
+
+[node name="MiniMap" type="Node2D"]
+
+[node name="Map" type="TileMap" parent="."]
+format = 2
+
+[node name="Fog" type="TileMap" parent="."]
+format = 2
+
+[node name="MiniCam" type="Camera2D" parent="."]
+
+[node name="Dot" type="Sprite2D" parent="."]
+
+[node name="FogTimer" type="Timer" parent="."]

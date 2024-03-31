@@ -1,4 +1,9 @@
+Timer
+Sprite2D
+Camera2D
 TileMap
+Control
+CanvasLayer
 Node
 AudioStreamPlayer2D
 HBoxContainer
@@ -7,7 +12,6 @@ Button
 VBoxContainer
 MarginContainer
 TextureRect
-Control
 CollisionShape2D
 AnimatedSprite2D
 CharacterBody2D
