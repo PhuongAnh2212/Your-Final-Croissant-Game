@@ -1,15 +1,15 @@
 Sprite2D
 Camera2D
+Node2D
+Node
 SubViewport
 SubViewportContainer
 CanvasLayer
 Timer
 TileMap
-Node2D
 ColorRect
 AnimatedSprite2D
 GridContainer
-Node
 Control
 AudioStreamPlayer2D
 HBoxContainer

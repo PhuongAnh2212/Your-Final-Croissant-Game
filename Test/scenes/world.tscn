@@ -1,4 +1,4 @@
-[gd_scene load_steps=56 format=3 uid="uid://tb6t4cv21o8v"]
+[gd_scene load_steps=55 format=3 uid="uid://tb6t4cv21o8v"]
 
 [ext_resource type="PackedScene" uid="uid://ctkb0qycx8uir" path="res://player/player.tscn" id="1_t4brd"]
 [ext_resource type="Texture2D" uid="uid://du2w8oo0fgfgc" path="res://arts/Grass.png" id="2_xmvpw"]
@@ -24,7 +24,6 @@
 [ext_resource type="Script" path="res://npc/bartender.gd" id="16_pl1nx"]
 [ext_resource type="PackedScene" uid="uid://cus7ac3fojdys" path="res://npc/anh_long.tscn" id="17_j5wgc"]
 [ext_resource type="PackedScene" uid="uid://bx8lnwhp8txcq" path="res://npc/thanh_mai.tscn" id="18_n2cpw"]
-[ext_resource type="Script" path="res://scenes/minimap.gd" id="25_won54"]
 [ext_resource type="Texture2D" uid="uid://dssm6i4gofur3" path="res://arts/minimap.png" id="26_wtgvp"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_uqcwy"]
@@ -55260,22 +55259,16 @@ layer_0/tile_data = PackedInt32Array(5832771, 196608, 2, 5767235, 196608, 2, 576
 [node name="UI" type="CanvasLayer" parent="."]
 
 [node name="SubViewportContainer" type="SubViewportContainer" parent="UI"]
-anchors_preset = 2
-anchor_top = 1.0
-anchor_bottom = 1.0
-offset_top = -100.0
-offset_right = 100.0
-grow_vertical = 0
+offset_left = 20.0
+offset_top = 20.0
+offset_right = 170.0
+offset_bottom = 170.0
 
 [node name="SubViewport" type="SubViewport" parent="UI/SubViewportContainer"]
 transparent_bg = true
-handle_input_locally = false
-size = Vector2i(140, 140)
-render_target_update_mode = 4
-script = ExtResource("25_won54")
+size = Vector2i(150, 150)
+
+[node name="Camera2D" type="Camera2D" parent="UI/SubViewportContainer/SubViewport"]
 
 [node name="Sprite2D" type="Sprite2D" parent="UI/SubViewportContainer/SubViewport"]
 texture = ExtResource("26_wtgvp")
-
-[node name="MiniCam" type="Camera2D" parent="UI/SubViewportContainer/SubViewport"]
-zoom = Vector2(0.1, 0.1)

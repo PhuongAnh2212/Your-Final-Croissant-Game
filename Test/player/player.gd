@@ -2,6 +2,7 @@ extends CharacterBody2D
 
 @export var speed: int = 300
 @onready var animations = $AnimationPlayer
+@onready var Map = $''
 
 func handleInput():
 	if Input.is_action_just_pressed("ui_accept"):
