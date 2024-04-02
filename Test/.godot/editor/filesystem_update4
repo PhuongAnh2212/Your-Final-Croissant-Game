@@ -1,1 +1,10 @@
 res://minimap/MiniMap.tscn
+res://minimap/MiniCam.gd
+res://minimap/MiniMap.gd
+res://scenes/HUD.tscn
+res://scenes/world.tscn
+res://scenes/hud.tscn
+res://minimap/mini_map.gd
+res://minimap/mini_map.tscn
+res://scenes/minimap.gd
+res://player/player.gd

@@ -1,10 +1,16 @@
-Timer
 Sprite2D
 Camera2D
-TileMap
-Control
+SubViewport
+SubViewportContainer
 CanvasLayer
+Timer
+TileMap
+Node2D
+ColorRect
+AnimatedSprite2D
+GridContainer
 Node
+Control
 AudioStreamPlayer2D
 HBoxContainer
 Label
@@ -13,6 +19,5 @@ VBoxContainer
 MarginContainer
 TextureRect
 CollisionShape2D
-AnimatedSprite2D
 CharacterBody2D
 AnimationPlayer
