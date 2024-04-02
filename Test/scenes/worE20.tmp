@@ -1,4 +1,4 @@
-[gd_scene load_steps=57 format=3 uid="uid://tb6t4cv21o8v"]
+[gd_scene load_steps=56 format=3 uid="uid://tb6t4cv21o8v"]
 
 [ext_resource type="PackedScene" uid="uid://ctkb0qycx8uir" path="res://player/player.tscn" id="1_t4brd"]
 [ext_resource type="Texture2D" uid="uid://du2w8oo0fgfgc" path="res://arts/Grass.png" id="2_xmvpw"]
@@ -26,7 +26,6 @@
 [ext_resource type="PackedScene" uid="uid://bx8lnwhp8txcq" path="res://npc/thanh_mai.tscn" id="18_n2cpw"]
 [ext_resource type="Script" path="res://scenes/MiniCam.gd" id="26_jl0ed"]
 [ext_resource type="Texture2D" uid="uid://dssm6i4gofur3" path="res://arts/minimap.png" id="26_wtgvp"]
-[ext_resource type="Texture2D" uid="uid://dfe7ykvjymoj" path="res://minimap/pointer.png" id="27_x7ul6"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_uqcwy"]
 texture = ExtResource("2_xmvpw")
@@ -55155,6 +55154,12 @@ sources/0 = SubResource("TileSetAtlasSource_pjtk3")
 [node name="world" type="Node2D"]
 metadata/_edit_vertical_guides_ = []
 
+[node name="background" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(1777, 1074)
+scale = Vector2(6.09859, 6.09859)
+texture = ExtResource("26_wtgvp")
+
 [node name="CenterMap" type="TileMap" parent="."]
 position = Vector2(171, -282)
 tile_set = SubResource("TileSet_65nst")
@@ -55229,6 +55234,7 @@ layer_7/tile_data = PackedInt32Array(4653101, 983054, 8, 4718637, 983054, 9, 478
 [node name="Player" parent="." instance=ExtResource("1_t4brd")]
 z_index = 1
 position = Vector2(712, 2232)
+up_direction = Vector2(0.948683, -0.316228)
 platform_floor_layers = 4294967294
 platform_wall_layers = 1
 
@@ -55254,31 +55260,23 @@ layer_0/tile_data = PackedInt32Array(5832771, 196608, 2, 5767235, 196608, 2, 576
 [node name="UI" type="CanvasLayer" parent="."]
 
 [node name="TextureRect" type="TextureRect" parent="UI"]
-offset_left = 16.0
-offset_top = 16.0
-offset_right = 166.0
-offset_bottom = 166.0
+offset_right = 40.0
+offset_bottom = 40.0
 
 [node name="SubViewportContainer" type="SubViewportContainer" parent="UI/TextureRect"]
-layout_mode = 0
-offset_right = 150.0
-offset_bottom = 150.0
+offset_left = 20.0
+offset_top = 20.0
+offset_right = 170.0
+offset_bottom = 170.0
 
 [node name="SubViewport" type="SubViewport" parent="UI/TextureRect/SubViewportContainer"]
-disable_3d = true
 transparent_bg = true
 handle_input_locally = false
 size = Vector2i(150, 150)
 render_target_update_mode = 4
 
 [node name="MiniCam" type="Camera2D" parent="UI/TextureRect/SubViewportContainer/SubViewport"]
-zoom = Vector2(0.7, 0.7)
 script = ExtResource("26_jl0ed")
 
 [node name="MiniMap" type="Sprite2D" parent="UI/TextureRect/SubViewportContainer/SubViewport"]
 texture = ExtResource("26_wtgvp")
-
-[node name="Pointer" type="Sprite2D" parent="UI/TextureRect/SubViewportContainer/SubViewport"]
-position = Vector2(10, 10)
-scale = Vector2(0.03, 0.03)
-texture = ExtResource("27_x7ul6")

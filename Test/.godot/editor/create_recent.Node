@@ -1,4 +1,5 @@
 Sprite2D
+TextureRect
 Camera2D
 Node2D
 Node
@@ -17,7 +18,6 @@ Label
 Button
 VBoxContainer
 MarginContainer
-TextureRect
 CollisionShape2D
 CharacterBody2D
 AnimationPlayer
