@@ -44,7 +44,7 @@
 
 4. Go to
 
-        res://title screen/title_screen.tscn
+        Test/title screen/title_screen.tscn
 
 5. Play the title screen and start the game
 
