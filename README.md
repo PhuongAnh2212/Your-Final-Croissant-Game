@@ -44,7 +44,7 @@
 
 4. Go to
 
-        res://title screen/title_screen.tscn
+        Test/title screen/title_screen.tscn
 
 5. Play the title screen and start the game
 
@@ -58,7 +58,7 @@ Khue Minh-Dao
 [@dmk](https://github.com/KhueDao29)
 
 Ha Chi-Le Thi
-[@hachi](https://github.com/natsun08)
+[@lthc](https://github.com/natsun08)
 
 Dang Hoang-Tran Phuoc
 [@tpdh](https://github.com/mnymkr)
