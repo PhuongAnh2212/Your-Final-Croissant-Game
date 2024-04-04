@@ -1,1 +1,8 @@
+res://scenes/inventory_slot.tscn
+res://script/inventory_slot.gd
+res://script/inventory.gd
+res://script/Global.gd
+res://scenes/Inventory_Item.tscn
+res://scenes/inventory.tscn
 res://scenes/world.tscn
+res://player/player.tscn
