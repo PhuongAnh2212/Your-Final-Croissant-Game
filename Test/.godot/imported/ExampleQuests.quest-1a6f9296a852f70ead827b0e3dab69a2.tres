@@ -4,6 +4,10 @@
 
 [resource]
 script = ExtResource("1_heojh")
+[ext_resource type="Script" path="res://addons/quest_manager/QuestResource.gd" id="1_far85"]
+
+[resource]
+script = ExtResource("1_far85")
 quest_data = {
 "1e3cd6e59f": {
 "completed": false,
