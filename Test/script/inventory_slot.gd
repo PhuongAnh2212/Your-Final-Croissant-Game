@@ -20,7 +20,6 @@ func _on_item_button_mouse_exited():
 
 func _on_item_button_mouse_entered():
 	if item != null:
-		usage_panel.visible = false
 		detail_panel.visible = true
 
 func set_empty():

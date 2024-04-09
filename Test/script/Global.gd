@@ -22,11 +22,11 @@ func add_item(item):
 			inventory[i]["quanity"] += item["quanity"]
 			inventory_update.emit()
 			return true
-		elif inventory == null:
+		elif inventory != null:
 			inventory[i] = item
 			inventory_update.emit()
 			return true
-	return false
+		return false
 	
 func remove_item():
 	inventory_update.emit()
@@ -35,4 +35,5 @@ func increase_inventory_size():
 	inventory_update.emit()
 
 func set_player_ref(player):
+	print("A")
 	player_node=player

@@ -1,5 +1,5 @@
 da105cf5d3a45662f98f74fe8edd6d60
-::res://::1712202451
+::res://::1712367656
 icon.svg::CompressedTexture2D::5140637267571475186::1711872428::1711872428::1::::<><>::
 thanh_mai.gd::GDScript::-1::1712199856::0::1::::<>CharacterBody2D<>::
 TX Props.png::CompressedTexture2D::6428452000721822599::1711872427::1711872427::1::::<><>::
@@ -30,11 +30,11 @@ code_edit.tscn::PackedScene::5379618807048408118::1712199856::0::1::::<><>::res:
 code_edit_syntax_highlighter.gd::GDScript::-1::1712199856::0::1::::<>SyntaxHighlighter<>::
 dialogue_cache.gd::GDScript::-1::1712199856::0::1::::<>Node<>::
 download_update_panel.gd::GDScript::-1::1712199856::0::1::::<>Control<>::
-download_update_panel.tscn::PackedScene::1130642722554629364::1712199856::0::1::::<><>::res://addons/dialogue_manager/components/download_update_panel.gd<>uid://d3baj6rygkb3f::::res://addons/dialogue_manager/assets/update.svg
+download_update_panel.tscn::PackedScene::1130642722554629364::1712199856::0::1::::<><>::res://addons/dialogue_manager/components/download_update_panel.gd<>uid://d3baj6rygkb3f
 errors_panel.gd::GDScript::-1::1712199856::0::1::::<>HBoxContainer<>::
 errors_panel.tscn::PackedScene::6105315990352960875::1712199856::0::1::::<><>::res://addons/dialogue_manager/components/errors_panel.gd
 files_list.gd::GDScript::-1::1712199856::0::1::::<>VBoxContainer<>::
-files_list.tscn::PackedScene::8113335055803740416::1712199856::0::1::::<><>::res://addons/dialogue_manager/components/files_list.gd<>uid://d3lr2uas6ax8v::::res://addons/dialogue_manager/assets/icon.svg
+files_list.tscn::PackedScene::8113335055803740416::1712199856::0::1::::<><>::res://addons/dialogue_manager/components/files_list.gd<>uid://d3lr2uas6ax8v
 parser.gd::GDScript::-1::1712199856::0::1::::DialogueManagerParser<>Object<>::
 parse_result.gd::GDScript::-1::1712199856::0::1::::DialogueManagerParseResult<>RefCounted<>::
 resolved_line_data.gd::GDScript::-1::1712199856::0::1::::<>RefCounted<>::
@@ -44,11 +44,11 @@ search_and_replace.tscn::PackedScene::458254375860855630::1712199856::0::1::::<>
 title_list.gd::GDScript::-1::1712199856::0::1::::<>VBoxContainer<>::
 title_list.tscn::PackedScene::6134415340044566558::1712199856::0::1::::<><>::res://addons/dialogue_manager/components/title_list.gd
 update_button.gd::GDScript::-1::1712199856::0::1::::<>Button<>::
-update_button.tscn::PackedScene::5825087957514786930::1712199856::0::1::::<><>::res://addons/dialogue_manager/components/update_button.gd<>uid://qdxrxv3c3hxk::::res://addons/dialogue_manager/components/download_update_panel.tscn
+update_button.tscn::PackedScene::5825087957514786930::1712199856::0::1::::<><>::res://addons/dialogue_manager/components/update_button.gd<>uid://qdxrxv3c3hxk
 ::res://addons/dialogue_manager/example_balloon/::1712199856
 example_balloon.gd::GDScript::-1::1712199856::0::1::::<>CanvasLayer<>::
-example_balloon.tscn::PackedScene::2304415056852043862::1712199856::0::1::::<><>::res://addons/dialogue_manager/example_balloon/example_balloon.gd<>uid://ckvgyvclnwggo::::res://addons/dialogue_manager/dialogue_label.tscn<>res://addons/dialogue_manager/dialogue_reponses_menu.gd
-small_example_balloon.tscn::PackedScene::1883859960814163368::1712199856::0::1::::<><>::res://addons/dialogue_manager/example_balloon/example_balloon.gd<>uid://ckvgyvclnwggo::::res://addons/dialogue_manager/dialogue_label.tscn<>res://addons/dialogue_manager/dialogue_reponses_menu.gd
+example_balloon.tscn::PackedScene::2304415056852043862::1712199856::0::1::::<><>::res://addons/dialogue_manager/example_balloon/example_balloon.gd<>uid://ckvgyvclnwggo
+small_example_balloon.tscn::PackedScene::1883859960814163368::1712199856::0::1::::<><>::res://addons/dialogue_manager/example_balloon/example_balloon.gd<>uid://ckvgyvclnwggo
 ::res://addons/dialogue_manager/l10n/::1712199856
 en.mo::Translation::-1::1712199856::0::1::::<><>::
 en.po::Translation::-1::1712199856::0::1::::<><>::
@@ -56,7 +56,7 @@ zh.po::Translation::-1::1712199856::0::1::::<><>::
 zh_TW.po::Translation::-1::1712199856::0::1::::<><>::
 ::res://addons/dialogue_manager/views/::1712199856
 main_view.gd::GDScript::-1::1712199856::0::1::::<>Control<>::
-main_view.tscn::PackedScene::4884668666408697448::1712199856::0::1::::<><>::res://addons/dialogue_manager/views/main_view.gd<>uid://civ6shmka5e8u::::res://addons/dialogue_manager/components/code_edit.tscn<>uid://dnufpcdrreva3::::res://addons/dialogue_manager/components/files_list.tscn<>uid://ctns6ouwwd68i::::res://addons/dialogue_manager/components/title_list.tscn<>uid://co8yl23idiwbi::::res://addons/dialogue_manager/components/update_button.tscn<>uid://gr8nakpbrhby::::res://addons/dialogue_manager/components/search_and_replace.tscn<>uid://cs8pwrxr5vxix::::res://addons/dialogue_manager/components/errors_panel.tscn<>res://addons/dialogue_manager/components/code_edit_syntax_highlighter.gd<>uid://cpg4lg1r3ff6m::::res://addons/dialogue_manager/views/settings_view.tscn
+main_view.tscn::PackedScene::4884668666408697448::1712199856::0::1::::<><>::res://addons/dialogue_manager/views/main_view.gd<>uid://civ6shmka5e8u
 settings_view.gd::GDScript::-1::1712199856::0::1::::<>TabContainer<>::
 settings_view.tscn::PackedScene::5839841081119266502::1712199856::0::1::::<><>::res://addons/dialogue_manager/views/settings_view.gd
 ::res://addons/quest_manager/::1712199856
@@ -109,31 +109,31 @@ Step.gd::GDScript::-1::1712199856::0::1::::<>EditorNode<>::
 Step.tscn::PackedScene::4676620347091927808::1712199856::0::1::::<><>::res://addons/quest_manager/Editor/Nodes/Step.gd
 Timer_Step.gd::GDScript::-1::1712199856::0::1::::<>EditorNode<>::
 Timer_Step.tscn::PackedScene::160007808320660453::1712199856::0::1::::<><>::res://addons/quest_manager/Editor/Nodes/Timer_Step.gd
-::res://addons/quest_manager/Examples/::1712202345
+::res://addons/quest_manager/Examples/::1712202452
 All Nodes.quest::Resource::8962801000055994435::1712199856::1712202452::1::::<><>::res://addons/quest_manager/QuestResource.gd
 ExampleQuests.quest::Resource::1646139316134416246::1712199856::1712202452::1::::<><>::res://addons/quest_manager/QuestResource.gd
 ::res://addons/quest_manager/Examples/ExampleOne/::1712199856
 Enemy.gd::GDScript::-1::1712199856::0::1::::<>Area2D<>::
-Enemy.tscn::PackedScene::4260354024182905993::1712199856::0::1::::<><>::res://addons/quest_manager/Examples/ExampleOne/Enemy.gd<>uid://ux6u0ocdyfmb::::res://addons/quest_manager/assets/SpriteSheet.png
+Enemy.tscn::PackedScene::4260354024182905993::1712199856::0::1::::<><>::res://addons/quest_manager/Examples/ExampleOne/Enemy.gd<>uid://ux6u0ocdyfmb
 Player.gd::GDScript::-1::1712199856::0::1::::<>CharacterBody2D<>::
-Player.tscn::PackedScene::7874949994509200690::1712199856::0::1::::<><>::res://addons/quest_manager/Examples/ExampleOne/Player.gd<>res://addons/quest_manager/Examples/ExampleOne/Projectile.tscn<>uid://ux6u0ocdyfmb::::res://addons/quest_manager/assets/SpriteSheet.png
+Player.tscn::PackedScene::7874949994509200690::1712199856::0::1::::<><>::res://addons/quest_manager/Examples/ExampleOne/Player.gd<>res://addons/quest_manager/Examples/ExampleOne/Projectile.tscn<>uid://ux6u0ocdyfmb
 Projectile.gd::GDScript::-1::1712199856::0::1::::<>Area2D<>::
-Projectile.tscn::PackedScene::-1::1712199856::0::1::::<><>::res://addons/quest_manager/Examples/ExampleOne/Projectile.gd<>uid://ux6u0ocdyfmb::::res://addons/quest_manager/assets/SpriteSheet.png
-SpaceArcade.tscn::PackedScene::7521775707753251548::1712199856::0::1::::<><>::uid://ux6u0ocdyfmb::::res://addons/quest_manager/assets/SpriteSheet.png<>res://addons/quest_manager/Examples/ExampleOne/Spawner.gd<>uid://dkgxjm5uka6l7::::res://addons/quest_manager/Examples/ExampleOne/Player.tscn<>uid://b1x0n5bd18fi4::::res://addons/quest_manager/Examples/ExampleOne/Enemy.tscn<>res://addons/quest_manager/Examples/ExampleOne/UI.gd<>uid://xpnw6ggixm3w::::res://addons/quest_manager/Examples/ExampleQuests.quest
+Projectile.tscn::PackedScene::-1::1712199856::0::1::::<><>::res://addons/quest_manager/Examples/ExampleOne/Projectile.gd<>uid://ux6u0ocdyfmb
+SpaceArcade.tscn::PackedScene::7521775707753251548::1712199856::0::1::::<><>::uid://ux6u0ocdyfmb
 Spawner.gd::GDScript::-1::1712199856::0::1::::<>Marker2D<>::
 UI.gd::GDScript::-1::1712199856::0::1::::<>CanvasLayer<>::
 ::res://addons/quest_manager/Examples/ExampleTwo/::1712199856
 Apple.gd::GDScript::-1::1712199856::0::1::::<>Area2D<>::
-Apple.tscn::PackedScene::6796510975366586586::1712199856::0::1::::<><>::res://addons/quest_manager/Examples/ExampleTwo/Apple.gd<>uid://ux6u0ocdyfmb::::res://addons/quest_manager/assets/SpriteSheet.png
+Apple.tscn::PackedScene::6796510975366586586::1712199856::0::1::::<><>::res://addons/quest_manager/Examples/ExampleTwo/Apple.gd<>uid://ux6u0ocdyfmb
 Apple_Spawn.gd::GDScript::-1::1712199856::0::1::::<>Marker2D<>::
 apple_spawner.tscn::PackedScene::-1::1712199856::0::1::::<><>::res://addons/quest_manager/Examples/ExampleTwo/Apple_Spawn.gd<>res://addons/quest_manager/Examples/ExampleTwo/Apple.tscn
 ExampleTwo.gd::GDScript::-1::1712199856::0::1::::<>Node2D<>::
-ExampleTwoScene.tscn::PackedScene::9180935443343259160::1712199856::0::1::::<><>::res://addons/quest_manager/Examples/ExampleTwo/ExampleTwo.gd<>uid://ux6u0ocdyfmb::::res://addons/quest_manager/assets/SpriteSheet.png<>res://addons/quest_manager/Examples/ExampleTwo/npc.tscn<>uid://xpnw6ggixm3w::::res://addons/quest_manager/Examples/ExampleQuests.quest<>res://addons/quest_manager/Examples/ExampleTwo/player.tscn<>res://addons/quest_manager/Examples/ExampleTwo/UI.gd<>res://addons/quest_manager/Examples/ExampleTwo/apple_spawner.tscn<>uid://4mxj5ftcj1fx::::res://addons/quest_manager/extras/action_step_area.tscn
+ExampleTwoScene.tscn::PackedScene::9180935443343259160::1712199856::0::1::::<><>::res://addons/quest_manager/Examples/ExampleTwo/ExampleTwo.gd<>uid://ux6u0ocdyfmb
 Item.gd::GDScript::-1::1712199856::0::1::::<>RefCounted<>::
 NPC.gd::GDScript::-1::1712199856::0::1::::<>Node2D<>::
-npc.tscn::PackedScene::-1::1712199856::0::1::::<><>::uid://ux6u0ocdyfmb::::res://addons/quest_manager/assets/SpriteSheet.png<>res://addons/quest_manager/Examples/ExampleTwo/NPC.gd
+npc.tscn::PackedScene::-1::1712199856::0::1::::<><>::uid://ux6u0ocdyfmb
 Player.gd::GDScript::-1::1712199856::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::-1::1712199856::0::1::::<><>::res://addons/quest_manager/Examples/ExampleTwo/Player.gd<>uid://cqw68ky2utcct::::res://addons/quest_manager/assets/Character Sheet.png
+player.tscn::PackedScene::-1::1712199856::0::1::::<><>::res://addons/quest_manager/Examples/ExampleTwo/Player.gd<>uid://cqw68ky2utcct
 UI.gd::GDScript::-1::1712199856::0::1::::<>CanvasLayer<>::
 ::res://addons/quest_manager/Examples/ScriptQuestExample/::1712199856
 ScriptQuestExampleScene.gd::GDScript::-1::1712199856::0::1::::<>Node2D<>::
@@ -185,7 +185,7 @@ Bakery_goods (9).png::CompressedTexture2D::8734122435587550665::1712201020::1712
 Bakery_goods (10).png::CompressedTexture2D::215415946347868326::1712201020::1712201020::1::::<><>::
 Bakery_goods (11).png::CompressedTexture2D::2074416565208296175::1712201020::1712201020::1::::<><>::
 Bakery_goods (12).png::CompressedTexture2D::6943351576496733550::1712201020::1712201020::1::::<><>::
-::res://dialogue/::1712202345
+::res://dialogue/::1712202452
 main.dialogue::Resource::6027829666435371285::1712199856::1712202452::1::::<><>::res://addons/dialogue_manager/dialogue_resource.gd
 ::res://dream_room/::1712199856
 dream_room.tscn::PackedScene::253019507088719227::1712199856::0::1::::<><>::
@@ -193,19 +193,19 @@ dream_room.tscn::PackedScene::253019507088719227::1712199856::0::1::::<><>::
 pointer.png::CompressedTexture2D::221189710035994757::1712202408::1712202408::1::::<><>::
 ::res://npc/::1712199856
 anh_long.gd::GDScript::-1::1712199856::0::1::::<>CharacterBody2D<>::
-anh_long.tscn::PackedScene::6215720132035920406::1712199856::0::1::::<><>::uid://d3n4kjcugsoyg::::res://arts/neighbor-sprite.png<>res://npc/anh_long.gd
+anh_long.tscn::PackedScene::6215720132035920406::1712199856::0::1::::<><>::uid://d3n4kjcugsoyg
 bartender.gd::GDScript::-1::1712199856::0::1::::<>CharacterBody2D<>::
-bartender.tscn::PackedScene::6736228518599396760::1712199856::0::1::::<><>::uid://bo0jauihblni4::::res://arts/bartender-sprite.png
-thanh_mai.tscn::PackedScene::4069580822546751224::1712199856::0::1::::<><>::res://thanh_mai.gd<>uid://xbmuoeqjycg5::::res://arts/thanhmai-sprite.png
-::res://player/::1712202408
+bartender.tscn::PackedScene::6736228518599396760::1712199856::0::1::::<><>::uid://bo0jauihblni4
+thanh_mai.tscn::PackedScene::4069580822546751224::1712199856::0::1::::<><>::res://thanh_mai.gd<>uid://xbmuoeqjycg5
+::res://player/::1712202481
 player.gd::GDScript::-1::1712202408::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::6127179413461639337::1712202345::0::1::::<><>::res://player/player.gd<>uid://ctd80abodw34k::::res://arts/lamanh-sprite.png<>uid://qb5p3ge4gs8t::::res://arts/Inventory background.png<>uid://c5b3yjk13s2fh::::res://scenes/inventory.tscn
-::res://scenes/::1712202408
+player.tscn::PackedScene::6127179413461639337::1712202481::0::1::::<><>::res://player/player.gd<>uid://ctd80abodw34k::::res://arts/lamanh-sprite.png<>uid://qb5p3ge4gs8t::::res://arts/Inventory background.png<>uid://c5b3yjk13s2fh::::res://scenes/inventory.tscn
+::res://scenes/::1712202481
 inventory.tscn::PackedScene::6882314478510084653::1712201020::0::1::::<><>::res://script/inventory.gd
 Inventory_Item.tscn::PackedScene::1361594070867851913::1712201020::0::1::::<><>::res://script/Inventory_Item.gd
-inventory_slot.tscn::PackedScene::470776646527153931::1712201020::0::1::::<><>::res://script/inventory_slot.gd<>uid://cnu2yorc8tl0k::::res://arts/Water.png<>uid://iwd05yfkrcea::::res://arts/Items/Bakery_goods (1).png
+inventory_slot.tscn::PackedScene::470776646527153931::1712201020::0::1::::<><>::res://script/inventory_slot.gd<>uid://cnu2yorc8tl0k
 MiniCam.gd::GDScript::-1::1712202408::0::1::::<>Camera2D<>::
-world.tscn::PackedScene::1337570090994655695::1712202408::0::1::::<><>::uid://ctkb0qycx8uir::::res://player/player.tscn<>uid://du2w8oo0fgfgc::::res://arts/Grass.png<>uid://ctols0edprkkx::::res://arts/Hills.png<>uid://b08hh6to0eqrf::::res://arts/Atlas-Props.png<>uid://bk8lio5mjju88::::res://arts/T1 - House Tileset.png<>uid://b4kdjipf28wpi::::res://arts/Tilled Dirt.png<>uid://dv4nq1f6e4647::::res://arts/GRASS+.png<>uid://dhaehh2bfpw7::::res://arts/TX Props.png<>uid://fk4ljitdutu4::::res://arts/roads2W.png<>uid://d34pcxx1yvgfr::::res://arts/HillsDeep.png<>uid://b3b2mmi82ix7j::::res://arts/overworld_tileset_grass.png<>uid://d2hk35oijuxtv::::res://arts/bakery.png<>uid://c2ds1j3o7818i::::res://arts/house-1.png<>uid://dw8yoi2imfcys::::res://arts/house_asset5.png<>uid://cnu2yorc8tl0k::::res://arts/Water.png<>uid://8umaowsbyefw::::res://arts/Cats.png<>uid://mpone3bdn38b::::res://arts/Basic Grass Biom things 1.png<>uid://dytwwxn35lv7x::::res://arts/house-2.png<>uid://b0u83ivnitu64::::res://arts/TX Tileset Grass.png<>uid://besd2xqnd7voo::::res://arts/house-3.png<>uid://c28cx1wf2x81y::::res://npc/bartender.tscn<>res://npc/bartender.gd<>uid://cus7ac3fojdys::::res://npc/anh_long.tscn<>uid://bx8lnwhp8txcq::::res://npc/thanh_mai.tscn<>res://scenes/MiniCam.gd<>uid://dssm6i4gofur3::::res://arts/minimap.png<>uid://dfe7ykvjymoj::::res://minimap/pointer.png<>uid://tntixi4lvokf::::res://scenes/Inventory_Item.tscn<>uid://dtb0pnchdmrn::::res://arts/Items/Bakery_goods (2).png
+world.tscn::PackedScene::1337570090994655695::1712202481::0::1::::<><>::uid://ctkb0qycx8uir::::res://player/player.tscn<>uid://du2w8oo0fgfgc::::res://arts/Grass.png<>uid://ctols0edprkkx::::res://arts/Hills.png<>uid://b08hh6to0eqrf::::res://arts/Atlas-Props.png<>uid://bk8lio5mjju88::::res://arts/T1 - House Tileset.png<>uid://b4kdjipf28wpi::::res://arts/Tilled Dirt.png<>uid://dv4nq1f6e4647::::res://arts/GRASS+.png<>uid://dhaehh2bfpw7::::res://arts/TX Props.png<>uid://fk4ljitdutu4::::res://arts/roads2W.png<>uid://d34pcxx1yvgfr::::res://arts/HillsDeep.png<>uid://b3b2mmi82ix7j::::res://arts/overworld_tileset_grass.png<>uid://d2hk35oijuxtv::::res://arts/bakery.png<>uid://c2ds1j3o7818i::::res://arts/house-1.png<>uid://dw8yoi2imfcys::::res://arts/house_asset5.png<>uid://cnu2yorc8tl0k::::res://arts/Water.png<>uid://8umaowsbyefw::::res://arts/Cats.png<>uid://mpone3bdn38b::::res://arts/Basic Grass Biom things 1.png<>uid://dytwwxn35lv7x::::res://arts/house-2.png<>uid://b0u83ivnitu64::::res://arts/TX Tileset Grass.png<>uid://besd2xqnd7voo::::res://arts/house-3.png<>uid://c28cx1wf2x81y::::res://npc/bartender.tscn<>res://npc/bartender.gd<>uid://cus7ac3fojdys::::res://npc/anh_long.tscn<>uid://bx8lnwhp8txcq::::res://npc/thanh_mai.tscn<>uid://tntixi4lvokf::::res://scenes/Inventory_Item.tscn<>uid://dtb0pnchdmrn::::res://arts/Items/Bakery_goods (2).png<>res://scenes/MiniCam.gd<>uid://dssm6i4gofur3::::res://arts/minimap.png<>uid://dfe7ykvjymoj::::res://minimap/pointer.png
 ::res://script/::1712201021
 Global.gd::GDScript::-1::1712201021::0::1::::<>Node<>::
 inventory.gd::GDScript::-1::1712201021::0::1::::<>Control<>::
@@ -214,9 +214,9 @@ inventory_slot.gd::GDScript::-1::1712201021::0::1::::<>Control<>::
 ::res://title screen/::1712199856
 ka1.ttf::FontFile::880485355741413893::1712199856::1712199856::1::::<><>::
 opening.mp3::AudioStreamMP3::6061852684100907623::1712199856::1712199856::1::::<><>::
-opening_music.tscn::PackedScene::3295175293842504084::1712199856::0::1::::<><>::uid://csmn3fibtcl4b::::res://title screen/opening.mp3
+opening_music.tscn::PackedScene::3295175293842504084::1712199856::0::1::::<><>::uid://csmn3fibtcl4b
 select.mp3::AudioStreamMP3::4193117121408708511::1712199856::1712199856::1::::<><>::
 titlebg.jpg::CompressedTexture2D::6894472603711452560::1712199856::1712199856::1::::<><>::
 title_screen.gd::GDScript::-1::1712199856::0::1::::<>Control<>::
-title_screen.tscn::PackedScene::6777132636969461868::1712199856::0::1::::<><>::res://title screen/title_screen.gd<>uid://c5hy7rx2pgpau::::res://title screen/titlebg.jpg<>uid://b4n00foukorqr::::res://title screen/Your Final Quaso.png<>uid://msrp2y8p426d::::res://title screen/ka1.ttf<>uid://csmn3fibtcl4b::::res://title screen/opening.mp3
+title_screen.tscn::PackedScene::6777132636969461868::1712199856::0::1::::<><>::res://title screen/title_screen.gd<>uid://c5hy7rx2pgpau
 Your Final Quaso.png::CompressedTexture2D::4450296914832256133::1712199856::1712199856::1::::<><>::

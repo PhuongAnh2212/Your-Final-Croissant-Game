@@ -1,3 +1,4 @@
+Area2D
 Button
 Label
 ColorRect
@@ -7,7 +8,6 @@ Camera2D
 Control
 CanvasLayer
 CollisionShape2D
-Area2D
 Panel
 GridContainer
 Node2D
