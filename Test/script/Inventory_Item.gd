@@ -9,6 +9,9 @@ extends Node2D
 
 var scene_path: String = "res://scenes/Inventory_Item.tscn" 
 
+var player_in_range = false
+
+
 # Node ref
 @onready var icon_sprite = $"2DSprite"
 
@@ -22,6 +25,9 @@ func _ready():
 func _process(delta):
 	if Engine.is_editor_hint():
 		icon_sprite.texture = item_text
+	
+	if player_in_range and Input.is_action_just_pressed("add"):
+		pickup()
 
 func pickup():
 	var item = {
@@ -35,3 +41,14 @@ func pickup():
 	if Global.player_node:
 		Global.add_item(item)
 		self.queue_free()
+
+
+func _on_area_2d_body_exited(body):
+	if body.is_in_group("Player"):
+		player_in_range = false
+
+
+
+func _on_area_2d_body_entered(body):
+	if body.is_in_group("Player"):
+		player_in_range = true

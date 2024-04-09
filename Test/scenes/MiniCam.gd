@@ -8,4 +8,4 @@ func updateMap():
 func updatePosition():
 	self.position = Player.position
 	$"../Pointer".position = Player.position
-	print(Player.position)
+	#print(Player.position)
