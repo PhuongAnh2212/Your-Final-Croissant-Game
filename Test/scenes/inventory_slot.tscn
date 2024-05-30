@@ -80,6 +80,7 @@ text = "NAME:"
 
 [node name="Interact2" type="ColorRect" parent="."]
 visible = false
+layout_mode = 0
 offset_left = 5.0
 offset_top = -35.0
 offset_right = 75.0

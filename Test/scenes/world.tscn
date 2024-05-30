@@ -55232,6 +55232,7 @@ layer_7/tile_data = PackedInt32Array(4653101, 983054, 8, 4718637, 983054, 9, 478
 [node name="Player" parent="." instance=ExtResource("1_t4brd")]
 z_index = 1
 position = Vector2(712, 2232)
+up_direction = Vector2(0.948683, -0.316228)
 platform_floor_layers = 4294967294
 platform_wall_layers = 1
 

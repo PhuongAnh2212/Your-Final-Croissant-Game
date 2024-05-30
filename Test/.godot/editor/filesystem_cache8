@@ -1,5 +1,5 @@
 da105cf5d3a45662f98f74fe8edd6d60
-::res://::1717082892
+::res://::1717086848
 icon.svg::CompressedTexture2D::5140637267571475186::1711872428::1711872428::1::::<><>::
 thanh_mai.gd::GDScript::-1::1712199856::0::1::::<>CharacterBody2D<>::
 TX Props.png::CompressedTexture2D::6428452000721822599::1711872427::1711872427::1::::<><>::
@@ -185,33 +185,33 @@ Bakery_goods (9).png::CompressedTexture2D::8734122435587550665::1712201020::1712
 Bakery_goods (10).png::CompressedTexture2D::215415946347868326::1712201020::1712201020::1::::<><>::
 Bakery_goods (11).png::CompressedTexture2D::2074416565208296175::1712201020::1712201020::1::::<><>::
 Bakery_goods (12).png::CompressedTexture2D::6943351576496733550::1712201020::1712201020::1::::<><>::
-::res://dialogue/::1712202452
+::res://dialogue/::1717084286
 main.dialogue::Resource::6027829666435371285::1717084286::1717084286::1::::<><>::res://addons/dialogue_manager/dialogue_resource.gd
 ::res://minimap/::1712202408
 pointer.png::CompressedTexture2D::221189710035994757::1712202408::1712202408::1::::<><>::
-::res://npc/::1717084122
-anh_long.gd::GDScript::-1::1717072931::0::1::::<>CharacterBody2D<>::
+::res://npc/::1717085595
+anh_long.gd::GDScript::-1::1717085595::0::1::::<>CharacterBody2D<>::
 anh_long.tscn::PackedScene::6215720132035920406::1717084122::0::1::::<><>::uid://d3n4kjcugsoyg::::res://arts/neighbor-sprite.png<>res://npc/anh_long.gd<>uid://pc2besxy6pqp::::res://arts/Items/Bakery_goods (4).png
 bartender.gd::GDScript::-1::1712199856::0::1::::<>CharacterBody2D<>::
 bartender.tscn::PackedScene::6736228518599396760::1712199856::0::1::::<><>::uid://bo0jauihblni4
 thanh_mai.tscn::PackedScene::4069580822546751224::1712199856::0::1::::<><>::res://thanh_mai.gd<>uid://xbmuoeqjycg5
-::res://player/::1717084121
-player.gd::GDScript::-1::1717078036::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::6127179413461639337::1717084121::0::1::::<><>::res://player/player.gd<>uid://ctd80abodw34k::::res://arts/lamanh-sprite.png<>uid://qb5p3ge4gs8t::::res://arts/Inventory background.png<>uid://c5b3yjk13s2fh::::res://scenes/inventory.tscn
-::res://scenes/::1717084122
-inventory.tscn::PackedScene::6882314478510084653::1717084122::0::1::::<><>::res://script/inventory.gd
+::res://player/::1717085793
+player.gd::GDScript::-1::1717085513::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::6127179413461639337::1717085793::0::1::::<><>::res://player/player.gd<>uid://ctd80abodw34k::::res://arts/lamanh-sprite.png<>uid://qb5p3ge4gs8t::::res://arts/Inventory background.png<>uid://c5b3yjk13s2fh::::res://scenes/inventory.tscn
+::res://scenes/::1717085793
+inventory.tscn::PackedScene::6882314478510084653::1717085793::0::1::::<><>::res://script/inventory.gd
 Inventory_Item.tscn::PackedScene::1361594070867851913::1717084122::0::1::::<><>::res://script/Inventory_Item.gd
-inventory_slot.tscn::PackedScene::470776646527153931::1717084122::0::1::::<><>::res://script/inventory_slot.gd<>uid://cnu2yorc8tl0k::::res://arts/Water.png<>uid://iwd05yfkrcea::::res://arts/Items/Bakery_goods (1).png
+inventory_slot.tscn::PackedScene::470776646527153931::1717085793::0::1::::<><>::res://script/inventory_slot.gd<>uid://cnu2yorc8tl0k::::res://arts/Water.png<>uid://iwd05yfkrcea::::res://arts/Items/Bakery_goods (1).png
 MiniCam.gd::GDScript::-1::1712663019::0::1::::<>Camera2D<>::
-world.tscn::PackedScene::1337570090994655695::1717084121::0::1::::<><>::uid://ctkb0qycx8uir::::res://player/player.tscn<>uid://du2w8oo0fgfgc::::res://arts/Grass.png<>uid://ctols0edprkkx::::res://arts/Hills.png<>uid://b08hh6to0eqrf::::res://arts/Atlas-Props.png<>uid://bk8lio5mjju88::::res://arts/T1 - House Tileset.png<>uid://b4kdjipf28wpi::::res://arts/Tilled Dirt.png<>uid://dv4nq1f6e4647::::res://arts/GRASS+.png<>uid://dhaehh2bfpw7::::res://arts/TX Props.png<>uid://fk4ljitdutu4::::res://arts/roads2W.png<>uid://d34pcxx1yvgfr::::res://arts/HillsDeep.png<>uid://b3b2mmi82ix7j::::res://arts/overworld_tileset_grass.png<>uid://d2hk35oijuxtv::::res://arts/bakery.png<>uid://c2ds1j3o7818i::::res://arts/house-1.png<>uid://dw8yoi2imfcys::::res://arts/house_asset5.png<>uid://cnu2yorc8tl0k::::res://arts/Water.png<>uid://8umaowsbyefw::::res://arts/Cats.png<>uid://mpone3bdn38b::::res://arts/Basic Grass Biom things 1.png<>uid://dytwwxn35lv7x::::res://arts/house-2.png<>uid://b0u83ivnitu64::::res://arts/TX Tileset Grass.png<>uid://besd2xqnd7voo::::res://arts/house-3.png<>uid://c28cx1wf2x81y::::res://npc/bartender.tscn<>res://npc/bartender.gd<>uid://cus7ac3fojdys::::res://npc/anh_long.tscn<>uid://bx8lnwhp8txcq::::res://npc/thanh_mai.tscn<>uid://tntixi4lvokf::::res://scenes/Inventory_Item.tscn<>uid://dtb0pnchdmrn::::res://arts/Items/Bakery_goods (2).png<>res://scenes/MiniCam.gd<>uid://dssm6i4gofur3::::res://arts/minimap.png<>uid://dfe7ykvjymoj::::res://minimap/pointer.png<>uid://dwo4yq3j0hvth::::res://arts/Items/Bakery_goods (9).png
+world.tscn::PackedScene::1337570090994655695::1717085793::0::1::::<><>::uid://ctkb0qycx8uir::::res://player/player.tscn<>uid://du2w8oo0fgfgc::::res://arts/Grass.png<>uid://ctols0edprkkx::::res://arts/Hills.png<>uid://b08hh6to0eqrf::::res://arts/Atlas-Props.png<>uid://bk8lio5mjju88::::res://arts/T1 - House Tileset.png<>uid://b4kdjipf28wpi::::res://arts/Tilled Dirt.png<>uid://dv4nq1f6e4647::::res://arts/GRASS+.png<>uid://dhaehh2bfpw7::::res://arts/TX Props.png<>uid://fk4ljitdutu4::::res://arts/roads2W.png<>uid://d34pcxx1yvgfr::::res://arts/HillsDeep.png<>uid://b3b2mmi82ix7j::::res://arts/overworld_tileset_grass.png<>uid://d2hk35oijuxtv::::res://arts/bakery.png<>uid://c2ds1j3o7818i::::res://arts/house-1.png<>uid://dw8yoi2imfcys::::res://arts/house_asset5.png<>uid://cnu2yorc8tl0k::::res://arts/Water.png<>uid://8umaowsbyefw::::res://arts/Cats.png<>uid://mpone3bdn38b::::res://arts/Basic Grass Biom things 1.png<>uid://dytwwxn35lv7x::::res://arts/house-2.png<>uid://b0u83ivnitu64::::res://arts/TX Tileset Grass.png<>uid://besd2xqnd7voo::::res://arts/house-3.png<>uid://c28cx1wf2x81y::::res://npc/bartender.tscn<>res://npc/bartender.gd<>uid://cus7ac3fojdys::::res://npc/anh_long.tscn<>uid://bx8lnwhp8txcq::::res://npc/thanh_mai.tscn<>uid://tntixi4lvokf::::res://scenes/Inventory_Item.tscn<>uid://dtb0pnchdmrn::::res://arts/Items/Bakery_goods (2).png<>res://scenes/MiniCam.gd<>uid://dssm6i4gofur3::::res://arts/minimap.png<>uid://dfe7ykvjymoj::::res://minimap/pointer.png<>uid://dwo4yq3j0hvth::::res://arts/Items/Bakery_goods (9).png
 ::res://scenes/dream_room/::1712663019
 dream_room.tscn::PackedScene::253019507088719227::1712663019::0::1::::<><>::
-::res://script/::1717084114
-Global.gd::GDScript::-1::1717084114::0::1::::<>Node<>::
-inventory.gd::GDScript::-1::1717078330::0::1::::<>Control<>::
-Inventory_Item.gd::GDScript::-1::1717083539::0::1::::<>Node2D<>::
-inventory_slot.gd::GDScript::-1::1717083998::0::1::::<>Control<>::
+::res://script/::1717085712
+Global.gd::GDScript::-1::1717085099::0::1::::<>Node<>::
 interactive.gd::GDScript::-1::1717070893::0::1::::<>Node<>::
+inventory.gd::GDScript::-1::1717085481::0::1::::<>Control<>::
+Inventory_Item.gd::GDScript::-1::1717083539::0::1::::<>Node2D<>::
+inventory_slot.gd::GDScript::-1::1717085712::0::1::::<>Control<>::
 ::res://title screen/::1712199856
 ka1.ttf::FontFile::880485355741413893::1712199856::1712199856::1::::<><>::
 opening.mp3::AudioStreamMP3::6061852684100907623::1712199856::1712199856::1::::<><>::
