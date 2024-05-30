@@ -7,6 +7,7 @@ func _ready():
 	Global.inventory_update.connect(_on_inventory_update)
 	_on_inventory_update()
 
+
 #update UI
 func _on_inventory_update():
 	clear_grid_container()
@@ -18,6 +19,9 @@ func _on_inventory_update():
 			slot.set_item(item)
 		else:
 			slot.set_empty()
+
+
+
 
 func clear_grid_container():
 	while  grid.get_child_count() > 0:

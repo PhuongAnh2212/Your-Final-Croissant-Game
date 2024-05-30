@@ -42,6 +42,12 @@ func pickup():
 		Global.add_item(item)
 		self.queue_free()
 
+func set_item_data(data):
+	item_type = data["item_type"]
+	item_name = data["item_name"]
+	item_text = data["item_text"]
+	item_effect = data["item_effect"]
+
 
 func _on_area_2d_body_exited(body):
 	if body.is_in_group("Player"):
