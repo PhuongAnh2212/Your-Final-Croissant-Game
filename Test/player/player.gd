@@ -9,16 +9,27 @@ const speed = 300
 
 func _ready():
 	Global.set_player_ref(self)
+	Global.interacting_inventory.connect(_on_pop_up_interaction)
+	_on_pop_up_interaction()
 
 func _input(event):
 	if event.is_action_pressed("inventory"):
 		inventory.visible = !inventory.visible
 		get_tree().paused = !get_tree().paused
 
+func _on_pop_up_interaction():
+	if Global.interacting:
+		inventory.visible = !inventory.visible
+		get_tree().paused = !get_tree().paused
+	else:
+		inventory.visible = false
+		get_tree().paused = false
+	
+	
 func handleInput():
-	if Input.is_action_just_pressed("ui_accept"):
-		DialogueManager.show_dialogue_balloon(load("res://dialogue/main.dialogue"), "start")
-		return
+#	if Input.is_action_just_pressed("ui_accept"):
+#		DialogueManager.show_dialogue_balloon(load("res://dialogue/main.dialogue"), "start")
+#		return
 	
 	var moveDirection = Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down")
 	velocity = moveDirection*speed
