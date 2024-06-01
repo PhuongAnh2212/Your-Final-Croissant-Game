@@ -9695,7 +9695,11 @@ layer_2/tile_data = PackedInt32Array(4259921, 1835011, 9, 4325457, 1835011, 10, 
 
 [node name="player" parent="TileMap/TileMap" instance=ExtResource("1_t4brd")]
 z_index = 1
+<<<<<<< Updated upstream
 position = Vector2(1992, 796)
+=======
+position = Vector2(712, 2232)
+>>>>>>> Stashed changes
 up_direction = Vector2(0.948683, -0.316228)
 platform_floor_layers = 4294967294
 platform_wall_layers = 1

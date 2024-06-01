@@ -1,9 +1,16 @@
 [gd_resource type="Resource" script_class="QuestResource" load_steps=2 format=3]
 
+<<<<<<< Updated upstream
 [ext_resource type="Script" path="res://addons/quest_manager/QuestResource.gd" id="1_3yw7d"]
 
 [resource]
 script = ExtResource("1_3yw7d")
+=======
+[ext_resource type="Script" path="res://addons/quest_manager/QuestResource.gd" id="1_ws1qb"]
+
+[resource]
+script = ExtResource("1_ws1qb")
+>>>>>>> Stashed changes
 quest_data = {
 "1e3cd6e59f": {
 "completed": false,
