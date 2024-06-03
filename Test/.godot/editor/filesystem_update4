@@ -1,5 +1,2 @@
-res://scenes/inventory_slot.tscn
-res://npc/anh_long.gd
 res://scenes/world.tscn
-res://player/player.tscn
-res://scenes/inventory.tscn
+res://npc/anh_long.gd
