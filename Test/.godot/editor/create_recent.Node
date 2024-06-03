@@ -1,3 +1,4 @@
+TileMap
 Label
 Area2D
 Button
@@ -11,7 +12,6 @@ CollisionShape2D
 Panel
 GridContainer
 Node2D
-TileMap
 Node
 SubViewport
 SubViewportContainer
