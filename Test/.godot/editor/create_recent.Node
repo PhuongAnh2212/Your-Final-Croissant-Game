@@ -25,6 +25,7 @@ CollisionShape2D
 Panel
 GridContainer
 TileMap
+Node2D
 Node
 SubViewport
 SubViewportContainer
