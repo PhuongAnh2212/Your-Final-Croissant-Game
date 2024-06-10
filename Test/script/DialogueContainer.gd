@@ -9,7 +9,7 @@ extends Control
 @export var avatar_sprite : Texture
 @export var speaker_name = " "
 @export var dialouge_text = " "
-@export var dialogue_json : JSON
+
 
 
 var player_in_range = false

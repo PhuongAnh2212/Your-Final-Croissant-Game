@@ -1,14 +1,5 @@
 res://scenes/world.tscn
+res://dialogue/test.tres
 res://npc/anh_long.gd
 res://scenes/Dialogue.gd
 res://script/DialogueContainer.gd
-res://player/player.tscn
-res://scenes/Dialogue.tscn
-res://npc/anh_long.tscn
-res://scenes/inventory.tscn
-res://dialogue/test.dtl
-res://dialogue/Lam Anh.dch
-res://arts/Expression/New_File.tres
-res://dialogue/St.tres
-res://dialogue/Anh Long.dch
-res://dialogue/test.tres
