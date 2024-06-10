@@ -8,6 +8,7 @@ var inventory = []
 #Scene and nodes reference
 var player_node: Node = null
 
+
 #If interacting with an NPC or object
 var interacting = false
 
@@ -52,7 +53,7 @@ func increase_inventory_size():
 func set_player_ref(player):
 	print("A")
 	player_node=player
-
+	
 
 #Dropping items
 func adjust_drop_pos(position):
