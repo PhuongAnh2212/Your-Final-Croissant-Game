@@ -24,7 +24,9 @@ func _process(delta):
 	if player_in_range and Input.is_action_just_pressed("add"):
 		giveItem(item)
 	if player_in_range and Input.is_action_just_pressed("talk"):
-		Global.enter_interacting()
+		Dialogic.start("test")
+		#Global.enter_interacting()
+		
 
 
 func _on_area_2d_body_exited(body):

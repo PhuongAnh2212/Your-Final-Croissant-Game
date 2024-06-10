@@ -49,6 +49,7 @@ func updateAnimation():
 func _physics_process(_delta):
 	if get_tree().paused:
 		return
+		
 	var direction = Input.get_axis("ui_left", "ui_right")
 	if direction: 
 		velocity.x = direction * speed

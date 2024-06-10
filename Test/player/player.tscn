@@ -1,9 +1,10 @@
-[gd_scene load_steps=13 format=3 uid="uid://ctkb0qycx8uir"]
+[gd_scene load_steps=14 format=3 uid="uid://ctkb0qycx8uir"]
 
 [ext_resource type="Script" path="res://player/player.gd" id="1_ef0tf"]
 [ext_resource type="Texture2D" uid="uid://ctd80abodw34k" path="res://arts/lamanh-sprite.png" id="2_w15yk"]
 [ext_resource type="Texture2D" uid="uid://qb5p3ge4gs8t" path="res://arts/Inventory background.png" id="3_eslfb"]
 [ext_resource type="PackedScene" uid="uid://c5b3yjk13s2fh" path="res://scenes/inventory.tscn" id="4_m78h6"]
+[ext_resource type="PackedScene" uid="uid://ckaii44b1b55b" path="res://scenes/Dialogue.tscn" id="5_jb02d"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_k4yka"]
 size = Vector2(34, 11)
@@ -140,7 +141,6 @@ libraries = {
 }
 
 [node name="Inventory_UI" type="CanvasLayer" parent="."]
-visible = false
 
 [node name="TextureRect" type="TextureRect" parent="Inventory_UI"]
 anchors_preset = 8
@@ -162,3 +162,17 @@ offset_top = 66.0
 offset_right = 256.0
 offset_bottom = 112.0
 scale = Vector2(2, 2)
+
+[node name="Dialogue UI" type="CanvasLayer" parent="."]
+visible = false
+
+[node name="MarginContainer" type="MarginContainer" parent="Dialogue UI"]
+offset_top = 216.0
+offset_right = 768.0
+offset_bottom = 432.0
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 20
+
+[node name="Dialogue" parent="Dialogue UI/MarginContainer" instance=ExtResource("5_jb02d")]
+layout_mode = 2

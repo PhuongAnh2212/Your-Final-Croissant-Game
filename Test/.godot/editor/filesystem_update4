@@ -1,2 +1,5 @@
 res://scenes/world.tscn
+res://dialogue/test.tres
 res://npc/anh_long.gd
+res://scenes/Dialogue.gd
+res://script/DialogueContainer.gd
