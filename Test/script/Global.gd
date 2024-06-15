@@ -12,6 +12,9 @@ var player_node: Node = null
 #If interacting with an NPC or object
 var interacting = false
 
+#current state of the game
+var state = {}
+
 #signals
 signal inventory_update
 signal interacting_inventory

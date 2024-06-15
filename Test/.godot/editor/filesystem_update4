@@ -1,4 +1,7 @@
-res://scenes/world.tscn
-res://npc/anh_long.gd
+res://title screen/title_screen.tscn
+res://dialogue/test.tres
 res://scenes/Dialogue.gd
 res://script/DialogueContainer.gd
+res://scenes/Dialogue.tscn
+res://scenes/world.tscn
+res://npc/NPC.tscn

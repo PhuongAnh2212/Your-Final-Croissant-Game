@@ -1,0 +1,45 @@
+[gd_scene load_steps=6 format=3 uid="uid://cus7ac3fojdys"]
+
+[ext_resource type="Script" path="res://npc/NPC.gd" id="1_ndprl"]
+[ext_resource type="Texture2D" uid="uid://sogij6mckdk3" path="res://arts/Chara sprite/Thanh Mai/Quaso-1.png" id="2_e7d3d"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_mj5y2"]
+radius = 30.0
+height = 98.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_us2qk"]
+custom_solver_bias = 0.04
+radius = 70.0
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_mt1jr"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_e7d3d")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 6.0
+}]
+
+[node name="NPC" type="CharacterBody2D" groups=["NPC"]]
+script = ExtResource("1_ndprl")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_mj5y2")
+debug_color = Color(0, 0.6, 0.701961, 0.419608)
+
+[node name="Area2D" type="Area2D" parent="."]
+input_pickable = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("CircleShape2D_us2qk")
+debug_color = Color(0.862745, 0, 0.501961, 0.419608)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_mt1jr")
+animation = &"Idle"
+frame_progress = 0.139006
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_exited" from="Area2D" to="." method="_on_area_2d_body_exited"]
