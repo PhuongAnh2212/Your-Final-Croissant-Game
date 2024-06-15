@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1718013544
+::res://::1718463048
 icon.svg::CompressedTexture2D::5140637267571475186::1711872428::1711872428::1::::<><>::
 thanh_mai.gd::GDScript::-1::1712199856::0::1::::<>CharacterBody2D<>::
 TX Props.png::CompressedTexture2D::6428452000721822599::1711872427::1711872427::1::::<><>::
@@ -589,7 +589,7 @@ timeline.gd::GDScript::-1::1718002667::0::1::::DialogicTimeline<>Resource<>::
 TimelineResourceLoader.gd::GDScript::-1::1718002667::0::1::::DialogicTimelineFormatLoader<>ResourceFormatLoader<>::
 TimelineResourceSaver.gd::GDScript::-1::1718002667::0::1::::DialogicTimelineFormatSaver<>ResourceFormatSaver<>::
 ::res://addons/dialogic/test-project/::1718002667
-::res://arts/::1718012106
+::res://arts/::1718463344
 bakery.png::CompressedTexture2D::9069470243445687591::1712199856::1712199856::1::::<><>::
 bartender-sprite.png::CompressedTexture2D::3421221454557217193::1712199856::1712199856::1::::<><>::
 Basic Grass Biom things 1.png::CompressedTexture2D::874105296584692491::1711872428::1711872428::1::::<><>::
@@ -638,7 +638,6 @@ overworld_tileset_grass.png::CompressedTexture2D::4355434115818050101::171187242
 roads2W.png::CompressedTexture2D::373368918190618433::1712199856::1712199856::1::::<><>::
 sprite_sheet.png::CompressedTexture2D::3214518299592546426::1711872428::1711872428::1::::<><>::
 T1 - House Tileset.png::CompressedTexture2D::3157116541457732395::1711872428::1711872428::1::::<><>::
-thanhmai-sprite.png::CompressedTexture2D::1617172843466159426::1712199856::1712199856::1::::<><>::
 Tilled Dirt.png::CompressedTexture2D::4442739593483529974::1711872428::1711872428::1::::<><>::
 TilledDirtx2.png::CompressedTexture2D::3224308943246538472::1712199856::1712199856::1::::<><>::
 tree.png::CompressedTexture2D::6303985977441695753::1718012106::1718012106::1::::<><>::
@@ -647,6 +646,33 @@ TX Props.png::CompressedTexture2D::225024698073524512::1711872428::1711872428::1
 TX Tileset Grass.png::CompressedTexture2D::4184483445945552643::1718012106::1711872428::1::::<><>::
 Water.png::CompressedTexture2D::5728266869344538032::1711872428::1711872428::1::::<><>::
 Wood Bridge.png::CompressedTexture2D::1007207514787497192::1711872428::1711872428::1::::<><>::
+::res://arts/Chara sprite/::1718463242
+::res://arts/Chara sprite/Angelo/::1718461406
+Angelo-1.png::CompressedTexture2D::482301402879209077::1712199855::1718461406::1::::<><>::
+Angelo-2.png::CompressedTexture2D::5179098170907504737::1712199855::1718461406::1::::<><>::
+Angelo-3.png::CompressedTexture2D::3895968923103039265::1712199855::1718461406::1::::<><>::
+Angelo-4.png::CompressedTexture2D::821309416920308587::1712199855::1718461406::1::::<><>::
+Angelo-5.png::CompressedTexture2D::3199716780161774747::1712199855::1718461406::1::::<><>::
+::res://arts/Chara sprite/Anh Long/::1718462881
+Anh_Long-1.png::CompressedTexture2D::5135209999210602654::1712199855::1718462881::1::::<><>::
+Anh_Long-2.png::CompressedTexture2D::7579026051846119387::1712199855::1718462881::1::::<><>::
+Anh_Long-3.png::CompressedTexture2D::1093661696178069328::1712199855::1718462881::1::::<><>::
+Anh_Long-4.png::CompressedTexture2D::7176993309424751410::1712199855::1718462881::1::::<><>::
+Anh_Long-5.png::CompressedTexture2D::1408758735878466582::1712199855::1718462881::1::::<><>::
+Anh_Long-6.png::CompressedTexture2D::2509749490536002075::1712199855::1718462881::1::::<><>::
+::res://arts/Chara sprite/Duy/::1718462310
+1.PNG::CompressedTexture2D::8323983679982567843::1718446542::1718462310::1::::<><>::
+2.PNG::CompressedTexture2D::8650810499584027222::1718446542::1718462310::1::::<><>::
+3.PNG::CompressedTexture2D::6187206532499207697::1718446542::1718462310::1::::<><>::
+4.PNG::CompressedTexture2D::8828628401402658207::1718446542::1718462310::1::::<><>::
+5.PNG::CompressedTexture2D::2178167569376873470::1718446542::1718462310::1::::<><>::
+6.PNG::CompressedTexture2D::2341353401523534860::1718446542::1718462310::1::::<><>::
+::res://arts/Chara sprite/Thanh Mai/::1718463246
+Quaso-1.png::CompressedTexture2D::1292679583496640556::1712199855::1718463246::1::::<><>::
+Quaso-2.png::CompressedTexture2D::8078040025803326692::1712199855::1718463246::1::::<><>::
+Quaso-3.png::CompressedTexture2D::4243823968843580889::1712199855::1718463246::1::::<><>::
+Quaso-4.png::CompressedTexture2D::2908003470751897401::1712199855::1718463246::1::::<><>::
+Quaso-5.png::CompressedTexture2D::2014701212987948351::1712199855::1718463246::1::::<><>::
 ::res://arts/Expression/::1718010994
 ::res://arts/Expression/Anh Long/::1718010999
 Hang_Xom-1.png::CompressedTexture2D::2931672411325935362::1712199855::1718010999::1::::<><>::
@@ -670,48 +696,45 @@ Bakery_goods (9).png::CompressedTexture2D::8734122435587550665::1712201020::1712
 Bakery_goods (10).png::CompressedTexture2D::215415946347868326::1712201020::1712201020::1::::<><>::
 Bakery_goods (11).png::CompressedTexture2D::2074416565208296175::1712201020::1712201020::1::::<><>::
 Bakery_goods (12).png::CompressedTexture2D::6943351576496733550::1712201020::1712201020::1::::<><>::
-::res://dialogue/::1718013314
-Anh Long.dch::Resource::-1::1718011353::0::1::::<><>::
-Lam Anh.dch::Resource::-1::1718011355::0::1::::<><>::
+::res://dialogue/::1718462255
+Anh Long.dch::Resource::-1::1718464287::0::1::::<><>::
+Lam Anh.dch::Resource::-1::1718464286::0::1::::<><>::
 scene1.json::JSON::-1::1718013314::0::1::::<><>::
 St.tres::Resource/Resource::4674809918087070821::1718010860::0::1::::<><>::uid://c1k5m0w3r40xf::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_FullBackground/full_background_layer.tscn<>res://addons/dialogic/Resources/dialogic_style_layer.gd<>uid://cy1y14inwkplb::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Portraits/vn_portrait_layer.tscn<>uid://cn674foxwedqu::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.tscn<>uid://bquja8jyk8kbr::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Textbox/vn_textbox_layer.tscn<>uid://dsbwnp5hegnu3::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Glossary/glossary_popup_layer.tscn<>uid://dhk6j6eb6e3q::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Choices/vn_choice_layer.tscn<>uid://cvgf4c6gg0tsy::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_TextInput/text_input_layer.tscn<>uid://lx24i8fl6uo::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_History/history_layer.tscn<>res://addons/dialogic/Resources/dialogic_style.gd
-test.dtl::Resource::-1::1718011318::0::1::::<><>::
-test.tres::Resource/DialogicStyle::8884167923634423587::1718013277::0::1::::<><>::uid://c1k5m0w3r40xf::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_FullBackground/full_background_layer.tscn<>res://addons/dialogic/Resources/dialogic_style_layer.gd<>uid://by6waso0mjpjp::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_SpeakerPortraitTextbox/textbox_with_speaker_portrait.tscn<>uid://cn674foxwedqu::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.tscn<>uid://dsbwnp5hegnu3::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Glossary/glossary_popup_layer.tscn<>uid://dhk6j6eb6e3q::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Choices/vn_choice_layer.tscn<>uid://cvgf4c6gg0tsy::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_TextInput/text_input_layer.tscn<>uid://lx24i8fl6uo::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_History/history_layer.tscn<>res://addons/dialogic/Resources/dialogic_style.gd
+test.dtl::Resource::-1::1718464271::0::1::::<><>::
+test.tres::Resource/DialogicStyle::8884167923634423587::1718464314::0::1::::<><>::uid://c1k5m0w3r40xf::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_FullBackground/full_background_layer.tscn<>res://addons/dialogic/Resources/dialogic_style_layer.gd<>uid://by6waso0mjpjp::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_SpeakerPortraitTextbox/textbox_with_speaker_portrait.tscn<>uid://cn674foxwedqu::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.tscn<>uid://dsbwnp5hegnu3::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Glossary/glossary_popup_layer.tscn<>uid://dhk6j6eb6e3q::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Choices/vn_choice_layer.tscn<>uid://cvgf4c6gg0tsy::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_TextInput/text_input_layer.tscn<>uid://lx24i8fl6uo::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_History/history_layer.tscn<>res://addons/dialogic/Resources/dialogic_style.gd
 ::res://minimap/::1712202408
 pointer.png::CompressedTexture2D::221189710035994757::1712202408::1712202408::1::::<><>::
-::res://npc/::1718013277
-anh_long.gd::GDScript::-1::1718013277::0::1::::<>CharacterBody2D<>::
-anh_long.tscn::PackedScene::6215720132035920406::1718011678::0::1::::<><>::uid://d3n4kjcugsoyg::::res://arts/neighbor-sprite.png<>res://npc/anh_long.gd<>uid://pc2besxy6pqp::::res://arts/Items/Bakery_goods (4).png
-bartender.gd::GDScript::-1::1712199856::0::1::::<>CharacterBody2D<>::
-bartender.tscn::PackedScene::6736228518599396760::1712199856::0::1::::<><>::uid://bo0jauihblni4::::res://arts/bartender-sprite.png
-thanh_mai.tscn::PackedScene::4069580822546751224::1712199856::0::1::::<><>::res://thanh_mai.gd<>uid://xbmuoeqjycg5::::res://arts/thanhmai-sprite.png
-::res://player/::1718013467
+::res://npc/::1718463984
+NPC.gd::GDScript::-1::1718464151::0::1::::<>CharacterBody2D<>::
+NPC.tscn::PackedScene::6215720132035920406::1718462909::0::1::::<><>::res://npc/NPC.gd<>uid://cffsfnew6vp1w::::res://arts/Chara sprite/Anh Long/Anh_Long-1.png
+::res://player/::1718462909
 player.gd::GDScript::-1::1717989745::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::6127179413461639337::1718013467::0::1::::<><>::res://player/player.gd<>uid://ctd80abodw34k::::res://arts/lamanh-sprite.png<>uid://qb5p3ge4gs8t::::res://arts/Inventory background.png<>uid://c5b3yjk13s2fh::::res://scenes/inventory.tscn<>uid://ckaii44b1b55b::::res://scenes/Dialogue.tscn
-::res://scenes/::1718013479
-Dialogue.gd::GDScript::-1::1718013277::0::1::::<>Control<>::
-Dialogue.tscn::PackedScene::5475231394116634237::1718013467::0::1::::<><>::uid://b2sg5tivpij25::::res://arts/Dialouge_bg.png<>res://script/DialogueContainer.gd<>uid://d3n4kjcugsoyg::::res://arts/neighbor-sprite.png
+player.tscn::PackedScene::6127179413461639337::1718462909::0::1::::<><>::res://player/player.gd<>uid://ctd80abodw34k::::res://arts/lamanh-sprite.png<>uid://qb5p3ge4gs8t::::res://arts/Inventory background.png<>uid://c5b3yjk13s2fh::::res://scenes/inventory.tscn<>uid://ckaii44b1b55b::::res://scenes/Dialogue.tscn
+::res://scenes/::1718464006
+Dialogue.gd::GDScript::-1::1718462255::0::1::::<>Control<>::
+Dialogue.tscn::PackedScene::5475231394116634237::1718463994::0::1::::<><>::uid://b2sg5tivpij25::::res://arts/Dialouge_bg.png<>res://script/DialogueContainer.gd<>uid://d3n4kjcugsoyg::::res://arts/neighbor-sprite.png
 inventory.tscn::PackedScene::6882314478510084653::1718011792::0::1::::<><>::res://script/inventory.gd
 Inventory_Item.tscn::PackedScene::1361594070867851913::1717990418::0::1::::<><>::res://script/Inventory_Item.gd
 inventory_slot.tscn::PackedScene::470776646527153931::1717437042::0::1::::<><>::res://script/inventory_slot.gd<>uid://cnu2yorc8tl0k::::res://arts/Water.png<>uid://iwd05yfkrcea::::res://arts/Items/Bakery_goods (1).png
 MiniCam.gd::GDScript::-1::1712663019::0::1::::<>Camera2D<>::
-world.tscn::PackedScene::1337570090994655695::1718013479::0::1::::<><>::uid://ctkb0qycx8uir::::res://player/player.tscn<>uid://du2w8oo0fgfgc::::res://arts/Grass.png<>uid://k6ubvg6sdmh0::::res://arts/floor-1.png<>uid://ctols0edprkkx::::res://arts/Hills.png<>uid://bl645rgiq5113::::res://arts/TilledDirtx2.png<>uid://cmnemc2o0cetj::::res://arts/house-4@1.25x.png<>uid://bk8lio5mjju88::::res://arts/T1 - House Tileset.png<>uid://b4kdjipf28wpi::::res://arts/Tilled Dirt.png<>uid://dv4nq1f6e4647::::res://arts/GRASS+.png<>uid://dhaehh2bfpw7::::res://arts/TX Props.png<>uid://cuf7jwdga3ejt::::res://arts/house-5.png<>uid://fk4ljitdutu4::::res://arts/roads2W.png<>uid://d34pcxx1yvgfr::::res://arts/HillsDeep.png<>uid://b3b2mmi82ix7j::::res://arts/overworld_tileset_grass.png<>uid://d2hk35oijuxtv::::res://arts/bakery.png<>uid://c2ds1j3o7818i::::res://arts/house-1.png<>uid://c4gxmnt6q0cbr::::res://arts/floor-3.png<>uid://bhg66wlqkyowo::::res://arts/house-9@0.5x.png<>uid://dw8yoi2imfcys::::res://arts/house_asset5.png<>uid://cnu2yorc8tl0k::::res://arts/Water.png<>uid://c6nj0hbrrv8aj::::res://arts/house-8@0.5x.png<>uid://8umaowsbyefw::::res://arts/Cats.png<>uid://dof57163pd36f::::res://arts/house-4.png<>uid://bgqytn4o05dm0::::res://arts/house-12@0.5x.png<>uid://mpone3bdn38b::::res://arts/Basic Grass Biom things 1.png<>uid://ddm5o1pgixghr::::res://arts/house-14@0.5x.png<>uid://dytwwxn35lv7x::::res://arts/house-2.png<>uid://b0u83ivnitu64::::res://arts/TX Tileset Grass.png<>uid://dvcku47l17erk::::res://arts/house-15.png<>uid://c5qfki0v7m3bu::::res://arts/car@0.5x.png<>uid://g20o00oascwx::::res://arts/house-17@0.75x.png<>uid://besd2xqnd7voo::::res://arts/house-3.png<>uid://yo4c0bsy0ci7::::res://arts/house-7@1.25x.png<>uid://c28cx1wf2x81y::::res://npc/bartender.tscn<>res://npc/bartender.gd<>uid://cus7ac3fojdys::::res://npc/anh_long.tscn<>uid://bx8lnwhp8txcq::::res://npc/thanh_mai.tscn<>uid://cv2xy0ujp1wj6::::res://arts/tree.png<>uid://le6yc6pe1eme::::res://arts/tree@2x.png<>uid://tntixi4lvokf::::res://scenes/Inventory_Item.tscn<>uid://dtb0pnchdmrn::::res://arts/Items/Bakery_goods (2).png<>res://scenes/MiniCam.gd<>uid://dssm6i4gofur3::::res://arts/minimap.png<>uid://dfe7ykvjymoj::::res://minimap/pointer.png<>uid://dwo4yq3j0hvth::::res://arts/Items/Bakery_goods (9).png
+world.tscn::PackedScene::1337570090994655695::1718464314::0::1::::<><>::uid://ctkb0qycx8uir::::res://player/player.tscn<>uid://du2w8oo0fgfgc::::res://arts/Grass.png<>uid://k6ubvg6sdmh0::::res://arts/floor-1.png<>uid://ctols0edprkkx::::res://arts/Hills.png<>uid://bl645rgiq5113::::res://arts/TilledDirtx2.png<>uid://cmnemc2o0cetj::::res://arts/house-4@1.25x.png<>uid://bk8lio5mjju88::::res://arts/T1 - House Tileset.png<>uid://b4kdjipf28wpi::::res://arts/Tilled Dirt.png<>uid://dv4nq1f6e4647::::res://arts/GRASS+.png<>uid://dhaehh2bfpw7::::res://arts/TX Props.png<>uid://cuf7jwdga3ejt::::res://arts/house-5.png<>uid://fk4ljitdutu4::::res://arts/roads2W.png<>uid://d34pcxx1yvgfr::::res://arts/HillsDeep.png<>uid://b3b2mmi82ix7j::::res://arts/overworld_tileset_grass.png<>uid://d2hk35oijuxtv::::res://arts/bakery.png<>uid://c2ds1j3o7818i::::res://arts/house-1.png<>uid://c4gxmnt6q0cbr::::res://arts/floor-3.png<>uid://bhg66wlqkyowo::::res://arts/house-9@0.5x.png<>uid://dw8yoi2imfcys::::res://arts/house_asset5.png<>uid://cnu2yorc8tl0k::::res://arts/Water.png<>uid://c6nj0hbrrv8aj::::res://arts/house-8@0.5x.png<>uid://8umaowsbyefw::::res://arts/Cats.png<>uid://dof57163pd36f::::res://arts/house-4.png<>uid://bgqytn4o05dm0::::res://arts/house-12@0.5x.png<>uid://mpone3bdn38b::::res://arts/Basic Grass Biom things 1.png<>uid://ddm5o1pgixghr::::res://arts/house-14@0.5x.png<>uid://dytwwxn35lv7x::::res://arts/house-2.png<>uid://b0u83ivnitu64::::res://arts/TX Tileset Grass.png<>uid://dvcku47l17erk::::res://arts/house-15.png<>uid://c5qfki0v7m3bu::::res://arts/car@0.5x.png<>uid://g20o00oascwx::::res://arts/house-17@0.75x.png<>uid://besd2xqnd7voo::::res://arts/house-3.png<>uid://yo4c0bsy0ci7::::res://arts/house-7@1.25x.png<>uid://cus7ac3fojdys::::res://npc/NPC.tscn<>uid://cv2xy0ujp1wj6::::res://arts/tree.png<>uid://le6yc6pe1eme::::res://arts/tree@2x.png<>uid://tntixi4lvokf::::res://scenes/Inventory_Item.tscn<>uid://dtb0pnchdmrn::::res://arts/Items/Bakery_goods (2).png<>res://scenes/MiniCam.gd<>uid://dssm6i4gofur3::::res://arts/minimap.png<>uid://dfe7ykvjymoj::::res://minimap/pointer.png<>uid://dwo4yq3j0hvth::::res://arts/Items/Bakery_goods (9).png<>uid://g4vo0j2fcf78::::res://arts/Chara sprite/Angelo/Angelo-1.png<>uid://cf118ww10q8ef::::res://arts/Chara sprite/Angelo/Angelo-2.png<>uid://bvriblbdnwfg8::::res://arts/Chara sprite/Angelo/Angelo-3.png<>uid://cffsfnew6vp1w::::res://arts/Chara sprite/Anh Long/Anh_Long-1.png<>uid://df8lpmie7nvmh::::res://arts/Chara sprite/Anh Long/Anh_Long-2.png<>uid://lx331dgnhccx::::res://arts/Chara sprite/Angelo/Angelo-4.png<>uid://pt1pij7l7mqq::::res://arts/Chara sprite/Anh Long/Anh_Long-3.png<>uid://blt74rjlxrxqh::::res://arts/Chara sprite/Angelo/Angelo-5.png<>uid://daiubcdvvktks::::res://arts/Chara sprite/Anh Long/Anh_Long-4.png<>uid://ucobypecetva::::res://arts/Chara sprite/Anh Long/Anh_Long-5.png<>uid://bb00hb13mj2qh::::res://arts/Chara sprite/Anh Long/Anh_Long-6.png<>uid://sogij6mckdk3::::res://arts/Chara sprite/Thanh Mai/Quaso-1.png<>uid://dndceyxue8m2w::::res://arts/Chara sprite/Thanh Mai/Quaso-2.png<>uid://b1p0fp2t4bpiv::::res://arts/Chara sprite/Thanh Mai/Quaso-3.png<>uid://bhownlq526tph::::res://arts/Chara sprite/Thanh Mai/Quaso-4.png<>uid://3x63m3fjqjop::::res://arts/Chara sprite/Thanh Mai/Quaso-5.png
 ::res://scenes/dream_room/::1717437183
 dream_room.tscn::PackedScene::253019507088719227::1717437183::0::1::::<><>::
-::res://script/::1718013277
-DialogueContainer.gd::GDScript::-1::1718013277::0::1::::<>Control<>::
+::res://script/::1718462255
+DialogueContainer.gd::GDScript::-1::1718462255::0::1::::<>Control<>::
 Dialogue_node_size.gd::GDScript::-1::1717437334::0::1::::<>TextureRect<>::
-Global.gd::GDScript::-1::1717437334::0::1::::<>Node<>::
+Global.gd::GDScript::-1::1718363693::0::1::::<>Node<>::
 interactive.gd::GDScript::-1::1717070893::0::1::::<>Node<>::
 inventory.gd::GDScript::-1::1717085481::0::1::::<>Control<>::
 Inventory_Item.gd::GDScript::-1::1717083539::0::1::::<>Node2D<>::
 inventory_slot.gd::GDScript::-1::1717085712::0::1::::<>Control<>::
-::res://title screen/::1718013467
+::res://title screen/::1718463994
 ka1.ttf::FontFile::880485355741413893::1712199856::1712199856::1::::<><>::
 opening.mp3::AudioStreamMP3::6061852684100907623::1712199856::1712199856::1::::<><>::
 opening_music.tscn::PackedScene::3295175293842504084::1712199856::0::1::::<><>::uid://csmn3fibtcl4b::::res://title screen/opening.mp3
 select.mp3::AudioStreamMP3::4193117121408708511::1712199856::1712199856::1::::<><>::
 titlebg.jpg::CompressedTexture2D::6894472603711452560::1712199856::1712199856::1::::<><>::
 title_screen.gd::GDScript::-1::1717437183::0::1::::<>Control<>::
-title_screen.tscn::PackedScene::6777132636969461868::1718013467::0::1::::<><>::res://title screen/title_screen.gd<>uid://c5hy7rx2pgpau::::res://title screen/titlebg.jpg<>uid://b4n00foukorqr::::res://title screen/Your Final Quaso.png<>uid://msrp2y8p426d::::res://title screen/ka1.ttf<>uid://csmn3fibtcl4b::::res://title screen/opening.mp3
+title_screen.tscn::PackedScene::6777132636969461868::1718463994::0::1::::<><>::res://title screen/title_screen.gd<>uid://c5hy7rx2pgpau::::res://title screen/titlebg.jpg<>uid://b4n00foukorqr::::res://title screen/Your Final Quaso.png<>uid://msrp2y8p426d::::res://title screen/ka1.ttf<>uid://csmn3fibtcl4b::::res://title screen/opening.mp3
 Your Final Quaso.png::CompressedTexture2D::4450296914832256133::1712199856::1712199856::1::::<><>::

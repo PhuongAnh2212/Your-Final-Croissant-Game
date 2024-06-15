@@ -141,6 +141,7 @@ libraries = {
 }
 
 [node name="Inventory_UI" type="CanvasLayer" parent="."]
+visible = false
 
 [node name="TextureRect" type="TextureRect" parent="Inventory_UI"]
 anchors_preset = 8

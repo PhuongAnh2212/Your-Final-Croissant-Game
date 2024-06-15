@@ -47,7 +47,7 @@ overrides = {}
 
 [resource]
 script = ExtResource("9_nhbt5")
-name = "test"
+name = "Test"
 base_overrides = {
 "global_bg_color": "Color(0.298039, 0.2, 0.113725, 0.901961)"
 }

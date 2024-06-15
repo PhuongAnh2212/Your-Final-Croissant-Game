@@ -1,5 +1,14 @@
 res://scenes/world.tscn
 res://dialogue/test.tres
-res://npc/anh_long.gd
 res://scenes/Dialogue.gd
 res://script/DialogueContainer.gd
+res://title screen/title_screen.tscn
+res://scenes/Dialogue.tscn
+res://player/player.tscn
+res://npc/NPC.tscn
+res://npc/bartender.tscn
+res://npc/NPC.gd
+res://dialogue/Lam Anh.dch
+res://dialogue/test.dtl
+res://dialogue/Anh Long.dch
+res://dialogue/Anh Long.dtl
