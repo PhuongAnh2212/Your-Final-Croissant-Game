@@ -28,8 +28,8 @@ func _process(delta):
 		giveItem(item)
 		
 	if player_in_range and Input.is_action_just_pressed("talk"):
-		if (self.get_groups().size() > 1):
-			Dialogic.start('anh-long')
+		if Dialogic.current_timeline == null:
+			Dialogic.start('testing')
 		#Global.enter_interacting()
 		
 
