@@ -1,7 +1,9 @@
-res://title screen/title_screen.tscn
+res://scenes/TMBakery.gd
+res://scenes/ThanhMaiBakery/DoorDetectInside.gd
+res://scenes/ThanhMaiBakery/TMBakery.tscn
 res://dialogue/test.tres
 res://scenes/Dialogue.gd
 res://script/DialogueContainer.gd
-res://scenes/Dialogue.tscn
 res://scenes/world.tscn
-res://npc/NPC.tscn
+res://player/player.gd
+res://player/player.tscn
