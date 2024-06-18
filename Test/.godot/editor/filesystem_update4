@@ -1,9 +1,9 @@
-res://scenes/TMBakery.gd
-res://scenes/ThanhMaiBakery/DoorDetectInside.gd
-res://scenes/ThanhMaiBakery/TMBakery.tscn
+res://scenes/world.tscn
 res://dialogue/test.tres
 res://scenes/Dialogue.gd
 res://script/DialogueContainer.gd
-res://scenes/world.tscn
-res://player/player.gd
+res://scenes/ThanhMaiBakery/TMBakery.tscn
+res://scenes/TMBakery.gd
 res://player/player.tscn
+res://scenes/ThanhMaiBakery/DoorDetectInside.gd
+res://npc/NPC.tscn
