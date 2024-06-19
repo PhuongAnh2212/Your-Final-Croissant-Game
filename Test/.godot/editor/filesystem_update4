@@ -4,3 +4,7 @@ res://dialogue/St.tres
 res://addons/dialogic/Modules/Character/settings_portraits.gd
 res://scenes/Dialogue.gd
 res://script/DialogueContainer.gd
+res://scenes/ThanhMaiBakery/DoorDetectInside.gd
+res://scenes/world.tscn
+res://scenes/ThanhMaiBakery/TMBedroom.tscn
+res://scenes/ThanhMaiBakery/TMBedroom.gd

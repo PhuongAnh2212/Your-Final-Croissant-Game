@@ -1,9 +1,12 @@
-Sprite2D
+Label
 CollisionShape2D
+Area2D
+TileMap
+Camera2D
 Control
 Camera2D
 MarginContainer
-Label
+Sprite2D
 BoxContainer
 PanelContainer
 ScrollContainer
