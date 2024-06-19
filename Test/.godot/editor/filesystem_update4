@@ -1,16 +1,6 @@
-res://player/player.tscn
+res://dialogue/Thanh Mai.dch
+res://player/player.gd
 res://dialogue/St.tres
 res://addons/dialogic/Modules/Character/settings_portraits.gd
 res://scenes/Dialogue.gd
 res://script/DialogueContainer.gd
-res://player/player.gd
-res://title screen/title_screen.tscn
-res://scenes/Dialogue.tscn
-res://scenes/world.tscn
-res://npc/NPC.tscn
-res://npc/NPC.gd
-res://dialogue/Lam Anh.dch
-res://dialogue/Anh Long.dch
-res://dialogue/Angelo.dch
-res://dialogue/Thanh Mai.dch
-res://dialogue/testing.dtl
