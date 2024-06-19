@@ -1,6 +1,10 @@
 res://player/player.tscn
 res://dialogue/St.tres
 res://addons/dialogic/Modules/Character/settings_portraits.gd
+res://scenes/TMBakery.gd
+res://scenes/ThanhMaiBakery/DoorDetectInside.gd
+res://scenes/ThanhMaiBakery/TMBakery.tscn
+res://dialogue/test.tres
 res://scenes/Dialogue.gd
 res://script/DialogueContainer.gd
 res://player/player.gd

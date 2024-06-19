@@ -1,7 +1,8 @@
 Sprite2D
-CollisionShape2D
-Control
 Camera2D
+CollisionShape2D
+Area2D
+Control
 MarginContainer
 Label
 BoxContainer
@@ -11,4 +12,3 @@ TextureRect
 HFlowContainer
 VSplitContainer
 HSplitContainer
-CanvasLayer
