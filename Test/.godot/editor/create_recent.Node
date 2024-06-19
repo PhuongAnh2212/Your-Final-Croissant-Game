@@ -1,7 +1,8 @@
 Label
-Area2D
-Camera2D
 CollisionShape2D
+Area2D
+TileMap
+Camera2D
 Control
 MarginContainer
 Sprite2D
@@ -11,4 +12,3 @@ ScrollContainer
 TextureRect
 HFlowContainer
 VSplitContainer
-HSplitContainer
