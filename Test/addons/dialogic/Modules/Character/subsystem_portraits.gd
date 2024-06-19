@@ -121,6 +121,7 @@ func _remove_portrait_timed(portrait_node: Node, animation_path := "Fade In Out"
 func _change_portrait(character_node: Node2D, portrait: String, update_transform := true) -> Dictionary:
 	var character: DialogicCharacter = character_node.get_meta('character')
 
+
 	if portrait.is_empty():
 		portrait = character.default_portrait
 
@@ -437,22 +438,18 @@ func add_character(character:DialogicCharacter, portrait:String,  position_idx:i
 	if is_character_joined(character):
 		printerr('[DialogicError] Cannot add a already joined character. If this is intended call _create_character_node manually.')
 		return null
-
 	portrait = get_valid_portrait(character, portrait)
-
 	if portrait.is_empty():
 		return null
-
 	if not character:
 		printerr('[DialogicError] Cannot call add_portrait() with null character.')
 		return null
-
 	var character_node: Node = null
-
 	for portrait_position in get_tree().get_nodes_in_group('dialogic_portrait_con_position'):
 		if portrait_position.is_visible_in_tree() and portrait_position.position_index == position_idx:
 			character_node = _create_character_node(character, portrait_position)
 			break
+
 
 	if character_node == null:
 		printerr('[Dialogic] Failed to join character to position ', position_idx, ". Could not find position container.")
@@ -710,18 +707,15 @@ func reset_portrait_position(position_index:int, time:= 0.0) -> void:
 ## Updates all portrait containers set to SPEAKER.
 func change_speaker(speaker: DialogicCharacter = null, portrait := "") -> void:
 	for container: Node in get_tree().get_nodes_in_group('dialogic_portrait_con_speaker'):
-
 		for character_node: Node in container.get_children():
 
 			if not character_node.get_meta('character') == speaker:
-
 				for portrait_node: Node in character_node.get_children():
 					_remove_portrait(portrait_node)
-
+		
 		if speaker == null or speaker.portraits.is_empty():
 			continue
-
-		if container.get_children().is_empty():
+		if container.get_children().is_empty() or speaker not in container.get_children():
 			_create_character_node(speaker, container)
 		elif portrait.is_empty():
 			continue
@@ -740,7 +734,6 @@ func change_speaker(speaker: DialogicCharacter = null, portrait := "") -> void:
 		_change_portrait_mirror(container.get_child(-1))
 
 	if speaker:
-
 		if speaker.resource_path != dialogic.current_state_info['speaker']:
 
 			if dialogic.current_state_info['speaker'] and is_character_joined(load(dialogic.current_state_info['speaker'])):

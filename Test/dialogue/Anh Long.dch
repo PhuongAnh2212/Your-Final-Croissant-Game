@@ -8,14 +8,14 @@
 "sound_moods": {},
 "style": ""
 },
-"default_portrait": "Hang_Xom-1",
+"default_portrait": "1",
 "description": "",
 "display_name": "Anh Long",
 "mirror": false,
 "nicknames": ["???"],
 "offset": Vector2(0, 0),
 "portraits": {
-"Hang_Xom-1": {
+"1": {
 "export_overrides": {
 "image": "\"res://arts/Expression/Anh Long/Hang_Xom-1.png\""
 },
@@ -24,7 +24,7 @@
 "scale": 1,
 "scene": ""
 },
-"Hang_Xom-4": {
+"2": {
 "export_overrides": {
 "image": "\"res://arts/Expression/Anh Long/Hang_Xom-4.png\""
 },

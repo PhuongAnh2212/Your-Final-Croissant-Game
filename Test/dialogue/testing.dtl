@@ -1,0 +1,17 @@
+if {current_speaker} == "Anh Long":
+	"Anh Long" (1): Lam Anh. You’re back again. Sorry for your loss
+	- Hey, Long
+		"Lam Anh" (1): Hey, Long
+	- Hey, how it's goin’?
+		"Lam Anh" (2): Hey, how it's goin’?
+	- It’s been a while since huh…
+		"Lam Anh" (3): It’s been a while since huh…
+	"Anh Long" (2): Are you packing up Thanh Mai’s belongings this time? I can help if you need it.
+	return
+else:
+	if {current_speaker} == "Angelo":
+		Angelo (1): <Hi Lam Anh/Supppp/Yo>
+	elif {current_speaker} == "Thanh Mai":
+		"Thanh Mai" (1): <Give up/Just move on/I'm dead>
+	"Lam Anh" (1): Hi {current_speaker}
+[end_timeline]

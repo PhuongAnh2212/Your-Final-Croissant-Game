@@ -8,23 +8,23 @@
 "sound_moods": {},
 "style": ""
 },
-"default_portrait": "Front1",
+"default_portrait": "1",
 "description": "",
 "display_name": "Lam Anh",
 "mirror": false,
 "nicknames": [""],
 "offset": Vector2(0, 0),
 "portraits": {
-"Front1": {
+"1": {
 "export_overrides": {
 "image": "\"res://arts/Expression/Lam Anh/Front1.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),
-"scale": 1.0,
+"scale": 1,
 "scene": ""
 },
-"Idle1": {
+"2": {
 "export_overrides": {
 "image": "\"res://arts/Expression/Lam Anh/Idle1.png\""
 },
@@ -33,7 +33,7 @@
 "scale": 1,
 "scene": ""
 },
-"Idle2": {
+"3": {
 "export_overrides": {
 "image": "\"res://arts/Expression/Lam Anh/Idle2.png\""
 },
@@ -42,7 +42,7 @@
 "scale": 1,
 "scene": ""
 },
-"Idle3": {
+"4": {
 "export_overrides": {
 "image": "\"res://arts/Expression/Lam Anh/Idle3.png\""
 },
@@ -51,7 +51,7 @@
 "scale": 1,
 "scene": ""
 },
-"Idle4": {
+"5": {
 "export_overrides": {
 "image": "\"res://arts/Expression/Lam Anh/Idle4.png\""
 },

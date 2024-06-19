@@ -26,7 +26,7 @@ func _process(delta):
 	if Engine.is_editor_hint():
 		icon_sprite.texture = item_text
 	
-	if player_in_range and Input.is_action_just_pressed("add"):
+	if player_in_range and Input.is_action_just_pressed("interact"):
 		pickup()
 
 func pickup():
