@@ -26,16 +26,21 @@ Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 [dialogic]
 
 directories/dch_directory={
+"Angelo": "res://dialogue/Angelo.dch",
 "Anh Long": "res://dialogue/Anh Long.dch",
-"Lam Anh": "res://dialogue/Lam Anh.dch"
+"Lam Anh": "res://dialogue/Lam Anh.dch",
+"Thanh Mai": "res://dialogue/Thanh Mai.dch"
 }
 directories/dtl_directory={
 "testing": "res://dialogue/testing.dtl"
 }
 glossary/default_case_sensitive=true
-layout/style_list=["res://dialogue/test.tres"]
-layout/default_style="res://dialogue/test.tres"
-variables={}
+layout/style_list=["res://dialogue/St.tres"]
+layout/default_style="res://dialogue/St.tres"
+variables={
+"Inventory": {},
+"current_speaker": ""
+}
 extensions_folder="res://addons/dialogic_additions"
 text/letter_speed=0.01
 text/initial_text_reveal_skippable=true

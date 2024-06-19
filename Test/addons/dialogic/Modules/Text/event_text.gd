@@ -273,6 +273,7 @@ func to_text() -> String:
 
 	if character:
 		var name := DialogicResourceUtil.get_unique_identifier(character.resource_path)
+
 		if name.count(" ") > 0:
 			name = '"' + name + '"'
 		if not portrait.is_empty():

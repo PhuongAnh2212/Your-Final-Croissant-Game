@@ -2,6 +2,7 @@ extends CharacterBody2D
 
 @onready var animations = $AnimatedSprite2D
 @export var animation_sprite: SpriteFrames
+@export var speaker_name= ""
 #props
 @export var item_type = ""
 @export var item_name = ""
@@ -29,6 +30,7 @@ func _process(delta):
 		
 	if player_in_range and Input.is_action_just_pressed("talk"):
 		if Dialogic.current_timeline == null:
+			Dialogic.VAR.current_speaker = speaker_name
 			Dialogic.start('testing')
 		#Global.enter_interacting()
 		
