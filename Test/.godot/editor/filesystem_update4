@@ -1,10 +1,14 @@
-res://dialogue/Thanh Mai.dch
-res://player/player.gd
+res://dialogue/Angelo.dch
+res://dialogue/Anh Long.dch
+res://dialogue/Lam Anh.dch
+res://scenes/world.tscn
 res://dialogue/St.tres
 res://addons/dialogic/Modules/Character/settings_portraits.gd
 res://scenes/Dialogue.gd
 res://script/DialogueContainer.gd
-res://scenes/ThanhMaiBakery/DoorDetectInside.gd
-res://scenes/world.tscn
-res://scenes/ThanhMaiBakery/TMBedroom.tscn
-res://scenes/ThanhMaiBakery/TMBedroom.gd
+res://dialogue/Thanh Mai.dch
+res://scenes/Inventory_Item.tscn
+res://script/Inventory_Item.gd
+res://npc/NPC.tscn
+res://npc/NPC.gd
+res://scenes/inventory.tscn

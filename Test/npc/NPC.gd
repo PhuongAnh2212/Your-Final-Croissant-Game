@@ -25,7 +25,7 @@ func _process(delta):
 	"item_effect": item_effect,
 	"scene_path": scene_path
 	}
-	if player_in_range and Input.is_action_just_pressed("add"):
+	if player_in_range and Input.is_action_just_pressed("interact"):
 		giveItem(item)
 		
 	if player_in_range and Input.is_action_just_pressed("talk"):
