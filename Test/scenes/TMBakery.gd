@@ -23,6 +23,6 @@ func _on_body_exited(body: CharacterBody2D) -> void:
 
 func _process(delta: float) -> void:
 	if entered:
-		if Input.is_action_just_pressed("opendoor"):
+		if Input.is_action_just_pressed("interact"):
 			print("Door opening...")  # Debug print
 			get_tree().change_scene_to_file("res://scenes/ThanhMaiBakery/TMBakery.tscn")

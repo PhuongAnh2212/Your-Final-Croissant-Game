@@ -1789,7 +1789,6 @@ layer_0/tile_data = PackedInt32Array(0, 1, 0, 65536, 1, 1, 131072, 1, 2, 196608,
 
 [node name="player" parent="." instance=ExtResource("2_ub3xu")]
 position = Vector2(247, 219)
-up_direction = Vector2(0.948683, -0.316228)
 
 [node name="Camera2D2" type="Camera2D" parent="player"]
 
@@ -1810,7 +1809,7 @@ offset_right = 331.0
 offset_bottom = 777.0
 grow_horizontal = 2
 theme_override_fonts/font = ExtResource("3_qcrb8")
-text = "[E] Go out"
+text = "[F] Go out"
 label_settings = SubResource("LabelSettings_j23lm")
 horizontal_alignment = 1
 vertical_alignment = 1
@@ -1823,12 +1822,12 @@ position = Vector2(541, 263.25)
 shape = SubResource("RectangleShape2D_lyf7f")
 
 [node name="LabelBedroom" type="Label" parent="TMBedroom"]
-offset_left = 492.0
-offset_top = 209.0
-offset_right = 560.0
-offset_bottom = 236.0
+offset_left = 474.0
+offset_top = 263.0
+offset_right = 542.0
+offset_bottom = 290.0
 theme_override_fonts/font = ExtResource("3_qcrb8")
-text = "[E] Enter
+text = "[F] Enter
 Bedroom"
 label_settings = SubResource("LabelSettings_lawqc")
 

@@ -3,9 +3,7 @@ const speed = 300
 @onready var paused = false
 
 @onready var animations = $AnimationPlayer
-@onready var Map = $"../UI/TextureRect/SubViewportContainer/SubViewport/MiniCam"
 @onready var inventory = $Inventory_UI
-
 
 
 func _ready():
@@ -65,7 +63,7 @@ func _physics_process(_delta):
 	var direction = Input.get_axis("ui_left", "ui_right")
 	if direction: 
 		velocity.x = direction * speed
-		Map.updateMap()
+
 	else: 
 		velocity.x = move_toward(velocity.x, 0, speed)
 	handleInput()
