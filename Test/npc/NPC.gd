@@ -1,6 +1,7 @@
 extends CharacterBody2D
 
 @onready var animations = $AnimatedSprite2D
+@onready var dialogue_path = "testing"
 @export var animation_sprite: SpriteFrames
 @export var speaker_name= ""
 #props
@@ -54,6 +55,8 @@ func _physics_process(delta):
 	updateAnimation()
 
 func giveItem(item):
+	if item["item_name"] == "":
+		return
 	if Global.player_node:
 		Global.add_item(item)
 

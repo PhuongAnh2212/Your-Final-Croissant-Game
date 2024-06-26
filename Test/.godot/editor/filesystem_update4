@@ -1,7 +1,12 @@
-res://scenes/world.tscn
+res://npc/NPC.tscn
 res://dialogue/St.tres
 res://addons/dialogic/Modules/Character/settings_portraits.gd
 res://scenes/Dialogue.gd
 res://script/DialogueContainer.gd
+<<<<<<< Updated upstream
 res://player/player.tscn
 res://scenes/inventory.tscn
+=======
+res://npc/NPC.gd
+res://dialogue/Thanh Mai.dch
+>>>>>>> Stashed changes

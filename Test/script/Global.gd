@@ -13,17 +13,46 @@ var player_node: Node = null
 var interacting = false
 
 #current state of the game
-var state = {}
+var states = []
 
 #signals
 signal inventory_update
 signal interacting_inventory
+signal state_change
 
 @onready var inventory_slot_scene = preload("res://scenes/inventory_slot.tscn")
 
 
 func _ready():
 	inventory.resize(12)
+
+#Game state
+func add_state(state):
+	if state != null and state not in states:
+		states.append(state)
+		state_change.emit()
+		return true
+	return false
+
+func update_state(old_state, new_state):
+	for i in range(states.size):
+		if states[i] != null and states[i] == old_state and new_state not in states:
+			states[i] = new_state
+			state_change.emit()
+			return true
+	return false
+
+func delete_state(state):
+	if state in states:
+		return false
+	for i in range(states.size):
+		if state != null and states[i] == state:
+			states.remove_at(i)
+			state_change.emit()
+			return true
+	return false
+		
+
 
 #Add remove items
 func add_item(item):
