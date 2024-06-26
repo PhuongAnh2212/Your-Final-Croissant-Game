@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://player/player.gd" id="1_ef0tf"]
 [ext_resource type="Texture2D" uid="uid://ctd80abodw34k" path="res://arts/lamanh-sprite.png" id="2_w15yk"]
-[ext_resource type="Texture2D" uid="uid://qb5p3ge4gs8t" path="res://arts/Inventory background.png" id="3_eslfb"]
+[ext_resource type="Texture2D" uid="uid://cplaeh4wc2bgy" path="res://ui/LAbag_1@4x.png" id="3_0o24w"]
 [ext_resource type="PackedScene" uid="uid://c5b3yjk13s2fh" path="res://scenes/inventory.tscn" id="4_m78h6"]
 [ext_resource type="PackedScene" uid="uid://ckaii44b1b55b" path="res://scenes/Dialogue.tscn" id="5_jb02d"]
 
@@ -149,13 +149,14 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -404.0
+offset_left = -354.0
 offset_top = -146.0
-offset_right = 296.0
+offset_right = 346.0
 offset_bottom = 154.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("3_eslfb")
+texture = ExtResource("3_0o24w")
+expand_mode = 1
 
 [node name="Inventory" parent="Inventory_UI/TextureRect" instance=ExtResource("4_m78h6")]
 offset_left = 140.0

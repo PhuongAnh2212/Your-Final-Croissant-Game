@@ -1,7 +1,6 @@
-res://scenes/world.tscn
+res://player/player.tscn
 res://dialogue/St.tres
 res://addons/dialogic/Modules/Character/settings_portraits.gd
 res://scenes/Dialogue.gd
 res://script/DialogueContainer.gd
-res://player/player.tscn
-res://scenes/inventory.tscn
+res://scenes/world.tscn
