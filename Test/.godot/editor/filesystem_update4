@@ -9,3 +9,4 @@ res://scenes/Inventory_Item.tscn
 res://npc/NPC.tscn
 res://npc/Portrait.tscn
 res://player/player.tscn
+res://script/Global.gd
