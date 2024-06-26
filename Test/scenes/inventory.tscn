@@ -15,4 +15,4 @@ offset_right = 261.0
 offset_bottom = 172.0
 theme_override_constants/h_separation = 15
 theme_override_constants/v_separation = 15
-columns = 6
+columns = 5

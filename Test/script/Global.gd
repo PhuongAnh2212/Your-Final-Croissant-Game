@@ -23,7 +23,7 @@ signal interacting_inventory
 
 
 func _ready():
-	inventory.resize(12)
+	inventory.resize(10)
 
 #Add remove items
 func add_item(item):
