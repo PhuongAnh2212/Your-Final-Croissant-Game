@@ -96,6 +96,7 @@ theme_override_fonts/font = ExtResource("4_y11oj")
 text = "Name:"
 
 [node name="Interact2" type="ColorRect" parent="."]
+visible = false
 layout_mode = 0
 offset_left = 5.0
 offset_top = -35.0
