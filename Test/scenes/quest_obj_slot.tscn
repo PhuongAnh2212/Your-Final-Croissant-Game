@@ -1,0 +1,107 @@
+[gd_scene load_steps=7 format=3 uid="uid://cas6seqex0pnm"]
+
+[ext_resource type="Script" path="res://script/quest_obj_slot.gd" id="1_gqcae"]
+[ext_resource type="Texture2D" uid="uid://dinlp1xecav8k" path="res://ui/LAbagslot@2x.png" id="2_r4atk"]
+[ext_resource type="Texture2D" uid="uid://iwd05yfkrcea" path="res://arts/Items/Bakery_goods (1).png" id="3_pivc4"]
+[ext_resource type="FontFile" uid="uid://c78wn34gvc2hh" path="res://ui/Retro Gaming.ttf" id="4_hrkuy"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_4ufvn"]
+line_spacing = 2.08165e-12
+font = ExtResource("4_hrkuy")
+font_size = 10
+font_color = Color(0.772549, 0.129412, 0.517647, 1)
+outline_size = 1
+shadow_size = 0
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_jbg2q"]
+
+[node name="quest_obj_slot" type="Control"]
+custom_minimum_size = Vector2(30, 30)
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+pivot_offset = Vector2(10, 10)
+script = ExtResource("1_gqcae")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+custom_minimum_size = Vector2(30, 30)
+layout_mode = 1
+offset_left = 40.0
+offset_right = 80.0
+offset_bottom = 42.0
+texture = ExtResource("2_r4atk")
+expand_mode = 1
+
+[node name="Item" type="Sprite2D" parent="TextureRect"]
+position = Vector2(20, 18)
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("3_pivc4")
+
+[node name="Quanity" type="Label" parent="TextureRect"]
+modulate = Color(0.772549, 0.129412, 0.517647, 1)
+self_modulate = Color(0.784314, 0.137255, 0.52549, 1)
+layout_mode = 0
+offset_left = 2.0
+offset_right = 37.0
+offset_bottom = 40.0
+label_settings = SubResource("LabelSettings_4ufvn")
+horizontal_alignment = 2
+vertical_alignment = 2
+autowrap_mode = 3
+clip_text = true
+
+[node name="item button" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+offset_left = 40.0
+offset_right = 80.0
+offset_bottom = 42.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/normal = SubResource("StyleBoxEmpty_jbg2q")
+
+[node name="detail" type="ColorRect" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 5.0
+offset_top = -35.0
+offset_right = 75.0
+offset_bottom = -5.0
+color = Color(0.976471, 0.823529, 1, 1)
+
+[node name="Type" type="Label" parent="detail"]
+layout_mode = 0
+offset_left = 2.0
+offset_top = 15.0
+offset_right = 49.0
+offset_bottom = 41.0
+scale = Vector2(0.5, 0.5)
+theme_override_colors/font_color = Color(0.772549, 0.129412, 0.517647, 1)
+theme_override_fonts/font = ExtResource("4_hrkuy")
+text = "Type:"
+
+[node name="Name" type="Label" parent="detail"]
+layout_mode = 0
+offset_left = 2.0
+offset_top = 3.0
+offset_right = 57.0
+offset_bottom = 29.0
+scale = Vector2(0.5, 0.5)
+theme_override_colors/font_color = Color(0.772549, 0.129412, 0.517647, 1)
+theme_override_fonts/font = ExtResource("4_hrkuy")
+text = "Name:"
+
+[node name="Finished" type="ColorRect" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 40.0
+offset_top = 1.0
+offset_right = 79.0
+offset_bottom = 41.0
+color = Color(0.0196078, 0.0392157, 0.0235294, 0.6)
+metadata/opacity = 10
+
+[connection signal="mouse_entered" from="item button" to="." method="_on_item_button_mouse_entered"]
+[connection signal="mouse_exited" from="item button" to="." method="_on_item_button_mouse_exited"]
+[connection signal="pressed" from="item button" to="." method="_on_item_button_pressed"]
