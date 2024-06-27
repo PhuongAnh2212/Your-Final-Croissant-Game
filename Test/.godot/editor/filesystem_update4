@@ -1,4 +1,5 @@
 res://scenes/ThanhMaiBakery/TMBakery.tscn
+res://scenes/inventory_slot.tscn
 res://dialogue/St.tres
 res://addons/dialogic/Modules/Character/settings_portraits.gd
 res://scenes/Dialogue.gd

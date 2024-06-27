@@ -30,7 +30,7 @@ signal quest_recieved
 
 
 func _ready():
-	inventory.resize(12)
+	inventory.resize(10)
 
 #All state change
 func add_quest(quest):
