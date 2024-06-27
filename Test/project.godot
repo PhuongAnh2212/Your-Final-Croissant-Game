@@ -33,6 +33,7 @@ directories/dch_directory={
 "Thanh Mai": "res://dialogue/Thanh Mai.dch"
 }
 directories/dtl_directory={
+"load": "res://dialogue/load.dtl",
 "testing": "res://dialogue/testing.dtl"
 }
 glossary/default_case_sensitive=true
@@ -63,6 +64,8 @@ save/autosave_delay=60.0
 save/encryption_on_exports_only=true
 text/autopauses={}
 layout/end_behaviour=1
+save/default_slot="1"
+save/autosave=false
 
 [display]
 

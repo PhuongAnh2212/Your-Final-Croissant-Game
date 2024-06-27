@@ -35,7 +35,7 @@ func _on_pop_up_interaction():
 		inventory.visible = false
 		get_tree().paused = false
 	
-	
+
 func handleInput():
 #	if Input.is_action_just_pressed("ui_accept"):
 #		DialogueManager.show_dialogue_balloon(load("res://dialogue/main.dialogue"), "start")
@@ -56,6 +56,8 @@ func updateAnimation():
 
 		animations.play("walk" + direction)
 		
+
+
 func _physics_process(_delta):
 	if get_tree().paused or paused:
 		return

@@ -10,3 +10,6 @@ res://npc/NPC.tscn
 res://npc/Portrait.tscn
 res://player/player.tscn
 res://script/Global.gd
+res://player/player.gd
+res://dialogue/testing.dtl
+res://dialogue/load.dtl
