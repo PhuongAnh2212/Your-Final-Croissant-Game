@@ -1,9 +1,11 @@
-[gd_scene load_steps=13 format=3 uid="uid://ctkb0qycx8uir"]
+[gd_scene load_steps=16 format=3 uid="uid://ctkb0qycx8uir"]
 
 [ext_resource type="Script" path="res://player/player.gd" id="1_ef0tf"]
 [ext_resource type="Texture2D" uid="uid://ctd80abodw34k" path="res://arts/lamanh-sprite.png" id="2_w15yk"]
 [ext_resource type="Texture2D" uid="uid://c4sc2s6lmf4mj" path="res://ui/LAbag_1@4x.png" id="3_0o24w"]
 [ext_resource type="PackedScene" uid="uid://c5b3yjk13s2fh" path="res://scenes/inventory.tscn" id="4_m78h6"]
+[ext_resource type="PackedScene" uid="uid://cpagyaca562xj" path="res://scenes/task.tscn" id="5_dvfqg"]
+[ext_resource type="FontFile" uid="uid://c78wn34gvc2hh" path="res://ui/Retro Gaming.ttf" id="5_oou2g"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_k4yka"]
 size = Vector2(34, 11)
@@ -118,6 +120,11 @@ _data = {
 "walkRight": SubResource("Animation_hyiei")
 }
 
+[sub_resource type="LabelSettings" id="LabelSettings_mnbw7"]
+font = ExtResource("5_oou2g")
+font_size = 40
+font_color = Color(0, 0.815686, 1, 1)
+
 [node name="player" type="CharacterBody2D" groups=["Player"]]
 process_mode = 3
 y_sort_enabled = true
@@ -163,3 +170,42 @@ offset_top = 66.0
 offset_right = 256.0
 offset_bottom = 112.0
 scale = Vector2(2, 2)
+
+[node name="Quest_menu_UI" type="CanvasLayer" parent="."]
+
+[node name="TextureRect" type="TextureRect" parent="Quest_menu_UI"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -354.0
+offset_top = -146.0
+offset_right = 346.0
+offset_bottom = 154.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("3_0o24w")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="Quest_menu_UI/TextureRect"]
+layout_mode = 0
+offset_left = 74.0
+offset_top = 18.0
+offset_right = 229.0
+offset_bottom = 69.0
+text = "TASKS"
+label_settings = SubResource("LabelSettings_mnbw7")
+
+[node name="Task" parent="Quest_menu_UI/TextureRect" instance=ExtResource("5_dvfqg")]
+offset_left = 20.0
+offset_top = 70.0
+offset_right = 370.0
+offset_bottom = 220.0
+
+[node name="MarginContainer" type="MarginContainer" parent="Quest_menu_UI/TextureRect"]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 230.0
+offset_right = 370.0
+offset_bottom = 280.0

@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://cpagyaca562xj"]
+
+[node name="Task" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 10.0
+offset_top = 10.0
+offset_right = 338.0
+offset_bottom = 298.0
+
+[node name="GridContainer" type="GridContainer" parent="."]
+layout_mode = 0
+offset_right = 358.0
+offset_bottom = 382.0
+theme_override_constants/h_separation = 10
+theme_override_constants/v_separation = 12
+columns = 5

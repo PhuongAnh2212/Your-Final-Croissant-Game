@@ -3,3 +3,4 @@ res://dialogue/St.tres
 res://addons/dialogic/Modules/Character/settings_portraits.gd
 res://scenes/Dialogue.gd
 res://script/DialogueContainer.gd
+res://scenes/task.tscn
