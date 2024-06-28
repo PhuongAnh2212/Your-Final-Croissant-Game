@@ -1,10 +1,14 @@
-[gd_scene load_steps=14 format=3 uid="uid://ctkb0qycx8uir"]
+[gd_scene load_steps=20 format=3 uid="uid://ctkb0qycx8uir"]
 
 [ext_resource type="Script" path="res://player/player.gd" id="1_ef0tf"]
 [ext_resource type="Texture2D" uid="uid://ctd80abodw34k" path="res://arts/lamanh-sprite.png" id="2_w15yk"]
 [ext_resource type="Texture2D" uid="uid://c4sc2s6lmf4mj" path="res://ui/LAbag_1@4x.png" id="3_0o24w"]
 [ext_resource type="PackedScene" uid="uid://c5b3yjk13s2fh" path="res://scenes/inventory.tscn" id="4_m78h6"]
-[ext_resource type="PackedScene" uid="uid://ckaii44b1b55b" path="res://scenes/Dialogue.tscn" id="5_jb02d"]
+[ext_resource type="PackedScene" uid="uid://cpagyaca562xj" path="res://scenes/task.tscn" id="5_dvfqg"]
+[ext_resource type="FontFile" uid="uid://c78wn34gvc2hh" path="res://ui/Retro Gaming.ttf" id="5_oou2g"]
+[ext_resource type="Texture2D" uid="uid://bvjy72vufot8f" path="res://arts/New folder/LAinventory.png" id="7_h2hj4"]
+[ext_resource type="Texture2D" uid="uid://btuk582kn0oat" path="res://arts/New folder/TMguidebook0.3x.png" id="7_xlls1"]
+[ext_resource type="Texture2D" uid="uid://cro2lsn6rui7g" path="res://arts/New folder/LAphone.png" id="9_xq7rh"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_k4yka"]
 size = Vector2(34, 11)
@@ -119,6 +123,14 @@ _data = {
 "walkRight": SubResource("Animation_hyiei")
 }
 
+[sub_resource type="LabelSettings" id="LabelSettings_mnbw7"]
+font = ExtResource("5_oou2g")
+font_size = 40
+font_color = Color(0, 0.815686, 1, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_mp88b"]
+font = ExtResource("5_oou2g")
+
 [node name="player" type="CharacterBody2D" groups=["Player"]]
 process_mode = 3
 y_sort_enabled = true
@@ -165,16 +177,132 @@ offset_right = 256.0
 offset_bottom = 112.0
 scale = Vector2(2, 2)
 
-[node name="Dialogue UI" type="CanvasLayer" parent="."]
+[node name="Quest_menu_UI" type="CanvasLayer" parent="."]
 visible = false
 
-[node name="MarginContainer" type="MarginContainer" parent="Dialogue UI"]
-offset_top = 216.0
-offset_right = 768.0
-offset_bottom = 432.0
-theme_override_constants/margin_left = 20
-theme_override_constants/margin_right = 20
-theme_override_constants/margin_bottom = 20
+[node name="TextureRect" type="TextureRect" parent="Quest_menu_UI"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -354.0
+offset_top = -146.0
+offset_right = 346.0
+offset_bottom = 154.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("3_0o24w")
+expand_mode = 1
 
-[node name="Dialogue" parent="Dialogue UI/MarginContainer" instance=ExtResource("5_jb02d")]
+[node name="Label" type="Label" parent="Quest_menu_UI/TextureRect"]
+layout_mode = 0
+offset_left = 74.0
+offset_top = 18.0
+offset_right = 229.0
+offset_bottom = 69.0
+text = "TASKS"
+label_settings = SubResource("LabelSettings_mnbw7")
+
+[node name="Task" parent="Quest_menu_UI/TextureRect" instance=ExtResource("5_dvfqg")]
+offset_left = 20.0
+offset_top = 70.0
+offset_right = 370.0
+offset_bottom = 220.0
+
+[node name="MarginContainer" type="MarginContainer" parent="Quest_menu_UI/TextureRect"]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 230.0
+offset_right = 370.0
+offset_bottom = 280.0
+
+[node name="Phone_UI" type="CanvasLayer" parent="."]
+visible = false
+
+[node name="TextureRect" type="TextureRect" parent="Phone_UI"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -88.0
+offset_top = -192.0
+offset_right = 88.0
+offset_bottom = 184.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("3_0o24w")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="Phone_UI/TextureRect"]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 18.0
+offset_right = 160.0
+offset_bottom = 72.0
+text = "Text"
+label_settings = SubResource("LabelSettings_mnbw7")
+
+[node name="Icon_UI" type="CanvasLayer" parent="."]
+
+[node name="HSplitContainer" type="GridContainer" parent="Icon_UI"]
+offset_left = 624.0
+offset_top = 8.0
+offset_right = 760.0
+offset_bottom = 72.0
+columns = 3
+
+[node name="Quest" type="TextureRect" parent="Icon_UI/HSplitContainer"]
+custom_minimum_size = Vector2(40, 40)
 layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+texture = ExtResource("7_xlls1")
+expand_mode = 4
+
+[node name="Label" type="Label" parent="Icon_UI/HSplitContainer/Quest"]
+layout_mode = 0
+offset_top = 40.0
+offset_right = 40.0
+offset_bottom = 63.0
+text = "[Q]"
+label_settings = SubResource("LabelSettings_mp88b")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Bag" type="TextureRect" parent="Icon_UI/HSplitContainer"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+texture = ExtResource("7_h2hj4")
+expand_mode = 4
+
+[node name="Label" type="Label" parent="Icon_UI/HSplitContainer/Bag"]
+layout_mode = 0
+offset_top = 40.0
+offset_right = 40.0
+offset_bottom = 63.0
+text = "[B]"
+label_settings = SubResource("LabelSettings_mp88b")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Phone" type="TextureRect" parent="Icon_UI/HSplitContainer"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+texture = ExtResource("9_xq7rh")
+expand_mode = 4
+
+[node name="Label" type="Label" parent="Icon_UI/HSplitContainer/Phone"]
+layout_mode = 0
+offset_top = 40.0
+offset_right = 40.0
+offset_bottom = 63.0
+text = "[P]"
+label_settings = SubResource("LabelSettings_mp88b")
+horizontal_alignment = 1
+vertical_alignment = 1

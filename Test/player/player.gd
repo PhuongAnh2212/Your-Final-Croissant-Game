@@ -4,6 +4,8 @@ const speed = 300
 
 @onready var animations = $AnimationPlayer
 @onready var inventory = $Inventory_UI
+@onready var quest_menu = $Quest_menu_UI
+@onready var phone_menu = $Phone_UI
 
 
 func _ready():
@@ -15,8 +17,21 @@ func _ready():
 
 func _input(event):
 	if event.is_action_pressed("inventory"):
+		if quest_menu.visible == true or phone_menu.visible== true:
+			return
 		inventory.visible = !inventory.visible
 		get_tree().paused = !get_tree().paused
+	elif event.is_action_pressed("quest"):
+		if inventory.visible == true or phone_menu.visible== true:
+			return
+		quest_menu.visible = !quest_menu.visible
+		get_tree().paused = !get_tree().paused
+	elif event.is_action_pressed("phone"):
+		if inventory.visible == true or quest_menu.visible== true:
+			return
+		phone_menu.visible = !phone_menu.visible
+		get_tree().paused = !get_tree().paused
+		
 
 func _on_dialogue_start():
 	if Dialogic.current_timeline != null:
@@ -35,7 +50,7 @@ func _on_pop_up_interaction():
 		inventory.visible = false
 		get_tree().paused = false
 	
-	
+
 func handleInput():
 #	if Input.is_action_just_pressed("ui_accept"):
 #		DialogueManager.show_dialogue_balloon(load("res://dialogue/main.dialogue"), "start")
@@ -56,6 +71,8 @@ func updateAnimation():
 
 		animations.play("walk" + direction)
 		
+
+
 func _physics_process(_delta):
 	if get_tree().paused or paused:
 		return
