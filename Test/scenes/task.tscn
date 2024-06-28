@@ -1,20 +1,52 @@
-[gd_scene load_steps=2 format=3 uid="uid://cpagyaca562xj"]
+[gd_scene load_steps=6 format=3 uid="uid://cpagyaca562xj"]
 
 [ext_resource type="Script" path="res://script/task.gd" id="1_3a5ps"]
+[ext_resource type="FontFile" uid="uid://c78wn34gvc2hh" path="res://ui/Retro Gaming.ttf" id="2_ioxig"]
 
-[node name="Task" type="Control"]
-layout_mode = 3
-anchors_preset = 0
-offset_left = 10.0
-offset_top = 10.0
-offset_right = 338.0
-offset_bottom = 298.0
+[sub_resource type="Theme" id="Theme_1fnpg"]
+default_font = ExtResource("2_ioxig")
+
+[sub_resource type="LabelSettings" id="LabelSettings_rqsiq"]
+font = ExtResource("2_ioxig")
+font_size = 25
+outline_size = 3
+outline_color = Color(0.788235, 0.435294, 1, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_6o2g6"]
+font = ExtResource("2_ioxig")
+
+[node name="Task" type="VBoxContainer"]
+offset_right = 350.0
+offset_bottom = 200.0
+theme_override_constants/separation = 10
 script = ExtResource("1_3a5ps")
 
 [node name="GridContainer" type="GridContainer" parent="."]
-layout_mode = 0
-offset_right = 358.0
-offset_bottom = 382.0
+custom_minimum_size = Vector2(350, 100)
+layout_mode = 2
 theme_override_constants/h_separation = 10
 theme_override_constants/v_separation = 12
 columns = 5
+
+[node name="ColorRect" type="ColorRect" parent="."]
+custom_minimum_size = Vector2(0, 80)
+layout_mode = 2
+color = Color(0.309804, 0.0745098, 0.0745098, 0.827451)
+
+[node name="MarginContainer" type="VBoxContainer" parent="ColorRect"]
+layout_mode = 2
+offset_left = 10.0
+offset_right = 350.0
+offset_bottom = 80.0
+theme = SubResource("Theme_1fnpg")
+theme_override_constants/separation = 0
+
+[node name="Quest_name" type="Label" parent="ColorRect/MarginContainer"]
+layout_mode = 2
+text = "Quest Objective"
+label_settings = SubResource("LabelSettings_rqsiq")
+
+[node name="Quest_obj" type="Label" parent="ColorRect/MarginContainer"]
+layout_mode = 2
+text = "How to do the quest"
+label_settings = SubResource("LabelSettings_6o2g6")

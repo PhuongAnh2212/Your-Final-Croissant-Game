@@ -28,16 +28,18 @@ signal state_change
 signal quest_finished
 signal quest_recieved
 signal quest_obj_update
+signal objective_cleared
 signal cutscene_changed
 
 
 @onready var inventory_slot_scene = preload("res://scenes/inventory_slot.tscn")
-@onready var quest_obj_scene = preload("res://script/quest_obj_slot.gd")
+@onready var quest_obj_scene = preload("res://scenes/quest_obj_slot.tscn")
 
 func _ready():
 	inventory.resize(10)
 	quest_objs.resize(8)
 	inventory_update.connect(_on_inventory_change)
+	quest_obj_update.connect(_quest_obj_update)
 	state_change.connect(_on_state_change)
 
 #All state change
@@ -52,15 +54,16 @@ func add_quest(quest):
 	return false
 
 func finished_quest(quest):
-	if quest == null or quest == "":
+	if quest == null:
 		return false
 	if states["active_quests"] != null and states["active_quests"] == quest:
 		states["finished_quest"].append(quest)
 		states["active_quests"] = {
-	"quest_name": "",
-	"quest_steps": [],
-	"quest_requirement": [],
-	"quest_type": []
+	"quest_name": "Empty Quest",
+	"current_step": 0,
+	"quest_steps": ["Nothing to do"],
+	"quest_requirement": [""],
+	"quest_type": [""]
 }
 		state_change.emit("finished_quest")
 		quest_finished.emit()
@@ -97,9 +100,31 @@ func _on_inventory_change():
 				if (quest_objs[i] != null and inventory[j] != null):
 					if (quest_objs[i]["item_name"] == inventory[j]["item_name"]) and (quest_objs[i]["item_type"] == inventory[j]["item_type"]) and (quest_objs[i]["quanity"] == inventory[j]["quanity"]):
 						quest_objs[i]["clear"] = true
+						print("yay")
 						quest_obj_update.emit()
 						return true
 	return false
+
+func _quest_obj_update():
+	var remaining_i = 0
+	for i in range(quest_objs.size()):
+		if (quest_objs[i] != null and !quest_objs[i]["clear"]):
+			remaining_i += 1 
+	if states["active_quests"]["quest_type"][states["active_quests"]["current_step"]] != "collect":
+		return false
+	if remaining_i == 0:
+		states["active_quests"]["current_step"] += 1
+		print("yay yay")
+		if states["active_quests"]["current_step"] >= states["active_quests"]["quest_steps"].size():
+			print("yay yay yay")
+			finished_quest(states["active_quests"])
+			objective_cleared.emit()
+			return true
+		objective_cleared.emit()
+		return true
+	return false
+	
+
 
 func _on_state_change(key):
 	if key == "scene" or key == "all":

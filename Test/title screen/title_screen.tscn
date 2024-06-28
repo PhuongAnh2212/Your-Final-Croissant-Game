@@ -1,8 +1,9 @@
-[gd_scene load_steps=10 format=3 uid="uid://c3s5nclwb13tw"]
+[gd_scene load_steps=11 format=3 uid="uid://c3s5nclwb13tw"]
 
 [ext_resource type="Script" path="res://title screen/title_screen.gd" id="1_kyoq7"]
 [ext_resource type="Texture2D" uid="uid://c5hy7rx2pgpau" path="res://title screen/titlebg.jpg" id="1_opui3"]
 [ext_resource type="Texture2D" uid="uid://b4n00foukorqr" path="res://title screen/Your Final Quaso.png" id="2_ai15a"]
+[ext_resource type="Texture2D" uid="uid://iwd05yfkrcea" path="res://arts/Items/Bakery_goods (1).png" id="2_kswxp"]
 [ext_resource type="FontFile" uid="uid://msrp2y8p426d" path="res://title screen/ka1.ttf" id="3_stqus"]
 [ext_resource type="AudioStream" uid="uid://csmn3fibtcl4b" path="res://title screen/opening.mp3" id="5_ednm5"]
 
@@ -29,6 +30,9 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_kyoq7")
+item_type = "key"
+item_name = "Cake"
+item_text = ExtResource("2_kswxp")
 
 [node name="TextureRect" type="TextureRect" parent="."]
 layout_mode = 2

@@ -19,8 +19,9 @@ var states = {
 @onready var path = "res://scenes/world.tscn"
 @onready var dialogue = "res://dialogue/testing.dtl"
 @onready var quest = {
-	"quest_name": "Give Anh Long a cake",
-	"quest_steps": ["Pick up a cake", "Give Anh Long the cake"],
+	"quest_name": "Give Anh Long cake",
+	"current_step": 0,
+	"quest_steps": ["Pick up 2 cakes", "Talk to Anh Long"],
 	"quest_requirement": [{
 		"quanity": 2,
 		"item_type": item_type,
@@ -29,7 +30,7 @@ var states = {
 		"item_effect": item_effect,
 		"clear": false
 	}],
-	"quest_type": ["collect", "interact"]
+	"quest_type": ["collect", "talk"],
 }
 
 
