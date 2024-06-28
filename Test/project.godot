@@ -34,7 +34,8 @@ directories/dch_directory={
 }
 directories/dtl_directory={
 "load": "res://dialogue/load.dtl",
-"testing": "res://dialogue/testing.dtl"
+"testing": "res://dialogue/testing.dtl",
+"timeline2": "res://dialogue/timeline2.dtl"
 }
 glossary/default_case_sensitive=true
 layout/style_list=["res://dialogue/St.tres"]

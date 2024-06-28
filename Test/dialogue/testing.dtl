@@ -7,7 +7,7 @@ if {current_speaker} == "Anh Long":
 	- It’s been a while since huh…
 		"Lam Anh" (3): It’s been a while since huh…
 	"Anh Long" (2): Are you packing up Thanh Mai’s belongings this time? I can help if you need it.
-	[save slot="1"]
+	do Global.par_update_state("res://dialogue/timeline2.dtl", "dialogue")
 	return
 else:
 	if {current_speaker} == "Angelo":
