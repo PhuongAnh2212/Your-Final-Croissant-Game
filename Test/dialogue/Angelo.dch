@@ -8,52 +8,125 @@
 "sound_moods": {},
 "style": ""
 },
-"default_portrait": "1",
+"default_portrait": "open_eye_smile",
 "description": "",
 "display_name": "Angelo",
 "mirror": false,
 "nicknames": [""],
 "offset": Vector2(0, 0),
 "portraits": {
-"1": {
+"close_eye_laugh": {
 "export_overrides": {
-"image": "\"res://arts/Chara sprite/Angelo/Angelo-1.png\""
+"image": "\"res://arts/Expression/Angelo/close_eye_laugh.PNG\""
+},
+"ignore_char_scale": true,
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"close_eye_sad": {
+"export_overrides": {
+"image": "\"res://arts/Expression/Angelo/close_eye_sad.PNG\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),
 "scale": 1,
 "scene": ""
 },
-"2": {
+"close_eye_sad_close": {
 "export_overrides": {
-"image": "\"res://arts/Chara sprite/Angelo/Angelo-2.png\""
+"image": "\"res://arts/Expression/Angelo/close_eye_sad_close.PNG\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),
 "scale": 1,
 "scene": ""
 },
-"3": {
+"close_eye_sad_cry": {
 "export_overrides": {
-"image": "\"res://arts/Chara sprite/Angelo/Angelo-3.png\""
+"image": "\"res://arts/Expression/Angelo/close_eye_sad_cry.PNG\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),
 "scale": 1,
 "scene": ""
 },
-"4": {
+"close_eye_sad_smile": {
 "export_overrides": {
-"image": "\"res://arts/Chara sprite/Angelo/Angelo-4.png\""
+"image": "\"res://arts/Expression/Angelo/close_eye_sad_smile.PNG\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),
 "scale": 1,
 "scene": ""
 },
-"5": {
+"close_eye_smile": {
 "export_overrides": {
-"image": "\"res://arts/Chara sprite/Angelo/Angelo-5.png\""
+"image": "\"res://arts/Expression/Angelo/close_eye_smile.PNG\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"open_eye_close": {
+"export_overrides": {
+"image": "\"res://arts/Expression/Angelo/open_eye_close.PNG\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"open_eye_laugh": {
+"export_overrides": {
+"image": "\"res://arts/Expression/Angelo/open_eye_laugh.PNG\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"open_eye_neutral": {
+"export_overrides": {
+"image": "\"res://arts/Expression/Angelo/open_eye_neutral.PNG\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"open_eye_sad_smirk": {
+"export_overrides": {
+"image": "\"res://arts/Expression/Angelo/open_eye_sad_smirk.PNG\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"open_eye_small_laugh": {
+"export_overrides": {
+"image": "\"res://arts/Expression/Angelo/open_eye_small_laugh.PNG\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"open_eye_smile": {
+"export_overrides": {
+"image": "\"res://arts/Expression/Angelo/open_eye_smile.PNG\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"open_eye_smirk": {
+"export_overrides": {
+"image": "\"res://arts/Expression/Angelo/open_eye_smirk.PNG\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),

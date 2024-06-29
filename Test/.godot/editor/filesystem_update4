@@ -1,23 +1,23 @@
-res://scenes/task.tscn
-res://addons/dialogic/Modules/Character/settings_portraits.gd
-res://script/DialogueContainer.gd
-res://ui/text_preset.tres
-res://script/task.gd
 res://dialogue/Thanh Mai.dch
 res://dialogue/Lam Anh.dch
 res://dialogue/Anh Long.dch
 res://dialogue/Angelo.dch
+res://player/player.tscn
 res://dialogue/St.tres
-res://dialogue/test.tres
-res://title screen/title_screen.tscn
 res://npc/test2.tres
-res://script/Global.gd
+res://dialogue/test.tres
+res://addons/dialogic/Modules/Character/settings_portraits.gd
+res://script/DialogueContainer.gd
+res://ui/text_preset.tres
 res://dialogue/testing.dtl
 res://scenes/world.tscn
-res://player/player.tscn
+res://scenes/task.tscn
 res://scenes/quest_obj_slot.tscn
+res://title screen/title_screen.tscn
 res://scenes/inventory.tscn
 res://scenes/Inventory_Item.tscn
 res://scenes/inventory_slot.tscn
 res://scenes/Dialogue.tscn
-res://player/player.gd
+res://scenes/TMBakery.gd
+res://scenes/ThanhMaiBakery/TMBakery.tscn
+res://scenes/ThanhMaiBakery/DoorDetectInside.gd

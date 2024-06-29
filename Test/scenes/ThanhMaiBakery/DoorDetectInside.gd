@@ -22,4 +22,4 @@ func _on_body_exited(body: CharacterBody2D):
 func _process(delta):  
 	if entered == true:
 		if Input.is_action_just_pressed("interact"):
-			get_tree().change_scene_to_file("res://scenes/world.tscn")
+			Global.par_update_state("res://scenes/world.tscn", "scene")
