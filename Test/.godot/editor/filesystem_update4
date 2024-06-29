@@ -25,3 +25,13 @@ res://script/Global.gd
 res://scenes/loading_scene.tscn
 res://script/loading_scene.gd
 res://script/inventory_slot.gd
+res://script/quest_obj_slot.gd
+res://dialogue/timeline2.dtl
+res://addons/dialogic/Editor/Events/styles/InputFieldsStyle.tres
+res://title screen/title_screen.gd
+res://dialogue/scene1.dtl
+res://player/player.gd
+res://dialogue/black_screen.tres
+res://scenes/cg.tscn
+res://scenes/cg.gd
+res://dialogue/scene2.dtl

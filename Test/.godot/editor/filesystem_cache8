@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1719655885
+::res://::1719675486
 icon.svg::CompressedTexture2D::5140637267571475186::1711872428::1719411302::1::::<><>::
 thanh_mai.gd::GDScript::-1::1719411153::0::1::::<>CharacterBody2D<>::
 TX Props.png::CompressedTexture2D::6428452000721822599::1711872427::1711872427::1::::<><>::
@@ -589,7 +589,7 @@ timeline.gd::GDScript::-1::1719602608::0::1::::DialogicTimeline<>Resource<>::
 TimelineResourceLoader.gd::GDScript::-1::1718639649::0::1::::DialogicTimelineFormatLoader<>ResourceFormatLoader<>::
 TimelineResourceSaver.gd::GDScript::-1::1718639649::0::1::::DialogicTimelineFormatSaver<>ResourceFormatSaver<>::
 ::res://addons/dialogic/test-project/::1718002667
-::res://arts/::1719553097
+::res://arts/::1719675967
 Atlas-Props.png::CompressedTexture2D::7613557436001311179::1718466472::1718466472::1::::<><>::
 bakery.png::CompressedTexture2D::9069470243445687591::1712199856::1712199856::1::::<><>::
 bartender-sprite.png::CompressedTexture2D::3421221454557217193::1712199856::1712199856::1::::<><>::
@@ -647,6 +647,8 @@ TX Props.png::CompressedTexture2D::225024698073524512::1711872428::1711872428::1
 TX Tileset Grass.png::CompressedTexture2D::4184483445945552643::1718012106::1711872428::1::::<><>::
 Water.png::CompressedTexture2D::5728266869344538032::1711872428::1711872428::1::::<><>::
 Wood Bridge.png::CompressedTexture2D::1007207514787497192::1711872428::1711872428::1::::<><>::
+::res://arts/CG/::1719679298
+CG_1.PNG::CompressedTexture2D::3882006447901286734::1719679226::1719679328::1::::<><>::
 ::res://arts/Chara sprite/::1718463242
 ::res://arts/Chara sprite/Angelo/::1718461406
 Angelo-1.png::CompressedTexture2D::482301402879209077::1712199855::1718461406::1::::<><>::
@@ -675,7 +677,7 @@ Quaso-3.png::CompressedTexture2D::4243823968843580889::1712199855::1718463246::1
 Quaso-4.png::CompressedTexture2D::2908003470751897401::1712199855::1718463246::1::::<><>::
 Quaso-5.png::CompressedTexture2D::2014701212987948351::1712199855::1718463246::1::::<><>::
 ::res://arts/Expression/::1719653358
-::res://arts/Expression/Angelo/::1719658647
+::res://arts/Expression/Angelo/::1719658654
 close_eye_laugh.PNG::CompressedTexture2D::821409674311266684::1719500986::1719658654::1::::<><>::
 close_eye_sad.PNG::CompressedTexture2D::7604397446342894443::1719500654::1719658654::1::::<><>::
 close_eye_sad_close.PNG::CompressedTexture2D::5715091144966277422::1719500910::1719658654::1::::<><>::
@@ -701,7 +703,7 @@ open_eye_neutral.PNG::CompressedTexture2D::7497003847002340366::1719498231::1719
 open_eye_sad.PNG::CompressedTexture2D::3725708807013780638::1719498242::1719655213::1::::<><>::
 open_eye_smile.PNG::CompressedTexture2D::5715713342643261999::1719498275::1719655771::1::::<><>::
 open_eye_square_mouth.PNG::CompressedTexture2D::168026123750709204::1719498424::1719655771::1::::<><>::
-::res://arts/Expression/Lam Anh/::1719657765
+::res://arts/Expression/Lam Anh/::1719658654
 close_eye_cry.PNG::CompressedTexture2D::1363166208581803911::1719496715::1719658654::1::::<><>::
 close_eye_laugh.PNG::CompressedTexture2D::7431661312564221950::1719496738::1719658654::1::::<><>::
 close_eye_smile.PNG::CompressedTexture2D::4161747288791091000::1719496666::1719658654::1::::<><>::
@@ -739,15 +741,15 @@ Bakery_goods (12).png::CompressedTexture2D::6943351576496733550::1712201020::171
 LAinventory.png::CompressedTexture2D::3880481604596981043::1719553097::1719553097::1::::<><>::
 LAphone.png::CompressedTexture2D::5996612967262010166::1719553097::1719553097::1::::<><>::
 TMguidebook0.3x.png::CompressedTexture2D::3761958787094722787::1719553097::1719553097::1::::<><>::
-::res://dialogue/::1719655885
-Angelo.dch::Resource::-1::1719655883::0::1::::<><>::
-Anh Long.dch::Resource::-1::1719655885::0::1::::<><>::
-Lam Anh.dch::Resource::-1::1719655873::0::1::::<><>::
+::res://dialogue/::1719675486
+Angelo.dch::Resource::-1::1719659327::0::1::::<><>::
+Anh Long.dch::Resource::-1::1719660741::0::1::::<><>::
+Lam Anh.dch::Resource::-1::1719660674::0::1::::<><>::
 load.dtl::Resource::-1::1719596027::0::1::::<><>::
-St.tres::Resource/DialogicStyle::4674809918087070821::1719655821::0::1::::<><>::uid://c1k5m0w3r40xf::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_FullBackground/full_background_layer.tscn<>res://addons/dialogic/Resources/dialogic_style_layer.gd<>uid://by6waso0mjpjp::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_SpeakerPortraitTextbox/textbox_with_speaker_portrait.tscn<>uid://cn674foxwedqu::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.tscn<>uid://dsbwnp5hegnu3::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Glossary/glossary_popup_layer.tscn<>uid://dhk6j6eb6e3q::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Choices/vn_choice_layer.tscn<>uid://cvgf4c6gg0tsy::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_TextInput/text_input_layer.tscn<>uid://lx24i8fl6uo::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_History/history_layer.tscn<>res://addons/dialogic/Resources/dialogic_style.gd
+St.tres::Resource/DialogicStyle::4674809918087070821::1719675486::0::1::::<><>::uid://c1k5m0w3r40xf::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_FullBackground/full_background_layer.tscn<>res://addons/dialogic/Resources/dialogic_style_layer.gd<>uid://by6waso0mjpjp::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_SpeakerPortraitTextbox/textbox_with_speaker_portrait.tscn<>uid://cn674foxwedqu::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.tscn<>uid://dsbwnp5hegnu3::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Glossary/glossary_popup_layer.tscn<>uid://dhk6j6eb6e3q::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Choices/vn_choice_layer.tscn<>uid://cvgf4c6gg0tsy::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_TextInput/text_input_layer.tscn<>uid://lx24i8fl6uo::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_History/history_layer.tscn<>res://addons/dialogic/Resources/dialogic_style.gd
 test.tres::Resource/DialogicStyle::8884167923634423587::1719655822::0::1::::<><>::uid://cnos0gitl3u35::::res://npc/test2.tres<>res://addons/dialogic/Resources/dialogic_style_layer.gd<>res://addons/dialogic/Resources/dialogic_style.gd
-testing.dtl::Resource::-1::1719605956::0::1::::<><>::
-Thanh Mai.dch::Resource::-1::1719655872::0::1::::<><>::
+testing.dtl::Resource::-1::1719659018::0::1::::<><>::
+Thanh Mai.dch::Resource::-1::1719659303::0::1::::<><>::
 timeline2.dtl::Resource::-1::1719597252::0::1::::<><>::
 ::res://minimap/::1712202408
 pointer.png::CompressedTexture2D::221189710035994757::1712202408::1712202408::1::::<><>::
@@ -757,44 +759,46 @@ NPC.tscn::PackedScene::6215720132035920406::1719412676::0::1::::<><>::res://npc/
 Portrait.gd::GDScript::-1::1719411116::0::1::::<>Node2D<>::
 Portrait.tscn::PackedScene::3155152447127287813::1719412676::0::1::::<><>::res://npc/Portrait.gd
 test2.tres::Resource/DialogicStyle::5715335502332512278::1719655822::0::1::::<><>::uid://c1k5m0w3r40xf::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_FullBackground/full_background_layer.tscn<>res://addons/dialogic/Resources/dialogic_style_layer.gd<>uid://cy1y14inwkplb::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Portraits/vn_portrait_layer.tscn<>uid://cn674foxwedqu::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.tscn<>uid://bquja8jyk8kbr::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Textbox/vn_textbox_layer.tscn<>uid://dsbwnp5hegnu3::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Glossary/glossary_popup_layer.tscn<>uid://dhk6j6eb6e3q::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Choices/vn_choice_layer.tscn<>uid://cvgf4c6gg0tsy::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_TextInput/text_input_layer.tscn<>uid://lx24i8fl6uo::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_History/history_layer.tscn<>res://addons/dialogic/Resources/dialogic_style.gd
-::res://player/::1719655859
+::res://player/::1719675197
 player.gd::GDScript::-1::1719606020::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::6127179413461639337::1719655859::0::1::::<><>::res://player/player.gd<>uid://ctd80abodw34k::::res://arts/lamanh-sprite.png<>uid://c4sc2s6lmf4mj::::res://ui/LAbag_1@4x.png<>uid://c5b3yjk13s2fh::::res://scenes/inventory.tscn<>uid://cpagyaca562xj::::res://scenes/task.tscn<>uid://v14yeblg7vvf::::res://ui/text_preset.tres<>uid://c78wn34gvc2hh::::res://ui/Retro Gaming.ttf<>uid://bvjy72vufot8f::::res://arts/New folder/LAinventory.png<>uid://btuk582kn0oat::::res://arts/New folder/TMguidebook0.3x.png<>uid://cro2lsn6rui7g::::res://arts/New folder/LAphone.png
-::res://scenes/::1719606051
-Dialogue.tscn::PackedScene::2485019670221537359::1719606051::0::1::::<><>::uid://b2sg5tivpij25::::res://arts/Dialouge_bg.png<>res://script/DialogueContainer.gd<>uid://d3n4kjcugsoyg::::res://arts/neighbor-sprite.png
-inventory.tscn::PackedScene::6882314478510084653::1719606051::0::1::::<><>::res://script/inventory.gd
-Inventory_Item.tscn::PackedScene::1361594070867851913::1719606051::0::1::::<><>::res://script/Inventory_Item.gd
-inventory_slot.tscn::PackedScene::470776646527153931::1719606051::0::1::::<><>::res://script/inventory_slot.gd<>uid://dinlp1xecav8k::::res://ui/LAbagslot@2x.png<>uid://iwd05yfkrcea::::res://arts/Items/Bakery_goods (1).png<>uid://c78wn34gvc2hh::::res://ui/Retro Gaming.ttf<>uid://h3a4a77tilcw::::res://ui/buttonStyle/buttonNormal.tres<>uid://bxl125ng6wgnm::::res://ui/buttonStyle/buttonPressed.tres
+player.tscn::PackedScene::6127179413461639337::1719675197::0::1::::<><>::res://player/player.gd<>uid://ctd80abodw34k::::res://arts/lamanh-sprite.png<>uid://c4sc2s6lmf4mj::::res://ui/LAbag_1@4x.png<>uid://c5b3yjk13s2fh::::res://scenes/inventory.tscn<>uid://cpagyaca562xj::::res://scenes/task.tscn<>uid://v14yeblg7vvf::::res://ui/text_preset.tres<>uid://c78wn34gvc2hh::::res://ui/Retro Gaming.ttf<>uid://bvjy72vufot8f::::res://arts/New folder/LAinventory.png<>uid://btuk582kn0oat::::res://arts/New folder/TMguidebook0.3x.png<>uid://cro2lsn6rui7g::::res://arts/New folder/LAphone.png
+::res://scenes/::1719674112
+Dialogue.tscn::PackedScene::2485019670221537359::1719670011::0::1::::<><>::uid://b2sg5tivpij25::::res://arts/Dialouge_bg.png<>res://script/DialogueContainer.gd<>uid://d3n4kjcugsoyg::::res://arts/neighbor-sprite.png
+inventory.tscn::PackedScene::6882314478510084653::1719672967::0::1::::<><>::res://script/inventory.gd
+Inventory_Item.tscn::PackedScene::1361594070867851913::1719670011::0::1::::<><>::res://script/Inventory_Item.gd
+inventory_slot.tscn::PackedScene::470776646527153931::1719672967::0::1::::<><>::res://script/inventory_slot.gd<>uid://dinlp1xecav8k::::res://ui/LAbagslot@2x.png<>uid://iwd05yfkrcea::::res://arts/Items/Bakery_goods (1).png<>uid://c78wn34gvc2hh::::res://ui/Retro Gaming.ttf<>uid://h3a4a77tilcw::::res://ui/buttonStyle/buttonNormal.tres<>uid://bxl125ng6wgnm::::res://ui/buttonStyle/buttonPressed.tres
 MiniCam.gd::GDScript::-1::1719411153::0::1::::<>Camera2D<>::
-quest_obj_slot.tscn::PackedScene::4811914773049075642::1719606051::0::1::::<><>::res://script/quest_obj_slot.gd<>uid://dinlp1xecav8k::::res://ui/LAbagslot@2x.png<>uid://iwd05yfkrcea::::res://arts/Items/Bakery_goods (1).png<>uid://c78wn34gvc2hh::::res://ui/Retro Gaming.ttf
-task.tscn::PackedScene::5826081186097953499::1719606051::0::1::::<><>::res://script/task.gd<>uid://c78wn34gvc2hh::::res://ui/Retro Gaming.ttf
-TMBakery.gd::GDScript::-1::1719411153::0::1::::<>Area2D<>::
-world.tscn::PackedScene::1337570090994655695::1719606050::0::1::::<><>::uid://ctkb0qycx8uir::::res://player/player.tscn<>uid://du2w8oo0fgfgc::::res://arts/Grass.png<>uid://k6ubvg6sdmh0::::res://arts/floor-1.png<>uid://ctols0edprkkx::::res://arts/Hills.png<>uid://bl645rgiq5113::::res://arts/TilledDirtx2.png<>uid://cmnemc2o0cetj::::res://arts/house-4@1.25x.png<>uid://bk8lio5mjju88::::res://arts/T1 - House Tileset.png<>uid://b4kdjipf28wpi::::res://arts/Tilled Dirt.png<>uid://dv4nq1f6e4647::::res://arts/GRASS+.png<>uid://dhaehh2bfpw7::::res://arts/TX Props.png<>uid://cuf7jwdga3ejt::::res://arts/house-5.png<>uid://fk4ljitdutu4::::res://arts/roads2W.png<>uid://d34pcxx1yvgfr::::res://arts/HillsDeep.png<>uid://b3b2mmi82ix7j::::res://arts/overworld_tileset_grass.png<>uid://d2hk35oijuxtv::::res://arts/bakery.png<>uid://c2ds1j3o7818i::::res://arts/house-1.png<>uid://c4gxmnt6q0cbr::::res://arts/floor-3.png<>uid://bhg66wlqkyowo::::res://arts/house-9@0.5x.png<>uid://dw8yoi2imfcys::::res://arts/house_asset5.png<>uid://cnu2yorc8tl0k::::res://arts/Water.png<>uid://c6nj0hbrrv8aj::::res://arts/house-8@0.5x.png<>uid://8umaowsbyefw::::res://arts/Cats.png<>uid://dof57163pd36f::::res://arts/house-4.png<>uid://bgqytn4o05dm0::::res://arts/house-12@0.5x.png<>uid://mpone3bdn38b::::res://arts/Basic Grass Biom things 1.png<>uid://ddm5o1pgixghr::::res://arts/house-14@0.5x.png<>uid://dytwwxn35lv7x::::res://arts/house-2.png<>uid://b0u83ivnitu64::::res://arts/TX Tileset Grass.png<>uid://dvcku47l17erk::::res://arts/house-15.png<>uid://c5qfki0v7m3bu::::res://arts/car@0.5x.png<>uid://g20o00oascwx::::res://arts/house-17@0.75x.png<>uid://besd2xqnd7voo::::res://arts/house-3.png<>uid://yo4c0bsy0ci7::::res://arts/house-7@1.25x.png<>uid://cus7ac3fojdys::::res://npc/NPC.tscn<>uid://cv2xy0ujp1wj6::::res://arts/tree.png<>uid://le6yc6pe1eme::::res://arts/tree@2x.png<>uid://dgqcgcqlmmxdj::::res://arts/Atlas-Props.png<>uid://tntixi4lvokf::::res://scenes/Inventory_Item.tscn<>res://scenes/MiniCam.gd<>uid://dssm6i4gofur3::::res://arts/minimap.png<>uid://dfe7ykvjymoj::::res://minimap/pointer.png<>uid://dwo4yq3j0hvth::::res://arts/Items/Bakery_goods (9).png<>res://scenes/TMBakery.gd<>uid://c78wn34gvc2hh::::res://ui/Retro Gaming.ttf<>uid://g4vo0j2fcf78::::res://arts/Chara sprite/Angelo/Angelo-1.png<>uid://cf118ww10q8ef::::res://arts/Chara sprite/Angelo/Angelo-2.png<>uid://bvriblbdnwfg8::::res://arts/Chara sprite/Angelo/Angelo-3.png<>uid://cffsfnew6vp1w::::res://arts/Chara sprite/Anh Long/Anh_Long-1.png<>uid://df8lpmie7nvmh::::res://arts/Chara sprite/Anh Long/Anh_Long-2.png<>uid://lx331dgnhccx::::res://arts/Chara sprite/Angelo/Angelo-4.png<>uid://pt1pij7l7mqq::::res://arts/Chara sprite/Anh Long/Anh_Long-3.png<>uid://blt74rjlxrxqh::::res://arts/Chara sprite/Angelo/Angelo-5.png<>uid://daiubcdvvktks::::res://arts/Chara sprite/Anh Long/Anh_Long-4.png<>uid://ucobypecetva::::res://arts/Chara sprite/Anh Long/Anh_Long-5.png<>uid://bb00hb13mj2qh::::res://arts/Chara sprite/Anh Long/Anh_Long-6.png<>uid://sogij6mckdk3::::res://arts/Chara sprite/Thanh Mai/Quaso-1.png<>uid://dndceyxue8m2w::::res://arts/Chara sprite/Thanh Mai/Quaso-2.png<>uid://b1p0fp2t4bpiv::::res://arts/Chara sprite/Thanh Mai/Quaso-3.png<>uid://bhownlq526tph::::res://arts/Chara sprite/Thanh Mai/Quaso-4.png<>uid://3x63m3fjqjop::::res://arts/Chara sprite/Thanh Mai/Quaso-5.png<>uid://iwd05yfkrcea::::res://arts/Items/Bakery_goods (1).png
+quest_obj_slot.tscn::PackedScene::4811914773049075642::1719674112::0::1::::<><>::res://script/quest_obj_slot.gd<>uid://dinlp1xecav8k::::res://ui/LAbagslot@2x.png<>uid://iwd05yfkrcea::::res://arts/Items/Bakery_goods (1).png<>uid://c78wn34gvc2hh::::res://ui/Retro Gaming.ttf
+loading_scene.tscn::PackedScene::7766457939599113411::1719673939::0::1::::<><>::uid://v14yeblg7vvf::::res://ui/text_preset.tres<>res://script/loading_scene.gd
+task.tscn::PackedScene::5826081186097953499::1719673939::0::1::::<><>::res://script/task.gd<>uid://c78wn34gvc2hh::::res://ui/Retro Gaming.ttf
+TMBakery.gd::GDScript::-1::1719661481::0::1::::<>Area2D<>::
+world.tscn::PackedScene::1337570090994655695::1719673938::0::1::::<><>::uid://ctkb0qycx8uir::::res://player/player.tscn<>uid://du2w8oo0fgfgc::::res://arts/Grass.png<>uid://k6ubvg6sdmh0::::res://arts/floor-1.png<>uid://ctols0edprkkx::::res://arts/Hills.png<>uid://bl645rgiq5113::::res://arts/TilledDirtx2.png<>uid://cmnemc2o0cetj::::res://arts/house-4@1.25x.png<>uid://bk8lio5mjju88::::res://arts/T1 - House Tileset.png<>uid://b4kdjipf28wpi::::res://arts/Tilled Dirt.png<>uid://dv4nq1f6e4647::::res://arts/GRASS+.png<>uid://dhaehh2bfpw7::::res://arts/TX Props.png<>uid://cuf7jwdga3ejt::::res://arts/house-5.png<>uid://fk4ljitdutu4::::res://arts/roads2W.png<>uid://d34pcxx1yvgfr::::res://arts/HillsDeep.png<>uid://b3b2mmi82ix7j::::res://arts/overworld_tileset_grass.png<>uid://d2hk35oijuxtv::::res://arts/bakery.png<>uid://c2ds1j3o7818i::::res://arts/house-1.png<>uid://c4gxmnt6q0cbr::::res://arts/floor-3.png<>uid://bhg66wlqkyowo::::res://arts/house-9@0.5x.png<>uid://dw8yoi2imfcys::::res://arts/house_asset5.png<>uid://cnu2yorc8tl0k::::res://arts/Water.png<>uid://c6nj0hbrrv8aj::::res://arts/house-8@0.5x.png<>uid://8umaowsbyefw::::res://arts/Cats.png<>uid://dof57163pd36f::::res://arts/house-4.png<>uid://bgqytn4o05dm0::::res://arts/house-12@0.5x.png<>uid://mpone3bdn38b::::res://arts/Basic Grass Biom things 1.png<>uid://ddm5o1pgixghr::::res://arts/house-14@0.5x.png<>uid://dytwwxn35lv7x::::res://arts/house-2.png<>uid://b0u83ivnitu64::::res://arts/TX Tileset Grass.png<>uid://dvcku47l17erk::::res://arts/house-15.png<>uid://c5qfki0v7m3bu::::res://arts/car@0.5x.png<>uid://g20o00oascwx::::res://arts/house-17@0.75x.png<>uid://besd2xqnd7voo::::res://arts/house-3.png<>uid://yo4c0bsy0ci7::::res://arts/house-7@1.25x.png<>uid://cus7ac3fojdys::::res://npc/NPC.tscn<>uid://cv2xy0ujp1wj6::::res://arts/tree.png<>uid://le6yc6pe1eme::::res://arts/tree@2x.png<>uid://dgqcgcqlmmxdj::::res://arts/Atlas-Props.png<>uid://tntixi4lvokf::::res://scenes/Inventory_Item.tscn<>res://scenes/MiniCam.gd<>uid://dssm6i4gofur3::::res://arts/minimap.png<>uid://dfe7ykvjymoj::::res://minimap/pointer.png<>uid://dwo4yq3j0hvth::::res://arts/Items/Bakery_goods (9).png<>res://scenes/TMBakery.gd<>uid://c78wn34gvc2hh::::res://ui/Retro Gaming.ttf<>uid://g4vo0j2fcf78::::res://arts/Chara sprite/Angelo/Angelo-1.png<>uid://cf118ww10q8ef::::res://arts/Chara sprite/Angelo/Angelo-2.png<>uid://bvriblbdnwfg8::::res://arts/Chara sprite/Angelo/Angelo-3.png<>uid://cffsfnew6vp1w::::res://arts/Chara sprite/Anh Long/Anh_Long-1.png<>uid://df8lpmie7nvmh::::res://arts/Chara sprite/Anh Long/Anh_Long-2.png<>uid://lx331dgnhccx::::res://arts/Chara sprite/Angelo/Angelo-4.png<>uid://pt1pij7l7mqq::::res://arts/Chara sprite/Anh Long/Anh_Long-3.png<>uid://blt74rjlxrxqh::::res://arts/Chara sprite/Angelo/Angelo-5.png<>uid://daiubcdvvktks::::res://arts/Chara sprite/Anh Long/Anh_Long-4.png<>uid://ucobypecetva::::res://arts/Chara sprite/Anh Long/Anh_Long-5.png<>uid://bb00hb13mj2qh::::res://arts/Chara sprite/Anh Long/Anh_Long-6.png<>uid://sogij6mckdk3::::res://arts/Chara sprite/Thanh Mai/Quaso-1.png<>uid://dndceyxue8m2w::::res://arts/Chara sprite/Thanh Mai/Quaso-2.png<>uid://b1p0fp2t4bpiv::::res://arts/Chara sprite/Thanh Mai/Quaso-3.png<>uid://bhownlq526tph::::res://arts/Chara sprite/Thanh Mai/Quaso-4.png<>uid://3x63m3fjqjop::::res://arts/Chara sprite/Thanh Mai/Quaso-5.png<>uid://iwd05yfkrcea::::res://arts/Items/Bakery_goods (1).png
 ::res://scenes/dream_room/::1718814549
 dream_room.tscn::PackedScene::253019507088719227::1718814549::0::1::::<><>::
-::res://scenes/ThanhMaiBakery/::1719466741
-DoorDetectInside.gd::GDScript::-1::1719411153::0::1::::<>Area2D<>::
-TMBakery.tscn::PackedScene::253019507088719227::1719466741::0::1::::<><>::uid://bbypf4tbjr28n::::res://arts/inhouse-arts/bakery.png<>uid://ctkb0qycx8uir::::res://player/player.tscn<>res://scenes/ThanhMaiBakery/DoorDetectInside.gd<>uid://c78wn34gvc2hh::::res://ui/Retro Gaming.ttf<>res://scenes/ThanhMaiBakery/TMBedroom.gd
+::res://scenes/ThanhMaiBakery/::1719673794
+DoorDetectInside.gd::GDScript::-1::1719661523::0::1::::<>Area2D<>::
+TMBakery.tscn::PackedScene::253019507088719227::1719672967::0::1::::<><>::uid://bbypf4tbjr28n::::res://arts/inhouse-arts/bakery.png<>uid://ctkb0qycx8uir::::res://player/player.tscn<>res://scenes/ThanhMaiBakery/DoorDetectInside.gd<>uid://c78wn34gvc2hh::::res://ui/Retro Gaming.ttf<>res://scenes/ThanhMaiBakery/TMBedroom.gd
 TMBedroom.gd::GDScript::-1::1719411153::0::1::::<>Area2D<>::
 TMBedroom.tscn::PackedScene::8422249057771924103::1718814698::0::1::::<><>::uid://b84bct2ul06ds::::res://arts/inhouse-arts/bedroom-test.jpeg<>uid://ctkb0qycx8uir::::res://player/player.tscn
-::res://script/::1719655822
+::res://script/::1719674113
 DialogueContainer.gd::GDScript::-1::1719655822::0::1::::<>Control<>::
 Dialogue_node_size.gd::GDScript::-1::1719411153::0::1::::<>TextureRect<>::
-Global.gd::GDScript::-1::1719604595::0::1::::<>Node<>::
+Global.gd::GDScript::-1::1719673794::0::1::::<>Node<>::
 interactive.gd::GDScript::-1::1719411115::0::1::::<>Node<>::
 inventory.gd::GDScript::-1::1719411116::0::1::::<>Control<>::
 Inventory_Item.gd::GDScript::-1::1719411116::0::1::::<>Node2D<>::
-inventory_slot.gd::GDScript::-1::1719516345::0::1::::<>Control<>::
-quest_obj_slot.gd::GDScript::-1::1719591749::0::1::::<>Control<>::
+inventory_slot.gd::GDScript::-1::1719673794::0::1::::<>Control<>::
+quest_obj_slot.gd::GDScript::-1::1719674113::0::1::::<>Control<>::
+loading_scene.gd::GDScript::-1::1719673794::0::1::::<>Control<>::
 task.gd::GDScript::-1::1719603775::0::1::::<>Control<>::
-::res://title screen/::1719606051
+::res://title screen/::1719673939
 ka1.ttf::FontFile::880485355741413893::1712199856::1712199856::1::::<><>::
 opening.mp3::AudioStreamMP3::6061852684100907623::1712199856::1712199856::1::::<><>::
 opening_music.tscn::PackedScene::3295175293842504084::1712199856::0::1::::<><>::uid://csmn3fibtcl4b::::res://title screen/opening.mp3
 select.mp3::AudioStreamMP3::4193117121408708511::1712199856::1712199856::1::::<><>::
 titlebg.jpg::CompressedTexture2D::6894472603711452560::1712199856::1712199856::1::::<><>::
 title_screen.gd::GDScript::-1::1719601372::0::1::::<>Control<>::
-title_screen.tscn::PackedScene::6777132636969461868::1719606051::0::1::::<><>::res://title screen/title_screen.gd<>uid://c5hy7rx2pgpau::::res://title screen/titlebg.jpg<>uid://b4n00foukorqr::::res://title screen/Your Final Quaso.png<>uid://iwd05yfkrcea::::res://arts/Items/Bakery_goods (1).png<>uid://msrp2y8p426d::::res://title screen/ka1.ttf<>uid://csmn3fibtcl4b::::res://title screen/opening.mp3
+title_screen.tscn::PackedScene::6777132636969461868::1719673939::0::1::::<><>::res://title screen/title_screen.gd<>uid://c5hy7rx2pgpau::::res://title screen/titlebg.jpg<>uid://b4n00foukorqr::::res://title screen/Your Final Quaso.png<>uid://iwd05yfkrcea::::res://arts/Items/Bakery_goods (1).png<>uid://msrp2y8p426d::::res://title screen/ka1.ttf<>uid://csmn3fibtcl4b::::res://title screen/opening.mp3
 Your Final Quaso.png::CompressedTexture2D::4450296914832256133::1712199856::1712199856::1::::<><>::
 ::res://ui/::1719655822
 button@2x.png::CompressedTexture2D::7127966649029884030::1719480678::1719480678::1::::<><>::

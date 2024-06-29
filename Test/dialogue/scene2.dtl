@@ -1,0 +1,17 @@
+do Global.show_CG("Thanh Mai has passed away for a while. Lam Anh - Thanh Mai’s lover came back to the hometown after a few months", "black")
+[wait_input]
+do Global.show_CG("res://arts/CG/CG_1.PNG", "CG")
+[wait_input]
+do Global.hide_CG()
+"Lam Anh" (half_open_sollem): I’m home. Sorry for the wait, Thanh Mai.
+"Anh Long" (open_eye_sad): Lam Anh. You’re back.
+"Lam Anh" (open_eye_neutral): Hey, Anh Long
+"Anh Long": Are you packing up Thanh Mai’s belongings? I can help if you want.
+"Lam Anh": Thanks, Long. I’d rather keep things the way they are. Every item here holds the memory of Thanh Mai.
+"Lam Anh": …I can’t bear to put them away.
+"Anh Long":  I…see.  
+"Lam Anh": Maybe this sounds foolish…, but I'm giving the bakery another go.
+"Anh Long" (open_eye_sad): This soon? Are you sure?
+"Lam Anh" (half_open_sollem): It took her years of hard work to bring this bakery to life. Just for it to crash down in a blink. I can’t let that happen. 
+do Global.par_update_state("res://dialogue/scene2.dtl", "dialogue")
+do Global.exit_cutscene()

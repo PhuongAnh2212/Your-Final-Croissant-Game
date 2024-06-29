@@ -8,16 +8,10 @@ extends Control
 @export var item_effect = ""
 
 
-var states = {
-	"active_quests": {},
-	"finished_quest": [],
-	"scene": "",
-	"dialogue":"",
-	"in_cutsence": false
-}
 
-@onready var path = "res://scenes/world.tscn"
-@onready var dialogue = "res://dialogue/testing.dtl"
+
+@onready var path = "res://scenes/ThanhMaiBakery/TMBakery.tscn"
+@onready var dialogue = "res://dialogue/scene1.dtl"
 @onready var quest = {
 	"quest_name": "Give Anh Long cake",
 	"current_step": 0,
@@ -35,9 +29,15 @@ var states = {
 
 
 func _on_start_game_pressed():
-	Global.par_update_state(dialogue, "dialogue")
-	Global.add_quest(quest)
-	Global.par_update_state(path, "scene")
+	var states = {
+	"active_quests": quest,
+	"finished_quest": [],
+	"scene": path,
+	"dialogue":dialogue,
+	"in_cutsence": true
+}
+	Global.update_state(states)
+
 	#get_tree().change_scene_to_file("res://scenes/world.tscn") # Replace with function body.
 
 

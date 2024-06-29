@@ -8,6 +8,11 @@ var quest_objs = []
 #Scene and nodes reference
 var player_node: Node = null
 
+#CG variable
+var current_CG: ImageTexture = null
+var current_line = ""
+var black = Color(0, 0, 0, 0)
+
 
 #If interacting with an NPC or object
 var interacting = false
@@ -19,7 +24,7 @@ var states = {
 	"scene": "res://title screen/title_screen.tscn",
 	"dialogue":"",
 	"in_cutsence": false
-}
+	}
 
 #signals
 signal inventory_update
@@ -35,6 +40,8 @@ signal cutscene_changed
 @onready var inventory_slot_scene = preload("res://scenes/inventory_slot.tscn")
 @onready var quest_obj_scene = preload("res://scenes/quest_obj_slot.tscn")
 @onready var loading_scene = preload("res://scenes/loading_scene.tscn")
+@onready var NPC = preload("res://npc/NPC.tscn")
+
 
 func _ready():
 	inventory.resize(10)
@@ -43,13 +50,14 @@ func _ready():
 	quest_obj_update.connect(_quest_obj_update)
 	state_change.connect(_on_state_change)
 
+
 #All state change
 func add_quest(quest):
 	if quest != null and states["active_quests"] != quest:
 		states["active_quests"] = quest
 		for task in quest["quest_requirement"]:
 			add_objective(task)
-		state_change.emit("active_quests")
+		state_change.emit("")
 		quest_recieved.emit()
 		return true
 	return false
@@ -66,17 +74,16 @@ func finished_quest(quest):
 	"quest_requirement": [""],
 	"quest_type": [""]
 }
-		state_change.emit("finished_quest")
+		state_change.emit("")
 		quest_finished.emit()
 		return true
 	return false
 
 func update_state(state):
-	if state.keys() in states:
-		states = state
-		state_change.emit("all")
-		return true
-	return false
+	print("meo")
+	states = state
+	state_change.emit("all")
+	return true
 
 func par_update_state(new_state, key):
 	if key in states:
@@ -93,6 +100,32 @@ func add_objective(objective):
 			quest_obj_update.emit()
 			return true
 	return false
+	
+
+
+func show_CG(vari, key):
+	black = Color(0, 0, 0, 1)
+	if key == "CG":
+		current_CG = ImageTexture.create_from_image(Image.load_from_file(vari))
+		current_line = ""
+	if key == "black":
+		current_CG = null
+		current_line = vari
+	cutscene_changed.emit()
+	
+func hide_CG():
+	black = Color(0, 0, 0, 0)
+	current_line = ""
+	current_CG = null
+	cutscene_changed.emit()
+	
+func run_cutscene():
+	Dialogic.start(states["dialogue"])
+
+func exit_cutscene():
+	if Dialogic.current_timeline != null:
+		Dialogic.paused = true
+		Dialogic.Styles.get_layout_node().hide()
 
 func _on_inventory_change():
 	if states["active_quests"] != null and "collect" in states["active_quests"]["quest_type"]:
@@ -137,6 +170,13 @@ func _on_state_change(key):
 				player_node.get_node("loading_screen").add_child(loading)
 			else:
 				get_tree().current_scene.add_sibling(loading)
+	if key == "active_quests" or key == "all":
+		add_quest(states["active_quests"])
+	if key == "in_cutsence" or key == "all":
+		if states["in_cutsence"] == true:
+			run_cutscene()
+		else:
+			exit_cutscene()
 			
 	
 

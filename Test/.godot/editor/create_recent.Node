@@ -1,12 +1,12 @@
-CanvasLayer
+MarginContainer
 Label
 ColorRect
-VBoxContainer
 TextureRect
+CanvasLayer
+VBoxContainer
 TextureProgressBar
 GridContainer
 HSplitContainer
-MarginContainer
 Control
 CollisionShape2D
 Area2D

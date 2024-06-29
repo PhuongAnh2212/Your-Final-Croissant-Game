@@ -1,8 +1,9 @@
-res://ui
-res://arts/Expression
 res://dialogue
-res://script
 res://scenes
+res://ui
+res://player
+res://arts/Expression
+res://script
 res://ui/buttonStyle
 res://arts/inhouse-arts
 res://arts/Chara sprite/Angelo
