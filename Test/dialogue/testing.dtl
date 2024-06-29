@@ -1,25 +1,24 @@
 if {Global.states["active_quests"]["quest_type"][Global.states["active_quests"]["current_step"]]} == "talk":
-	"Anh Long" (1): It seems you have cakes
-	"Anh Long" (2): Can you give them to me
+	"Anh Long" (open_eye_smile): It seems you have cakes
+	"Anh Long" (open_eye_smile): Can you give them to me
 	do Global.enter_interacting()
-	"Anh Long": Tks man
+	"Anh Long" (close_eye_proud): Tks man
 	do Global.finished_quest(Global.states["active_quests"])
 	[end_timeline]
 if {current_speaker} == "Anh Long":
-	"Anh Long" (1): Lam Anh. You’re back again. Sorry for your loss
+	"Anh Long" (open_eye_neutral): Lam Anh. You’re back again. Sorry for your loss
 	- Hey, Long
-		"Lam Anh" (1): Hey, Long
+		"Lam Anh" (half_open_sollem): Hey, Long
 	- Hey, how it's goin’?
-		"Lam Anh" (2): Hey, how it's goin’?
+		"Lam Anh" (half_open_laugh): Hey, how it's goin’?
 	- It’s been a while since huh…
-		"Lam Anh" (3): It’s been a while since huh…
-	"Anh Long" (2): Are you packing up Thanh Mai’s belongings this time? I can help if you need it.
+		"Lam Anh" (open_eye_neutral): It’s been a while since huh…
+	"Anh Long" (open_eye_square_mouth): Are you packing up Thanh Mai’s belongings this time? I can help if you need it.
 	return
 else:
 	if {current_speaker} == "Angelo":
-		Angelo (1): <Hi Lam Anh/Supppp/Yo>
-		do Global.par_update_state("res://dialogue/timeline2.dtl", "dialogue")
+		Angelo (open_eye_smile): <Hi Lam Anh/Supppp/Yo>
 	elif {current_speaker} == "Thanh Mai":
 		"Thanh Mai" (1): <Give up/Just move on/I'm dead>
-	"Lam Anh" (1): Hi {current_speaker}
+	"Lam Anh" (close_eye_laugh): Hi {current_speaker}
 [end_timeline]

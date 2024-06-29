@@ -8,52 +8,155 @@
 "sound_moods": {},
 "style": ""
 },
-"default_portrait": "1",
+"default_portrait": "open_eye_smile",
 "description": "",
 "display_name": "Lam Anh",
 "mirror": false,
 "nicknames": [""],
 "offset": Vector2(0, 0),
 "portraits": {
-"1": {
+"close_eye_cry": {
 "export_overrides": {
-"image": "\"res://arts/Expression/Lam Anh/Front1.png\""
+"image": "\"res://arts/Expression/Lam Anh/close_eye_cry.PNG\""
+},
+"ignore_char_scale": false,
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"close_eye_laugh": {
+"export_overrides": {
+"image": "\"res://arts/Expression/Lam Anh/close_eye_laugh.PNG\""
+},
+"ignore_char_scale": false,
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"close_eye_smile": {
+"export_overrides": {
+"image": "\"res://arts/Expression/Lam Anh/close_eye_smile.PNG\""
+},
+"ignore_char_scale": false,
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"half_open_close": {
+"export_overrides": {
+"image": "\"res://arts/Expression/Lam Anh/half_open_close.PNG\""
+},
+"ignore_char_scale": false,
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"half_open_cry": {
+"export_overrides": {
+"image": "\"res://arts/Expression/Lam Anh/half_open_cry.PNG\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),
 "scale": 1,
 "scene": ""
 },
-"2": {
+"half_open_cry_laugh": {
 "export_overrides": {
-"image": "\"res://arts/Expression/Lam Anh/Idle1.png\""
+"image": "\"res://arts/Expression/Lam Anh/half_open_cry_laugh.PNG\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),
 "scale": 1,
 "scene": ""
 },
-"3": {
+"half_open_cry_smile": {
 "export_overrides": {
-"image": "\"res://arts/Expression/Lam Anh/Idle2.png\""
+"image": "\"res://arts/Expression/Lam Anh/half_open_cry_smile.PNG\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),
 "scale": 1,
 "scene": ""
 },
-"4": {
+"half_open_laugh": {
 "export_overrides": {
-"image": "\"res://arts/Expression/Lam Anh/Idle3.png\""
+"image": "\"res://arts/Expression/Lam Anh/half_open_laugh.PNG\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),
 "scale": 1,
 "scene": ""
 },
-"5": {
+"half_open_sollem": {
 "export_overrides": {
-"image": "\"res://arts/Expression/Lam Anh/Idle4.png\""
+"image": "\"res://arts/Expression/Lam Anh/half_open_sollem.PNG\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"open_eye_close": {
+"export_overrides": {
+"image": "\"res://arts/Expression/Lam Anh/open_eye_close.PNG\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"open_eye_laugh": {
+"export_overrides": {
+"image": "\"res://arts/Expression/Lam Anh/open_eye_laugh.PNG\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"open_eye_left_close": {
+"export_overrides": {
+"image": "\"res://arts/Expression/Lam Anh/open_eye_left_close.PNG\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"open_eye_left_neutral": {
+"export_overrides": {
+"image": "\"res://arts/Expression/Lam Anh/open_eye_left_neutral.PNG\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"open_eye_left_smile": {
+"export_overrides": {
+"image": "\"res://arts/Expression/Lam Anh/open_eye_left_smile.PNG\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"open_eye_neutral": {
+"export_overrides": {
+"image": "\"res://arts/Expression/Lam Anh/open_eye_neutral.PNG\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"open_eye_smile": {
+"export_overrides": {
+"image": "\"res://arts/Expression/Lam Anh/open_eye_smile.PNG\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),
