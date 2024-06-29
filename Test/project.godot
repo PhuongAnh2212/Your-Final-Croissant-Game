@@ -21,8 +21,8 @@ config/icon="res://icon.svg"
 [autoload]
 
 Global="*res://script/Global.gd"
-Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 InteractionManager="*res://scenes/Interaction/InteractionManager.tscn"
+Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 
 [dialogic]
 
@@ -34,14 +34,15 @@ directories/dch_directory={
 }
 directories/dtl_directory={
 "load": "res://dialogue/load.dtl",
-"testing": "res://dialogue/testing.dtl"
+"testing": "res://dialogue/testing.dtl",
+"timeline2": "res://dialogue/timeline2.dtl"
 }
 glossary/default_case_sensitive=true
-layout/style_list=["res://dialogue/St.tres"]
+layout/style_list=["res://dialogue/St.tres", "res://dialogue/test.tres"]
 layout/default_style="res://dialogue/St.tres"
 variables={
-"Inventory": {},
-"current_speaker": ""
+"current_speaker": "",
+"quest": false
 }
 extensions_folder="res://addons/dialogic_additions"
 text/letter_speed=0.01

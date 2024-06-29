@@ -20,17 +20,17 @@ func _input(event):
 		if quest_menu.visible == true or phone_menu.visible== true:
 			return
 		inventory.visible = !inventory.visible
-		get_tree().paused = !get_tree().paused
+		paused = !paused
 	elif event.is_action_pressed("quest"):
 		if inventory.visible == true or phone_menu.visible== true:
 			return
 		quest_menu.visible = !quest_menu.visible
-		get_tree().paused = !get_tree().paused
+		paused = !paused
 	elif event.is_action_pressed("phone"):
 		if inventory.visible == true or quest_menu.visible== true:
 			return
 		phone_menu.visible = !phone_menu.visible
-		get_tree().paused = !get_tree().paused
+		paused = !paused
 		
 
 func _on_dialogue_start():
@@ -43,12 +43,19 @@ func _on_dialogue_ended():
 	
 
 func _on_pop_up_interaction():
+	var layout = Dialogic.Styles.get_layout_node()
 	if Global.interacting:
 		inventory.visible = !inventory.visible
-		get_tree().paused = !get_tree().paused
+		if Dialogic.current_timeline != null:
+			Dialogic.paused = true
+			layout.hide()
+		paused = true
 	else:
+		if Dialogic.current_timeline != null:
+			Dialogic.paused = false
+			layout.show()
 		inventory.visible = false
-		get_tree().paused = false
+		paused = false
 	
 
 func handleInput():

@@ -1,15 +1,23 @@
-res://player/player.tscn
-res://dialogue/St.tres
-res://addons/dialogic/Modules/Character/settings_portraits.gd
-res://scenes/Dialogue.gd
-res://script/DialogueContainer.gd
 res://scenes/task.tscn
-res://scenes/world.tscn
-res://scenes/inventory.tscn
-res://player/player.gd
-res://scenes/inventory_slot.tscn
-res://scenes/quest_obj_slot.tscn
-res://script/inventory_slot.gd
-res://scenes/Inventory_Item.tscn
-res://script/quest_obj_slot.gd
+res://addons/dialogic/Modules/Character/settings_portraits.gd
+res://script/DialogueContainer.gd
+res://ui/text_preset.tres
 res://script/task.gd
+res://dialogue/Thanh Mai.dch
+res://dialogue/Lam Anh.dch
+res://dialogue/Anh Long.dch
+res://dialogue/Angelo.dch
+res://dialogue/St.tres
+res://dialogue/test.tres
+res://title screen/title_screen.tscn
+res://npc/test2.tres
+res://script/Global.gd
+res://dialogue/testing.dtl
+res://scenes/world.tscn
+res://player/player.tscn
+res://scenes/quest_obj_slot.tscn
+res://scenes/inventory.tscn
+res://scenes/Inventory_Item.tscn
+res://scenes/inventory_slot.tscn
+res://scenes/Dialogue.tscn
+res://player/player.gd

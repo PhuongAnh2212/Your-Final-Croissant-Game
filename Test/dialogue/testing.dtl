@@ -1,3 +1,10 @@
+if {Global.states["active_quests"]["quest_type"][Global.states["active_quests"]["current_step"]]} == "talk":
+	"Anh Long" (1): It seems you have cakes
+	"Anh Long" (2): Can you give them to me
+	do Global.enter_interacting()
+	"Anh Long": Tks man
+	do Global.finished_quest(Global.states["active_quests"])
+	[end_timeline]
 if {current_speaker} == "Anh Long":
 	"Anh Long" (1): Lam Anh. You’re back again. Sorry for your loss
 	- Hey, Long
@@ -7,11 +14,11 @@ if {current_speaker} == "Anh Long":
 	- It’s been a while since huh…
 		"Lam Anh" (3): It’s been a while since huh…
 	"Anh Long" (2): Are you packing up Thanh Mai’s belongings this time? I can help if you need it.
-	[save slot="1"]
 	return
 else:
 	if {current_speaker} == "Angelo":
 		Angelo (1): <Hi Lam Anh/Supppp/Yo>
+		do Global.par_update_state("res://dialogue/timeline2.dtl", "dialogue")
 	elif {current_speaker} == "Thanh Mai":
 		"Thanh Mai" (1): <Give up/Just move on/I'm dead>
 	"Lam Anh" (1): Hi {current_speaker}

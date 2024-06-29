@@ -11,10 +11,12 @@ extends CharacterBody2D
 
 var scene_path: String = "res://scenes/Inventory_Item.tscn" 
 var player_in_range = false
+var current_script = Global.states["dialogue"]
 
 
 func _ready():
 	animations.sprite_frames = animation_sprite
+	Global.state_change.connect(_on_state_changed)
 
 func _process(delta):
 	var item = {
@@ -29,12 +31,15 @@ func _process(delta):
 		giveItem(item)
 		
 	if player_in_range and Input.is_action_just_pressed("talk"):
-		if Dialogic.current_timeline == null:
+		if Dialogic.current_timeline == null and current_script!= "":
 			Dialogic.VAR.current_speaker = speaker_name
-			Dialogic.start('testing')
+			Dialogic.start(current_script)
 		#Global.enter_interacting()
 		
 
+func _on_state_changed(key):
+	if key == "dialogue":
+		current_script = Global.states["dialogue"]
 
 func _on_area_2d_body_exited(body):
 	if body.is_in_group("Player"):

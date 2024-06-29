@@ -1,7 +1,8 @@
 ColorRect
+VBoxContainer
+Label
 TextureRect
 TextureProgressBar
-Label
 GridContainer
 HSplitContainer
 CanvasLayer
@@ -11,5 +12,3 @@ CollisionShape2D
 Area2D
 TileMap
 Camera2D
-Camera2D
-Sprite2D

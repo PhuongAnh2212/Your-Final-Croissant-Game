@@ -2,6 +2,8 @@ extends Node
 
 #inventory slot
 var inventory = []
+#quest objecttive slot
+var quest_objs = []
 
 #Scene and nodes reference
 var player_node: Node = null
@@ -12,9 +14,9 @@ var interacting = false
 
 #current state of the game
 var states = {
-	"speaker": "",
-	"quests": [],
-	"scene": "",
+	"active_quests": {},
+	"finished_quest": [],
+	"scene": "res://title screen/title_screen.tscn",
 	"dialogue":"",
 	"in_cutsence": false
 }
@@ -25,35 +27,112 @@ signal interacting_inventory
 signal state_change
 signal quest_finished
 signal quest_recieved
+signal quest_obj_update
+signal objective_cleared
+signal cutscene_changed
+
 
 @onready var inventory_slot_scene = preload("res://scenes/inventory_slot.tscn")
-
+@onready var quest_obj_scene = preload("res://scenes/quest_obj_slot.tscn")
 
 func _ready():
 	inventory.resize(10)
+	quest_objs.resize(8)
+	inventory_update.connect(_on_inventory_change)
+	quest_obj_update.connect(_quest_obj_update)
+	state_change.connect(_on_state_change)
 
 #All state change
 func add_quest(quest):
-	if quest != null and quest not in states["quests"]:
-		states["quests"].append(quest)
-		state_change.emit()
+	if quest != null and states["active_quests"] != quest:
+		states["active_quests"] = quest
+		for task in quest["quest_requirement"]:
+			add_objective(task)
+		state_change.emit("active_quests")
 		quest_recieved.emit()
 		return true
 	return false
 
-func remove_quest(quest):
-	if quest == null or quest == "":
+func finished_quest(quest):
+	if quest == null:
 		return false
-	for i in range(states["quests"].size()):
-		if states["quests"][i] != null and states["quests"][i] == quest:
-			states["quests"].remove_at(i)
-			state_change.emit()
-			quest_finished.emit()
+	if states["active_quests"] != null and states["active_quests"] == quest:
+		states["finished_quest"].append(quest)
+		states["active_quests"] = {
+	"quest_name": "Empty Quest",
+	"current_step": 0,
+	"quest_steps": ["Nothing to do"],
+	"quest_requirement": [""],
+	"quest_type": [""]
+}
+		state_change.emit("finished_quest")
+		quest_finished.emit()
+		return true
+	return false
+
+func update_state(state):
+	if state.keys() in states:
+		states = state
+		state_change.emit("all")
+		return true
+	return false
+
+func par_update_state(new_state, key):
+	if key in states:
+		if key != "scene" or new_state != "":
+			states[key] = new_state
+			state_change.emit(key)
 			return true
 	return false
 
-func update_state(old_state, new_state):
-	state_change.emit()
+func add_objective(objective):
+	for i in range(quest_objs.size()):
+		if quest_objs[i] == null:
+			quest_objs[i] = objective
+			quest_obj_update.emit()
+			return true
+	return false
+
+func _on_inventory_change():
+	if states["active_quests"] != null and "collect" in states["active_quests"]["quest_type"]:
+		for i in range(quest_objs.size()):
+			for j in range(inventory.size()):
+				if (quest_objs[i] != null and inventory[j] != null):
+					if (quest_objs[i]["item_name"] == inventory[j]["item_name"]) and (quest_objs[i]["item_type"] == inventory[j]["item_type"]) and (quest_objs[i]["quanity"] == inventory[j]["quanity"]):
+						quest_objs[i]["clear"] = true
+						print("yay")
+						quest_obj_update.emit()
+						return true
+	return false
+
+func _quest_obj_update():
+	var remaining_i = 0
+	for i in range(quest_objs.size()):
+		if (quest_objs[i] != null and !quest_objs[i]["clear"]):
+			remaining_i += 1 
+	if states["active_quests"]["quest_type"][states["active_quests"]["current_step"]] != "collect":
+		return false
+	if remaining_i == 0:
+		states["active_quests"]["current_step"] += 1
+		print("yay yay")
+		if states["active_quests"]["current_step"] >= states["active_quests"]["quest_steps"].size():
+			print("yay yay yay")
+			finished_quest(states["active_quests"])
+			objective_cleared.emit()
+			return true
+		objective_cleared.emit()
+		return true
+	return false
+	
+
+
+func _on_state_change(key):
+	if key == "scene" or key == "all":
+		print(1)
+		print(get_tree().current_scene.scene_file_path)
+		if (get_tree().current_scene.scene_file_path != states["scene"]):
+			get_tree().change_scene_to_file(states["scene"])
+	
 
 #Add remove items
 func add_item(item):
