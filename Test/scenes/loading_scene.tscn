@@ -1,0 +1,33 @@
+[gd_scene load_steps=3 format=3 uid="uid://diweosjjgatqx"]
+
+[ext_resource type="LabelSettings" uid="uid://v14yeblg7vvf" path="res://ui/text_preset.tres" id="1_jo140"]
+[ext_resource type="Script" path="res://script/loading_scene.gd" id="1_lrvdv"]
+
+[node name="LoadingScene" type="Control"]
+top_level = true
+z_as_relative = false
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_lrvdv")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 513.0
+offset_top = 349.0
+offset_right = 747.0
+offset_bottom = 400.0
+text = "Loading..."
+label_settings = ExtResource("1_jo140")

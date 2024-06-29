@@ -21,3 +21,7 @@ res://scenes/Dialogue.tscn
 res://scenes/TMBakery.gd
 res://scenes/ThanhMaiBakery/TMBakery.tscn
 res://scenes/ThanhMaiBakery/DoorDetectInside.gd
+res://script/Global.gd
+res://scenes/loading_scene.tscn
+res://script/loading_scene.gd
+res://script/inventory_slot.gd

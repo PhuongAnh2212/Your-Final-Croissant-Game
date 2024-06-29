@@ -34,6 +34,7 @@ signal cutscene_changed
 
 @onready var inventory_slot_scene = preload("res://scenes/inventory_slot.tscn")
 @onready var quest_obj_scene = preload("res://scenes/quest_obj_slot.tscn")
+@onready var loading_scene = preload("res://scenes/loading_scene.tscn")
 
 func _ready():
 	inventory.resize(10)
@@ -128,10 +129,15 @@ func _quest_obj_update():
 
 func _on_state_change(key):
 	if key == "scene" or key == "all":
-		print(1)
 		print(get_tree().current_scene.scene_file_path)
 		if (get_tree().current_scene.scene_file_path != states["scene"]):
-			get_tree().change_scene_to_file(states["scene"])
+			var loading = loading_scene.instantiate()
+			loading.set_path(states["scene"])
+			if player_node != null:
+				player_node.get_node("loading_screen").add_child(loading)
+			else:
+				get_tree().current_scene.add_sibling(loading)
+			
 	
 
 #Add remove items

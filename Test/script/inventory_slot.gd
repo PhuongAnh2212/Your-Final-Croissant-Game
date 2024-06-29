@@ -23,7 +23,6 @@ func _on_item_button_mouse_exited():
 	if item != null:
 		detail_panel.visible = false
 
-
 func _on_item_button_mouse_entered():
 	if item != null:
 		detail_panel.visible = true
