@@ -6,12 +6,19 @@ const speed = 300
 @onready var inventory = $Inventory_UI
 @onready var quest_menu = $Quest_menu_UI
 @onready var phone_menu = $Phone_UI
+@onready var cg_img = $CG/CG_img
+@onready var label = $CG/MarginContainer/Label
+@onready var color_rect = $CG/ColorRect
+
+
 
 
 func _ready():
 	Global.set_player_ref(self)
 	Global.interacting_inventory.connect(_on_pop_up_interaction)
+	Global.cutscene_changed.connect(set_CG_text)
 	_on_pop_up_interaction()
+	set_CG_text()
 	Dialogic.timeline_started.connect(_on_dialogue_start)
 	Dialogic.timeline_ended.connect(_on_dialogue_ended)
 
@@ -41,6 +48,16 @@ func _on_dialogue_ended():
 	if Dialogic.current_timeline == null:
 		paused = false
 	
+func set_CG_text():
+	print(Global.current_line)
+	color_rect.color = Global.black
+	label.text = Global.current_line
+	cg_img.texture = Global.current_CG
+	if color_rect.color == Color(0, 0, 0, 0):
+		paused = false
+	else:
+		paused = true
+
 
 func _on_pop_up_interaction():
 	var layout = Dialogic.Styles.get_layout_node()
@@ -81,7 +98,8 @@ func updateAnimation():
 
 
 func _physics_process(_delta):
-	if get_tree().paused or paused:
+	if get_tree().paused or paused or Global.states["in_cutsence"]:
+		updateAnimation()
 		return
 		
 	var direction = Input.get_axis("ui_left", "ui_right")

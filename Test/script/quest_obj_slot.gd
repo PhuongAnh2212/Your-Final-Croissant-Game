@@ -32,4 +32,5 @@ func set_item(new_item):
 	item_name.text = str(item["item_name"])
 	item_type.text = str(item["item_type"])
 	item_quanity.text = str(item["quanity"])
+	finished.visible = item["clear"]
 

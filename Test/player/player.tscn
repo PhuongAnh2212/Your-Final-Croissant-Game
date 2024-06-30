@@ -1,4 +1,4 @@
-[gd_scene load_steps=20 format=3 uid="uid://ctkb0qycx8uir"]
+[gd_scene load_steps=21 format=3 uid="uid://ctkb0qycx8uir"]
 
 [ext_resource type="Script" path="res://player/player.gd" id="1_ef0tf"]
 [ext_resource type="Texture2D" uid="uid://ctd80abodw34k" path="res://arts/lamanh-sprite.png" id="2_w15yk"]
@@ -126,6 +126,10 @@ _data = {
 
 [sub_resource type="LabelSettings" id="LabelSettings_mp88b"]
 font = ExtResource("5_oou2g")
+
+[sub_resource type="LabelSettings" id="LabelSettings_bl6h0"]
+font = ExtResource("5_oou2g")
+font_size = 25
 
 [node name="player" type="CharacterBody2D" groups=["Player"]]
 process_mode = 3
@@ -296,5 +300,32 @@ text = "[P]"
 label_settings = SubResource("LabelSettings_mp88b")
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="CG" type="CanvasLayer" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="CG"]
+offset_right = 768.0
+offset_bottom = 432.0
+color = Color(0, 0, 0, 0)
+
+[node name="CG_img" type="TextureRect" parent="CG"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+expand_mode = 3
+stretch_mode = 5
+
+[node name="MarginContainer" type="MarginContainer" parent="CG"]
+offset_right = 768.0
+offset_bottom = 432.0
+
+[node name="Label" type="Label" parent="CG/MarginContainer"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+label_settings = SubResource("LabelSettings_bl6h0")
+horizontal_alignment = 1
+autowrap_mode = 2
 
 [node name="loading_screen" type="CanvasLayer" parent="." groups=["load"]]

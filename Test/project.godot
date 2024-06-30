@@ -34,6 +34,8 @@ directories/dch_directory={
 }
 directories/dtl_directory={
 "load": "res://dialogue/load.dtl",
+"scene1": "res://dialogue/scene1.dtl",
+"scene2": "res://dialogue/scene2.dtl",
 "testing": "res://dialogue/testing.dtl",
 "timeline2": "res://dialogue/timeline2.dtl"
 }
@@ -50,7 +52,7 @@ text/initial_text_reveal_skippable=true
 text/text_reveal_skip_delay=0.1
 text/advance_delay=0.1
 text/autoadvance_per_character_delay=0.1
-text/autoadvance_ignored_characters_enabled=true
+text/autoadvance_ignored_characters_enabled=false
 animations/join_default_length=0.5
 animations/join_default_wait=true
 animations/leave_default_length=0.5
@@ -67,6 +69,7 @@ text/autopauses={}
 layout/end_behaviour=1
 save/default_slot="1"
 save/autosave=false
+timer/process_in_physics=true
 
 [display]
 

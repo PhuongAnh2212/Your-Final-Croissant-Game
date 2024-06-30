@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="DialogicStyle" load_steps=11 format=3 uid="uid://cfw7ecyxrcq8b"]
+
+[ext_resource type="PackedScene" uid="uid://c1k5m0w3r40xf" path="res://addons/dialogic/Modules/DefaultLayoutParts/Layer_FullBackground/full_background_layer.tscn" id="1_25l33"]
+[ext_resource type="Script" path="res://addons/dialogic/Resources/dialogic_style.gd" id="1_jjbwf"]
+[ext_resource type="Script" path="res://addons/dialogic/Resources/dialogic_style_layer.gd" id="2_ngaym"]
+[ext_resource type="PackedScene" uid="uid://cn674foxwedqu" path="res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.tscn" id="3_7vbne"]
+[ext_resource type="PackedScene" uid="uid://bqould3cfq42d" path="res://scenes/cg.tscn" id="4_1ypx6"]
+[ext_resource type="PackedScene" uid="uid://by6waso0mjpjp" path="res://addons/dialogic/Modules/DefaultLayoutParts/Layer_SpeakerPortraitTextbox/textbox_with_speaker_portrait.tscn" id="5_r05om"]
+
+[sub_resource type="Resource" id="Resource_dloqa"]
+script = ExtResource("2_ngaym")
+scene = ExtResource("1_25l33")
+overrides = {}
+
+[sub_resource type="Resource" id="Resource_i2j7v"]
+script = ExtResource("2_ngaym")
+scene = ExtResource("3_7vbne")
+overrides = {}
+
+[sub_resource type="Resource" id="Resource_g6lty"]
+script = ExtResource("2_ngaym")
+scene = ExtResource("5_r05om")
+overrides = {}
+
+[sub_resource type="Resource" id="Resource_gt2fu"]
+script = ExtResource("2_ngaym")
+scene = ExtResource("4_1ypx6")
+overrides = {}
+
+[resource]
+script = ExtResource("1_jjbwf")
+name = "black_screen"
+base_overrides = {
+"global_bg_color": "Color(0, 0, 0, 1)",
+"global_font": "\"res://ui/Retro Gaming.ttf\"",
+"global_font_size": "20.0"
+}
+layers = Array[ExtResource("2_ngaym")]([SubResource("Resource_dloqa"), SubResource("Resource_i2j7v"), SubResource("Resource_g6lty"), SubResource("Resource_gt2fu")])
+metadata/_latest_layer = 2
