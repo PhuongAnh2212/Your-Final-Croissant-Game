@@ -77330,7 +77330,7 @@ outline_size = 8
 outline_color = Color(0.305882, 0.00392157, 0.466667, 1)
 shadow_size = 0
 
-[sub_resource type="SpriteFrames" id="SpriteFrames_y10s3"]
+[sub_resource type="SpriteFrames" id="SpriteFrames_lk1ye"]
 resource_local_to_scene = true
 animations = [{
 "frames": [{
@@ -77518,6 +77518,7 @@ vertical_alignment = 1
 [node name="Player" parent="." instance=ExtResource("1_t4brd")]
 z_index = 1
 position = Vector2(714, 1757)
+up_direction = Vector2(0.948683, -0.316228)
 platform_floor_layers = 4294967294
 platform_wall_layers = 1
 
@@ -77525,7 +77526,7 @@ platform_wall_layers = 1
 
 [node name="Angelo" parent="." groups=["Angelo"] instance=ExtResource("17_j5wgc")]
 position = Vector2(1071, 765)
-animation_sprite = SubResource("SpriteFrames_y10s3")
+animation_sprite = SubResource("SpriteFrames_lk1ye")
 speaker_name = "Angelo"
 
 [node name="anh-long" parent="." groups=["Anh Long"] instance=ExtResource("17_j5wgc")]

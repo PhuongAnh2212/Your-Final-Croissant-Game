@@ -36,8 +36,8 @@ directories/dtl_directory={
 "load": "res://dialogue/load.dtl",
 "scene1": "res://dialogue/scene1.dtl",
 "scene2": "res://dialogue/scene2.dtl",
-"testing": "res://dialogue/testing.dtl",
-"timeline2": "res://dialogue/timeline2.dtl"
+"scene3": "res://dialogue/scene3.dtl",
+"testing": "res://dialogue/testing.dtl"
 }
 glossary/default_case_sensitive=true
 layout/style_list=["res://dialogue/St.tres", "res://dialogue/test.tres"]
@@ -70,6 +70,7 @@ layout/end_behaviour=1
 save/default_slot="1"
 save/autosave=false
 timer/process_in_physics=true
+history/simple_history_enabled=true
 
 [display]
 

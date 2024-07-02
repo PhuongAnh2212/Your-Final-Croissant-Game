@@ -19,7 +19,12 @@ var interacting = false
 
 #current state of the game
 var states = {
-	"active_quests": {},
+	"active_quests": {
+	"quest_name": "Empty Quest",
+	"current_step": 0,
+	"quest_steps": ["Nothing to do"],
+	"quest_requirement": [""],
+	"quest_type": [""]},
 	"finished_quest": [],
 	"scene": "res://title screen/title_screen.tscn",
 	"dialogue":"",
@@ -53,7 +58,7 @@ func _ready():
 
 #All state change
 func add_quest(quest):
-	if quest != null and states["active_quests"] != quest:
+	if quest != null:
 		states["active_quests"] = quest
 		for task in quest["quest_requirement"]:
 			add_objective(task)
@@ -132,7 +137,7 @@ func _on_inventory_change():
 		for i in range(quest_objs.size()):
 			for j in range(inventory.size()):
 				if (quest_objs[i] != null and inventory[j] != null):
-					if (quest_objs[i]["item_name"] == inventory[j]["item_name"]) and (quest_objs[i]["item_type"] == inventory[j]["item_type"]) and (quest_objs[i]["quanity"] == inventory[j]["quanity"]):
+					if (quest_objs[i]["item_name"] <= inventory[j]["item_name"]) and (quest_objs[i]["item_type"] == inventory[j]["item_type"]) and (quest_objs[i]["quanity"] == inventory[j]["quanity"]):
 						quest_objs[i]["clear"] = true
 						print("yay")
 						quest_obj_update.emit()
@@ -172,6 +177,7 @@ func _on_state_change(key):
 				get_tree().current_scene.add_sibling(loading)
 	if key == "active_quests" or key == "all":
 		add_quest(states["active_quests"])
+		print(states["active_quests"])
 	if key == "in_cutsence" or key == "all":
 		if states["in_cutsence"] == true:
 			run_cutscene()
