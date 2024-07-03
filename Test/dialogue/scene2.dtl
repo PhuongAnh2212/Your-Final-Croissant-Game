@@ -5,7 +5,7 @@ if {current_speaker} == "Anh Long":
 		"Anh Long" (close_eye_proud): Oh tks
 		do Global.enter_interacting()
 		"Anh Long" (close_eye_proud): Tks again
-		do Global.finished_quest({{Global.states["active_quests"]}})
+		do Global.finished_quest(Global.states["active_quests"])
 		do Global.par_update_state("res://dialogue/scene3.dtl", "dialogue")
 	else:
 		"Anh Long": You haven't finished ur quest yet {Global.states["active_quests"]["quest_type"][Global.states["active_quests"]["current_step"]]}
