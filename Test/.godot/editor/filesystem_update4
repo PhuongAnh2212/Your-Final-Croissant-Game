@@ -1,17 +1,4 @@
-res://scenes/world.tscn
+res://scenes/task.tscn
 res://npc/test2.tres
 res://dialogue/test.tres
 res://addons/dialogic/Modules/Character/settings_portraits.gd
-res://script/DialogueContainer.gd
-res://player/player.tscn
-res://scenes/task.tscn
-res://scenes/quest_obj_slot.tscn
-res://title screen/title_screen.tscn
-res://scenes/loading_scene.tscn
-res://scenes/ThanhMaiBakery/TMBakery.tscn
-res://scenes/inventory_slot.tscn
-res://dialogue/CustomSt/custom_st.tscn
-res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.tscn
-res://addons/dialogic/Modules/DefaultLayoutParts/Layer_SpeakerPortraitTextbox/textbox_with_speaker_portrait.tscn
-res://addons/dialogic/Editor/Events/styles/InputFieldsStyle.tres
-res://dialogue/scene2.dtl

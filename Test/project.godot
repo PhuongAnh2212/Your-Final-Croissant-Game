@@ -23,6 +23,7 @@ config/icon="res://icon.svg"
 Global="*res://script/Global.gd"
 InteractionManager="*res://scenes/Interaction/InteractionManager.tscn"
 Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
+QuestProgression="*res://script/quest_progression.gd"
 
 [dialogic]
 
