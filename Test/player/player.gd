@@ -8,6 +8,7 @@ const speed = 300
 @onready var phone_menu = $Phone_UI
 @onready var cg_img = $CG/CG_img
 @onready var label = $CG/MarginContainer/Label
+@onready var cg = $CG
 @onready var color_rect = $CG/ColorRect
 
 
@@ -49,14 +50,16 @@ func _on_dialogue_ended():
 		paused = false
 	
 func set_CG_text():
-	print(Global.current_line)
+	
 	color_rect.color = Global.black
 	label.text = Global.current_line
 	cg_img.texture = Global.current_CG
 	if color_rect.color == Color(0, 0, 0, 0):
 		paused = false
+		cg.visible = false
 	else:
 		paused = true
+		cg.visible = true
 
 
 func _on_pop_up_interaction():

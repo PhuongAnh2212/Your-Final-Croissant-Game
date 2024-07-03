@@ -1,37 +1,17 @@
-res://dialogue/Thanh Mai.dch
-res://dialogue/Lam Anh.dch
-res://dialogue/Anh Long.dch
-res://dialogue/Angelo.dch
-res://player/player.tscn
-res://dialogue/St.tres
+res://scenes/world.tscn
 res://npc/test2.tres
 res://dialogue/test.tres
 res://addons/dialogic/Modules/Character/settings_portraits.gd
 res://script/DialogueContainer.gd
-res://ui/text_preset.tres
-res://dialogue/testing.dtl
-res://scenes/world.tscn
+res://player/player.tscn
 res://scenes/task.tscn
 res://scenes/quest_obj_slot.tscn
 res://title screen/title_screen.tscn
-res://scenes/inventory.tscn
-res://scenes/Inventory_Item.tscn
-res://scenes/inventory_slot.tscn
-res://scenes/Dialogue.tscn
-res://scenes/TMBakery.gd
-res://scenes/ThanhMaiBakery/TMBakery.tscn
-res://scenes/ThanhMaiBakery/DoorDetectInside.gd
-res://script/Global.gd
 res://scenes/loading_scene.tscn
-res://script/loading_scene.gd
-res://script/inventory_slot.gd
-res://script/quest_obj_slot.gd
-res://dialogue/timeline2.dtl
+res://scenes/ThanhMaiBakery/TMBakery.tscn
+res://scenes/inventory_slot.tscn
+res://dialogue/CustomSt/custom_st.tscn
+res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.tscn
+res://addons/dialogic/Modules/DefaultLayoutParts/Layer_SpeakerPortraitTextbox/textbox_with_speaker_portrait.tscn
 res://addons/dialogic/Editor/Events/styles/InputFieldsStyle.tres
-res://title screen/title_screen.gd
-res://dialogue/scene1.dtl
-res://player/player.gd
-res://dialogue/black_screen.tres
-res://scenes/cg.tscn
-res://scenes/cg.gd
 res://dialogue/scene2.dtl
