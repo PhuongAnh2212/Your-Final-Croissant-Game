@@ -1,3 +1,4 @@
+res://dialogue/scene1.dtl
 res://scenes/world.tscn
 res://npc/test2.tres
 res://dialogue/test.tres
@@ -11,6 +12,7 @@ res://scenes/ThanhMaiBakery/TMBakery.tscn
 res://player/player.tscn
 res://scenes/task.tscn
 res://scenes/quest_obj_slot.tscn
+res://scenes/ThanhMaiBakery/TMBakery.tscn
 res://scenes/inventory_slot.tscn
 res://dialogue/CustomSt/custom_st.tscn
 res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.tscn
