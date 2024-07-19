@@ -260,8 +260,17 @@ func NPC_appear(chara_name, sprites, x, y):
 	var pos = Vector2(x, y)
 	pos = adjust_drop_pos(pos)
 	NPC_instance.global_position = pos
+	NPC_instance.add_to_group(chara_name)
 	get_tree().current_scene.add_child(NPC_instance)
-	
+
+
+func NPC_change_pos(chara_name, x, y):
+	var NPC_node = get_tree().get_first_node_in_group(chara_name)
+	NPC_node.global_position = Vector2(x, y)
+
+func NPC_dissapear(chara_name):
+	var NPC_node = get_tree().get_first_node_in_group(chara_name)
+	NPC_node.queue_free()
 
 
 

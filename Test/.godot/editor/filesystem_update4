@@ -15,3 +15,6 @@ res://scenes/inventory_slot.tscn
 res://dialogue/CustomSt/custom_st.tscn
 res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.tscn
 res://addons/dialogic/Modules/DefaultLayoutParts/Layer_SpeakerPortraitTextbox/textbox_with_speaker_portrait.tscn
+res://dialogue/scene3.dtl
+res://title screen/title_screen.tscn
+res://script/quest_progression.gd

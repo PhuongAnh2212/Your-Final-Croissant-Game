@@ -13,5 +13,6 @@ do Global.NPC_appear("Anh Long", "res://arts/Chara sprite/Anh Long/Anh_Long_spri
 "Lam Anh": Maybe this sounds foolish…, but I'm giving the bakery another go.
 "Anh Long" (open_eye_sad): This soon? Are you sure?
 "Lam Anh" (half_open_sollem): It took her years of hard work to bring this bakery to life. Just for it to crash down in a blink. I can’t let that happen.
+do Global.NPC_change_pos("Anh Long", 312.0, 312.0)
 do Global.par_update_state("res://dialogue/scene2.dtl", "dialogue")
 do Global.par_update_state(false, "in_cutsence")
