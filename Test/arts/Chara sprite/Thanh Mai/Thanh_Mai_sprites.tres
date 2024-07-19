@@ -1,0 +1,30 @@
+[gd_resource type="SpriteFrames" load_steps=6 format=3 uid="uid://d2hxaluipk0c2"]
+
+[ext_resource type="Texture2D" uid="uid://sogij6mckdk3" path="res://arts/Chara sprite/Thanh Mai/Quaso-1.png" id="1_pt8vv"]
+[ext_resource type="Texture2D" uid="uid://dndceyxue8m2w" path="res://arts/Chara sprite/Thanh Mai/Quaso-2.png" id="2_aagch"]
+[ext_resource type="Texture2D" uid="uid://b1p0fp2t4bpiv" path="res://arts/Chara sprite/Thanh Mai/Quaso-3.png" id="3_q32q5"]
+[ext_resource type="Texture2D" uid="uid://bhownlq526tph" path="res://arts/Chara sprite/Thanh Mai/Quaso-4.png" id="4_7anbt"]
+[ext_resource type="Texture2D" uid="uid://3x63m3fjqjop" path="res://arts/Chara sprite/Thanh Mai/Quaso-5.png" id="5_bnbo0"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.5,
+"texture": ExtResource("1_pt8vv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_aagch")
+}, {
+"duration": 2.0,
+"texture": ExtResource("3_q32q5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_7anbt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_bnbo0")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 5.0
+}]

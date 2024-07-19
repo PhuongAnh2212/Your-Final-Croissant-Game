@@ -18,6 +18,7 @@ func _ready():
 	animations.sprite_frames = animation_sprite
 	Global.state_change.connect(_on_state_changed)
 
+
 func _process(delta):
 	var item = {
 	"quanity": 1,
@@ -55,10 +56,18 @@ func _on_area_2d_body_entered(body):
 func updateAnimation():
 	animations.play("Idle")
 
+
 func _physics_process(delta):
 	updateAnimation()
 
 func giveItem(item):
 	if Global.player_node:
 		Global.add_item(item)
+
+
+func change_name(chara_name):
+	speaker_name = chara_name
+
+func change_sprites(sprites):
+	animation_sprite = sprites
 

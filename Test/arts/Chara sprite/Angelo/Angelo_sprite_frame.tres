@@ -1,0 +1,31 @@
+[gd_resource type="SpriteFrames" load_steps=6 format=3 uid="uid://uovrbip74skf"]
+
+[ext_resource type="Texture2D" uid="uid://g4vo0j2fcf78" path="res://arts/Chara sprite/Angelo/Angelo-1.png" id="1_p7g8v"]
+[ext_resource type="Texture2D" uid="uid://cf118ww10q8ef" path="res://arts/Chara sprite/Angelo/Angelo-2.png" id="2_0oo4w"]
+[ext_resource type="Texture2D" uid="uid://bvriblbdnwfg8" path="res://arts/Chara sprite/Angelo/Angelo-3.png" id="3_6getf"]
+[ext_resource type="Texture2D" uid="uid://lx331dgnhccx" path="res://arts/Chara sprite/Angelo/Angelo-4.png" id="4_brufj"]
+[ext_resource type="Texture2D" uid="uid://blt74rjlxrxqh" path="res://arts/Chara sprite/Angelo/Angelo-5.png" id="5_di02s"]
+
+[resource]
+resource_local_to_scene = true
+animations = [{
+"frames": [{
+"duration": 2.0,
+"texture": ExtResource("1_p7g8v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_0oo4w")
+}, {
+"duration": 2.0,
+"texture": ExtResource("3_6getf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_brufj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_di02s")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 6.0
+}]

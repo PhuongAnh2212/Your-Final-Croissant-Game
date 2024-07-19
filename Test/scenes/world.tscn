@@ -1,4 +1,4 @@
-[gd_scene load_steps=137 format=3 uid="uid://tb6t4cv21o8v"]
+[gd_scene load_steps=126 format=3 uid="uid://tb6t4cv21o8v"]
 
 [ext_resource type="PackedScene" uid="uid://ctkb0qycx8uir" path="res://player/player.tscn" id="1_t4brd"]
 [ext_resource type="Texture2D" uid="uid://du2w8oo0fgfgc" path="res://arts/Grass.png" id="2_xmvpw"]
@@ -47,19 +47,10 @@
 [ext_resource type="Texture2D" uid="uid://g4vo0j2fcf78" path="res://arts/Chara sprite/Angelo/Angelo-1.png" id="37_bocuo"]
 [ext_resource type="Texture2D" uid="uid://cf118ww10q8ef" path="res://arts/Chara sprite/Angelo/Angelo-2.png" id="38_wwply"]
 [ext_resource type="Texture2D" uid="uid://bvriblbdnwfg8" path="res://arts/Chara sprite/Angelo/Angelo-3.png" id="39_k113i"]
-[ext_resource type="Texture2D" uid="uid://cffsfnew6vp1w" path="res://arts/Chara sprite/Anh Long/Anh_Long-1.png" id="39_xompa"]
-[ext_resource type="Texture2D" uid="uid://df8lpmie7nvmh" path="res://arts/Chara sprite/Anh Long/Anh_Long-2.png" id="40_oyvxs"]
 [ext_resource type="Texture2D" uid="uid://lx331dgnhccx" path="res://arts/Chara sprite/Angelo/Angelo-4.png" id="40_xr7o4"]
-[ext_resource type="Texture2D" uid="uid://pt1pij7l7mqq" path="res://arts/Chara sprite/Anh Long/Anh_Long-3.png" id="41_jy1qc"]
+[ext_resource type="SpriteFrames" uid="uid://h2ogug76erac" path="res://arts/Chara sprite/Anh Long/Anh_Long_sprites.tres" id="41_dedk4"]
 [ext_resource type="Texture2D" uid="uid://blt74rjlxrxqh" path="res://arts/Chara sprite/Angelo/Angelo-5.png" id="41_sb2c7"]
-[ext_resource type="Texture2D" uid="uid://daiubcdvvktks" path="res://arts/Chara sprite/Anh Long/Anh_Long-4.png" id="42_nkh6r"]
-[ext_resource type="Texture2D" uid="uid://ucobypecetva" path="res://arts/Chara sprite/Anh Long/Anh_Long-5.png" id="43_qmtt2"]
-[ext_resource type="Texture2D" uid="uid://bb00hb13mj2qh" path="res://arts/Chara sprite/Anh Long/Anh_Long-6.png" id="44_igua5"]
-[ext_resource type="Texture2D" uid="uid://sogij6mckdk3" path="res://arts/Chara sprite/Thanh Mai/Quaso-1.png" id="48_tcwmo"]
-[ext_resource type="Texture2D" uid="uid://dndceyxue8m2w" path="res://arts/Chara sprite/Thanh Mai/Quaso-2.png" id="49_4i3cq"]
-[ext_resource type="Texture2D" uid="uid://b1p0fp2t4bpiv" path="res://arts/Chara sprite/Thanh Mai/Quaso-3.png" id="50_bdapp"]
-[ext_resource type="Texture2D" uid="uid://bhownlq526tph" path="res://arts/Chara sprite/Thanh Mai/Quaso-4.png" id="51_4xjkj"]
-[ext_resource type="Texture2D" uid="uid://3x63m3fjqjop" path="res://arts/Chara sprite/Thanh Mai/Quaso-5.png" id="52_edq46"]
+[ext_resource type="SpriteFrames" uid="uid://d2hxaluipk0c2" path="res://arts/Chara sprite/Thanh Mai/Thanh_Mai_sprites.tres" id="42_eap2b"]
 [ext_resource type="Texture2D" uid="uid://iwd05yfkrcea" path="res://arts/Items/Bakery_goods (1).png" id="60_v3mnp"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_s88gc"]
@@ -77330,7 +77321,7 @@ outline_size = 8
 outline_color = Color(0.305882, 0.00392157, 0.466667, 1)
 shadow_size = 0
 
-[sub_resource type="SpriteFrames" id="SpriteFrames_y2k3a"]
+[sub_resource type="SpriteFrames" id="SpriteFrames_7coeo"]
 resource_local_to_scene = true
 animations = [{
 "frames": [{
@@ -77352,55 +77343,6 @@ animations = [{
 "loop": true,
 "name": &"Idle",
 "speed": 6.0
-}]
-
-[sub_resource type="SpriteFrames" id="SpriteFrames_868k6"]
-animations = [{
-"frames": [{
-"duration": 1.5,
-"texture": ExtResource("39_xompa")
-}, {
-"duration": 1.0,
-"texture": ExtResource("40_oyvxs")
-}, {
-"duration": 1.0,
-"texture": ExtResource("41_jy1qc")
-}, {
-"duration": 2.0,
-"texture": ExtResource("42_nkh6r")
-}, {
-"duration": 1.0,
-"texture": ExtResource("43_qmtt2")
-}, {
-"duration": 1.0,
-"texture": ExtResource("44_igua5")
-}],
-"loop": true,
-"name": &"Idle",
-"speed": 6.0
-}]
-
-[sub_resource type="SpriteFrames" id="SpriteFrames_atroy"]
-animations = [{
-"frames": [{
-"duration": 1.5,
-"texture": ExtResource("48_tcwmo")
-}, {
-"duration": 1.0,
-"texture": ExtResource("49_4i3cq")
-}, {
-"duration": 2.0,
-"texture": ExtResource("50_bdapp")
-}, {
-"duration": 1.0,
-"texture": ExtResource("51_4xjkj")
-}, {
-"duration": 1.0,
-"texture": ExtResource("52_edq46")
-}],
-"loop": true,
-"name": &"Idle",
-"speed": 5.0
 }]
 
 [node name="world" type="Node2D"]
@@ -77526,17 +77468,17 @@ platform_wall_layers = 1
 
 [node name="Angelo" parent="." groups=["Angelo"] instance=ExtResource("17_j5wgc")]
 position = Vector2(1071, 765)
-animation_sprite = SubResource("SpriteFrames_y2k3a")
+animation_sprite = SubResource("SpriteFrames_7coeo")
 speaker_name = "Angelo"
 
 [node name="anh-long" parent="." groups=["Anh Long"] instance=ExtResource("17_j5wgc")]
 position = Vector2(1630, 2011)
-animation_sprite = SubResource("SpriteFrames_868k6")
+animation_sprite = ExtResource("41_dedk4")
 speaker_name = "Anh Long"
 
 [node name="Thanh Mai" parent="." groups=["Thanh Mai"] instance=ExtResource("17_j5wgc")]
 position = Vector2(538, 718)
-animation_sprite = SubResource("SpriteFrames_atroy")
+animation_sprite = ExtResource("42_eap2b")
 speaker_name = "Thanh Mai"
 
 [node name="UI" type="CanvasLayer" parent="."]

@@ -1,4 +1,17 @@
-res://scenes/task.tscn
+res://scenes/world.tscn
 res://npc/test2.tres
 res://dialogue/test.tres
 res://addons/dialogic/Modules/Character/settings_portraits.gd
+res://script/Global.gd
+res://arts/Chara sprite/Angelo/Angelo_sprite_frame.tres
+res://npc/NPC.gd
+res://addons/dialogic/Editor/Events/styles/InputFieldsStyle.tres
+res://dialogue/scene1.dtl
+res://scenes/ThanhMaiBakery/TMBakery.tscn
+res://player/player.tscn
+res://scenes/task.tscn
+res://scenes/quest_obj_slot.tscn
+res://scenes/inventory_slot.tscn
+res://dialogue/CustomSt/custom_st.tscn
+res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.tscn
+res://addons/dialogic/Modules/DefaultLayoutParts/Layer_SpeakerPortraitTextbox/textbox_with_speaker_portrait.tscn

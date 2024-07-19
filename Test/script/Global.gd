@@ -248,3 +248,18 @@ func exit_interacting():
 	interacting = false
 	interacting_inventory.emit()
 	return
+
+#---- NPC/PC spawn
+
+func NPC_appear(chara_name, sprites, x, y):
+	var NPC_instance = NPC.instantiate()
+	NPC_instance.change_name(chara_name)
+	NPC_instance.change_sprites(load(sprites))
+	var pos = Vector2(x, y)
+	pos = adjust_drop_pos(pos)
+	NPC_instance.global_position = pos
+	get_tree().current_scene.add_child(NPC_instance)
+	
+
+
+
