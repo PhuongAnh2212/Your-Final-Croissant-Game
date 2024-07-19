@@ -188,6 +188,8 @@ func _on_state_change(key):
 
 #Add remove items
 func add_item(item):
+	if item["item_name"] == "":
+		return false
 	for i in range(inventory.size()):
 		if inventory[i] != null and inventory[i]["item_type"] == item["item_type"] and inventory[i]["item_name"] == item["item_name"]:
 			inventory[i]["quanity"] += item["quanity"]
