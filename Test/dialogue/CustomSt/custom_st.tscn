@@ -13,18 +13,19 @@
 layer = 2
 script = ExtResource("1_ifsho")
 canvas_layer = 2
+global_bg_color = Color(1, 0, 0, 1)
+global_font = "res://ui/Retro Gaming.ttf"
 
 [node name="BackgroundLayer" parent="." instance=ExtResource("2_ehsx5")]
 apply_overrides_on_ready = true
 
 [node name="TextboxWithSpeakerPortrait" parent="." instance=ExtResource("4_501tb")]
 name_label_hide_when_no_character = true
-box_panel = "default_stylebox.tres"
+box_modulate_global_color = false
 box_size = Vector2(600, 120)
 apply_overrides_on_ready = true
 
 [node name="FullAdvanceInputLayer" parent="." instance=ExtResource("6_2gt5a")]
-visible = false
 disabled = true
 apply_overrides_on_ready = true
 
@@ -41,11 +42,4 @@ apply_overrides_on_ready = true
 apply_overrides_on_ready = true
 
 [node name="ExampleHistoryScene" parent="." instance=ExtResource("14_djwc8")]
-font_use_global_size = true
-font_custom_size = 15
-font_use_global_fonts = true
-font_custom_normal = ""
-font_custom_bold = ""
-font_custom_italics = ""
-disabled = false
 apply_overrides_on_ready = true

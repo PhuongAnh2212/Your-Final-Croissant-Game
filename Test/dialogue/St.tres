@@ -9,7 +9,6 @@ name = "St"
 base_scene = ExtResource("1_ljrwe")
 base_overrides = {
 "canvas_layer": "10.0",
-"global_bg_color": "Color(0.298039, 0.2, 0.113725, 0.901961)",
 "global_font": "\"res://ui/Retro Gaming.ttf\"",
 "global_font_size": "16.0"
 }

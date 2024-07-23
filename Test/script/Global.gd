@@ -16,6 +16,7 @@ var black = Color(0, 0, 0, 0)
 
 #If interacting with an NPC or object
 var interacting = false
+var jump_point = ""
 
 #current state of the game
 var states = {
@@ -28,7 +29,7 @@ var states = {
 	"finished_quest": [],
 	"scene": "res://title screen/title_screen.tscn",
 	"dialogue":"",
-	"in_cutsence": false
+	"in_cutscene": false
 	}
 
 #signals
@@ -116,6 +117,7 @@ func show_CG(vari, key):
 	if key == "black":
 		current_CG = null
 		current_line = vari
+
 	cutscene_changed.emit()
 	
 func hide_CG():
@@ -129,8 +131,9 @@ func run_cutscene():
 
 func exit_cutscene():
 	if Dialogic.current_timeline != null:
-		Dialogic.paused = true
 		Dialogic.Styles.get_layout_node().hide()
+	Dialogic.current_timeline = null
+
 
 func _on_inventory_change():
 	if states["active_quests"] != null and "collect" in states["active_quests"]["quest_type"]:
@@ -178,8 +181,8 @@ func _on_state_change(key):
 	if key == "active_quests" or key == "all":
 		add_quest(states["active_quests"])
 		print(states["active_quests"])
-	if key == "in_cutsence" or key == "all":
-		if states["in_cutsence"] == true:
+	if key == "in_cutscene" or key == "all":
+		if states["in_cutscene"] == true:
 			run_cutscene()
 		else:
 			exit_cutscene()

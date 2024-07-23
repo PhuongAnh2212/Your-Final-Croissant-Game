@@ -1,4 +1,4 @@
-[music path="res://audio/Heyyeyaaeyaa.mp3" fade="5.0" volume="1.0"]
+[music path="res://audio/Heyyeyaaeyaa.mp3" fade="5.0" volume="0.4"]
 do Global.show_CG("Thanh Mai has passed away for a while. Lam Anh - Thanh Mai’s lover came back to the hometown after a few months", "black")
 [wait_input]
 do Global.show_CG("res://arts/CG/CG_1.PNG", "CG")
@@ -17,4 +17,5 @@ do Global.NPC_appear("Anh Long", "res://arts/Chara sprite/Anh Long/Anh_Long_spri
 "Lam Anh" (half_open_sollem): It took her years of hard work to bring this bakery to life. Just for it to crash down in a blink. I can’t let that happen.
 do Global.NPC_change_pos("Anh Long", 312.0, 312.0)
 do Global.par_update_state("res://dialogue/scene2.dtl", "dialogue")
-do Global.par_update_state(false, "in_cutsence")
+do Global.par_update_state(false, "in_cutscene")
+[end_timeline]

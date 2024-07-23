@@ -101,7 +101,7 @@ func updateAnimation():
 
 
 func _physics_process(_delta):
-	if get_tree().paused or paused or Global.states["in_cutsence"]:
+	if get_tree().paused or paused or Global.states["in_cutscene"]:
 		updateAnimation()
 		return
 		

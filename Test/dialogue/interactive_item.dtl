@@ -1,0 +1,11 @@
+if {current_speaker} == "Bowl":
+	A pink bowl. Thanh Mai’s favorite color.
+elif {current_speaker} == "Rolling pin":
+	Looks quite old. It’s the first present you gave Thanh Mai.
+elif {current_speaker} == "Recipe book":
+	The writing is distinctively Thanh Mai’s. There’s hand-drawn illustration for each of the recipes.
+	There are small notes under each page with Thanh Mai’s comments about how much she likes (or hates) the recipes.
+elif {current_speaker} == "Chocolate box":
+	You mailed this to Thanh Mai as a gift 4 months ago. The seal is still on.
+elif {current_speaker} == "Scale":
+	Activate puzzle

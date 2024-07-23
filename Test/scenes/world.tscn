@@ -24438,7 +24438,7 @@ outline_size = 8
 outline_color = Color(0.305882, 0.00392157, 0.466667, 1)
 shadow_size = 0
 
-[sub_resource type="SpriteFrames" id="SpriteFrames_vcfqi"]
+[sub_resource type="SpriteFrames" id="SpriteFrames_jjb6s"]
 resource_local_to_scene = true
 animations = [{
 "frames": [{
@@ -24543,7 +24543,7 @@ platform_wall_layers = 1
 
 [node name="Angelo" parent="." groups=["Angelo"] instance=ExtResource("17_j5wgc")]
 position = Vector2(1071, 765)
-animation_sprite = SubResource("SpriteFrames_vcfqi")
+animation_sprite = SubResource("SpriteFrames_jjb6s")
 speaker_name = "Angelo"
 
 [node name="anh-long" parent="." groups=["Anh Long"] instance=ExtResource("17_j5wgc")]

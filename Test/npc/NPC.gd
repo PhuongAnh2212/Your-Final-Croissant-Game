@@ -28,11 +28,16 @@ func _process(delta):
 	"item_effect": item_effect,
 	"scene_path": scene_path
 	}
+	
 	if player_in_range and Input.is_action_just_pressed("interact"):
 		giveItem(item)
 		
 	if player_in_range and Input.is_action_just_pressed("talk"):
-		if Dialogic.current_timeline == null and current_script!= "":
+		if current_script!= "":
+			if Dialogic.current_timeline != null:
+				Dialogic.current_timeline = null
+			if Dialogic.paused:
+				Dialogic.paused = false
 			Dialogic.VAR.current_speaker = speaker_name
 			Dialogic.start(current_script)
 		#Global.enter_interacting()
