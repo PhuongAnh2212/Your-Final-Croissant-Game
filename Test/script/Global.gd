@@ -16,6 +16,7 @@ var black = Color(0, 0, 0, 0)
 
 #If interacting with an NPC or object
 var interacting = false
+var jump_point = ""
 
 #current state of the game
 var states = {
@@ -28,7 +29,7 @@ var states = {
 	"finished_quest": [],
 	"scene": "res://title screen/title_screen.tscn",
 	"dialogue":"",
-	"in_cutsence": false
+	"in_cutscene": false
 	}
 
 #signals
@@ -116,6 +117,7 @@ func show_CG(vari, key):
 	if key == "black":
 		current_CG = null
 		current_line = vari
+
 	cutscene_changed.emit()
 	
 func hide_CG():
@@ -129,8 +131,9 @@ func run_cutscene():
 
 func exit_cutscene():
 	if Dialogic.current_timeline != null:
-		Dialogic.paused = true
 		Dialogic.Styles.get_layout_node().hide()
+	Dialogic.current_timeline = null
+
 
 func _on_inventory_change():
 	if states["active_quests"] != null and "collect" in states["active_quests"]["quest_type"]:
@@ -178,8 +181,8 @@ func _on_state_change(key):
 	if key == "active_quests" or key == "all":
 		add_quest(states["active_quests"])
 		print(states["active_quests"])
-	if key == "in_cutsence" or key == "all":
-		if states["in_cutsence"] == true:
+	if key == "in_cutscene" or key == "all":
+		if states["in_cutscene"] == true:
 			run_cutscene()
 		else:
 			exit_cutscene()
@@ -188,6 +191,8 @@ func _on_state_change(key):
 
 #Add remove items
 func add_item(item):
+	if item["item_name"] == "":
+		return false
 	for i in range(inventory.size()):
 		if inventory[i] != null and inventory[i]["item_type"] == item["item_type"] and inventory[i]["item_name"] == item["item_name"]:
 			inventory[i]["quanity"] += item["quanity"]
@@ -248,3 +253,27 @@ func exit_interacting():
 	interacting = false
 	interacting_inventory.emit()
 	return
+
+#---- NPC/PC spawn
+
+func NPC_appear(chara_name, sprites, x, y):
+	var NPC_instance = NPC.instantiate()
+	NPC_instance.change_name(chara_name)
+	NPC_instance.change_sprites(load(sprites))
+	var pos = Vector2(x, y)
+	pos = adjust_drop_pos(pos)
+	NPC_instance.global_position = pos
+	NPC_instance.add_to_group(chara_name)
+	get_tree().current_scene.add_child(NPC_instance)
+
+
+func NPC_change_pos(chara_name, x, y):
+	var NPC_node = get_tree().get_first_node_in_group(chara_name)
+	NPC_node.global_position = Vector2(x, y)
+
+func NPC_dissapear(chara_name):
+	var NPC_node = get_tree().get_first_node_in_group(chara_name)
+	NPC_node.queue_free()
+
+
+

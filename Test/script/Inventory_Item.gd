@@ -27,7 +27,15 @@ func _process(delta):
 		icon_sprite.texture = item_text
 	
 	if player_in_range and Input.is_action_just_pressed("interact"):
-		pickup()
+		if "Interactive_item" in self.get_groups():
+			if Dialogic.current_timeline != null:
+				Dialogic.current_timeline = null
+			if Dialogic.paused:
+				Dialogic.paused = false
+			Dialogic.VAR.current_speaker = item_name
+			Dialogic.start("res://dialogue/interactive_item.dtl")
+			print(Dialogic.current_timeline)
+		else: pickup()
 
 func pickup():
 	var item = {

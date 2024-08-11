@@ -18,6 +18,7 @@ func _ready():
 	animations.sprite_frames = animation_sprite
 	Global.state_change.connect(_on_state_changed)
 
+
 func _process(delta):
 	var item = {
 	"quanity": 1,
@@ -27,11 +28,16 @@ func _process(delta):
 	"item_effect": item_effect,
 	"scene_path": scene_path
 	}
+	
 	if player_in_range and Input.is_action_just_pressed("interact"):
 		giveItem(item)
 		
 	if player_in_range and Input.is_action_just_pressed("talk"):
-		if Dialogic.current_timeline == null and current_script!= "":
+		if current_script!= "":
+			if Dialogic.current_timeline != null:
+				Dialogic.current_timeline = null
+			if Dialogic.paused:
+				Dialogic.paused = false
 			Dialogic.VAR.current_speaker = speaker_name
 			Dialogic.start(current_script)
 		#Global.enter_interacting()
@@ -55,10 +61,18 @@ func _on_area_2d_body_entered(body):
 func updateAnimation():
 	animations.play("Idle")
 
+
 func _physics_process(delta):
 	updateAnimation()
 
 func giveItem(item):
 	if Global.player_node:
 		Global.add_item(item)
+
+
+func change_name(chara_name):
+	speaker_name = chara_name
+
+func change_sprites(sprites):
+	animation_sprite = sprites
 

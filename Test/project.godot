@@ -23,6 +23,7 @@ config/icon="res://icon.svg"
 Global="*res://script/Global.gd"
 InteractionManager="*res://scenes/Interaction/InteractionManager.tscn"
 Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
+Quests="*res://script/Quests.gd"
 
 [dialogic]
 
@@ -33,14 +34,15 @@ directories/dch_directory={
 "Thanh Mai": "res://dialogue/Thanh Mai.dch"
 }
 directories/dtl_directory={
+"interactive_item": "res://dialogue/interactive_item.dtl",
 "load": "res://dialogue/load.dtl",
+"quest_test": "res://dialogue/quest_test.dtl",
 "scene1": "res://dialogue/scene1.dtl",
 "scene2": "res://dialogue/scene2.dtl",
-"scene3": "res://dialogue/scene3.dtl",
-"testing": "res://dialogue/testing.dtl"
+"scene3": "res://dialogue/scene3.dtl"
 }
 glossary/default_case_sensitive=true
-layout/style_list=["res://dialogue/St.tres", "res://dialogue/test.tres"]
+layout/style_list=["res://dialogue/St.tres"]
 layout/default_style="res://dialogue/St.tres"
 variables={
 "current_speaker": "",

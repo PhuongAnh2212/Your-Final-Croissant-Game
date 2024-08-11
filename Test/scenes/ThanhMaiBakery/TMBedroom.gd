@@ -22,4 +22,8 @@ func _on_body_exited(body: CharacterBody2D):
 func _process(delta):  
 	if entered == true:
 		if Input.is_action_just_pressed("interact"):
-			get_tree().change_scene_to_file("res://scenes/ThanhMaiBakery/TMBedroom.tscn")
+			if Global.states["dialogue"] == "res://dialogue/scene3.dtl":
+				Dialogic.start(Global.states["dialogue"])
+				Global.par_update_state("res://scenes/ThanhMaiBakery/TMBedroom.tscn", "scene")
+				return
+			Global.par_update_state("res://scenes/ThanhMaiBakery/TMBedroom.tscn", "scene")
