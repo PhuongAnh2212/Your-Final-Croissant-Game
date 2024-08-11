@@ -24447,7 +24447,11 @@ outline_size = 8
 outline_color = Color(0.305882, 0.00392157, 0.466667, 1)
 shadow_size = 0
 
+<<<<<<< Updated upstream
 [sub_resource type="SpriteFrames" id="SpriteFrames_pq20y"]
+=======
+[sub_resource type="SpriteFrames" id="SpriteFrames_uk04f"]
+>>>>>>> Stashed changes
 resource_local_to_scene = true
 animations = [{
 "frames": [{
@@ -24600,7 +24604,11 @@ platform_wall_layers = 1
 
 [node name="Angelo" parent="." groups=["Angelo"] instance=ExtResource("17_j5wgc")]
 position = Vector2(1071, 765)
+<<<<<<< Updated upstream
 animation_sprite = SubResource("SpriteFrames_pq20y")
+=======
+animation_sprite = SubResource("SpriteFrames_uk04f")
+>>>>>>> Stashed changes
 speaker_name = "Angelo"
 
 [node name="anh-long" parent="." groups=["Anh Long"] instance=ExtResource("17_j5wgc")]
