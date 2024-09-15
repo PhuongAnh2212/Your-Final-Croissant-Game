@@ -1,25 +1,31 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1698890388
-icon.svg::CompressedTexture2D::5140637267571475186::1698145275::1698145512::1::::<><>::
-TX Props.png::CompressedTexture2D::6428452000721822599::1698776542::1698776516::1::::<><>::
-::res://arts/::1698776553
-Atlas-Props.png::CompressedTexture2D::4209705418279401783::1698145275::1698145512::1::::<><>::
-Basic Grass Biom things 1.png::CompressedTexture2D::874105296584692491::1698145275::1698145512::1::::<><>::
-GRASS+.png::CompressedTexture2D::8693913990700305086::1698766300::1698766300::1::::<><>::
-Grass.png::CompressedTexture2D::8620172586336261506::1698145275::1698145512::1::::<><>::
-Hills.png::CompressedTexture2D::6136032035696376171::1698145275::1698145512::1::::<><>::
-house_asset5.png::CompressedTexture2D::8773023748217291378::1698147743::1698147744::1::::<><>::
-overworld_tileset_grass.png::CompressedTexture2D::4355434115818050101::1698767349::1698767349::1::::<><>::
-sprite_sheet.png::CompressedTexture2D::3214518299592546426::1698145275::1698145512::1::::<><>::
-T1 - House Tileset.png::CompressedTexture2D::3157116541457732395::1698145275::1698145512::1::::<><>::
-taragonia_bw_mix_by_phyromatical_d76ewjp-pre.png::CompressedTexture2D::3168265724965817868::1698145275::1698145513::1::::<><>::
-Tilled Dirt.png::CompressedTexture2D::4442739593483529974::1698145275::1698145512::1::::<><>::
-TX Props.png::CompressedTexture2D::225024698073524512::1698776553::1698776553::1::::<><>::
-TX Tileset Grass.png::CompressedTexture2D::4184483445945552643::1698767804::1698767799::1::::<><>::
-Water.png::CompressedTexture2D::5728266869344538032::1698145275::1698145512::1::::<><>::
-Wood Bridge.png::CompressedTexture2D::1007207514787497192::1698145275::1698145512::1::::<><>::
-::res://player/::1698771305
-player.gd::GDScript::-1::1698145275::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::6127179413461639337::1698145275::0::1::::<><>::uid://bl2ev8v0xiues
-::res://scenes/::1698777130
-world.tscn::PackedScene::1337570090994655695::1698777130::0::1::::<><>::uid://ctkb0qycx8uir::::res://player/player.tscn<>uid://du2w8oo0fgfgc::::res://arts/Grass.png<>uid://ctols0edprkkx::::res://arts/Hills.png<>uid://b08hh6to0eqrf::::res://arts/Atlas-Props.png<>uid://bk8lio5mjju88::::res://arts/T1 - House Tileset.png<>uid://bley4x5afpxv5::::res://arts/taragonia_bw_mix_by_phyromatical_d76ewjp-pre.png<>uid://b4kdjipf28wpi::::res://arts/Tilled Dirt.png<>uid://dv4nq1f6e4647::::res://arts/GRASS+.png<>uid://dhaehh2bfpw7::::res://arts/TX Props.png<>uid://b3b2mmi82ix7j::::res://arts/overworld_tileset_grass.png<>uid://dw8yoi2imfcys::::res://arts/house_asset5.png<>uid://mpone3bdn38b::::res://arts/Basic Grass Biom things 1.png<>uid://b0u83ivnitu64::::res://arts/TX Tileset Grass.png
+::res://::1700866079
+house_asset6.png::CompressedTexture2D::84258844164821437::1700866059::1700866059::1::::<><>::
+icon.svg::CompressedTexture2D::5140637267571475186::1700866035::1700866079::1::::<><>::
+roads2W.png::CompressedTexture2D::6860335798949934287::1700866059::1700866059::1::::<><>::
+TX Props.png::CompressedTexture2D::6428452000721822599::1700866035::1700866035::1::::<><>::
+::res://arts/::1700866059
+Atlas-Props.png::CompressedTexture2D::4209705418279401783::1700866035::1700866035::1::::<><>::
+Basic Grass Biom things 1.png::CompressedTexture2D::874105296584692491::1700866035::1700866035::1::::<><>::
+GRASS+.png::CompressedTexture2D::8693913990700305086::1700866035::1700866035::1::::<><>::
+Grass.png::CompressedTexture2D::8620172586336261506::1700866035::1700866035::1::::<><>::
+Hills.png::CompressedTexture2D::6136032035696376171::1700866035::1700866035::1::::<><>::
+house_asset5.png::CompressedTexture2D::8773023748217291378::1700866035::1700866035::1::::<><>::
+house_asset7.png::CompressedTexture2D::4776015969151024077::1700866059::1700866059::1::::<><>::
+overworld_tileset_grass.png::CompressedTexture2D::4355434115818050101::1700866035::1700866035::1::::<><>::
+pet2001-8.png::CompressedTexture2D::3811198930526902354::1700866059::1700866059::1::::<><>::
+roads2W.png::CompressedTexture2D::7331326986386222902::1700866059::1700866059::1::::<><>::
+roomtile.png::CompressedTexture2D::5219164736358476028::1700866059::1700866059::1::::<><>::
+sprite_sheet.png::CompressedTexture2D::3214518299592546426::1700866035::1700866035::1::::<><>::
+T1 - House Tileset.png::CompressedTexture2D::3157116541457732395::1700866035::1700866035::1::::<><>::
+taragonia_bw_mix_by_phyromatical_d76ewjp-pre.png::CompressedTexture2D::3168265724965817868::1700866035::1700866035::1::::<><>::
+Tilled Dirt.png::CompressedTexture2D::4442739593483529974::1700866035::1700866035::1::::<><>::
+TX Props.png::CompressedTexture2D::225024698073524512::1700866035::1700866035::1::::<><>::
+TX Tileset Grass.png::CompressedTexture2D::4184483445945552643::1700866035::1700866035::1::::<><>::
+Water.png::CompressedTexture2D::5728266869344538032::1700866035::1700866035::1::::<><>::
+Wood Bridge.png::CompressedTexture2D::1007207514787497192::1700866035::1700866035::1::::<><>::
+::res://player/::1700866035
+player.gd::GDScript::-1::1700866035::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::6127179413461639337::1700866035::0::1::::<><>::uid://bl2ev8v0xiues::::res://arts/sprite_sheet.png<>res://player/player.gd
+::res://scenes/::1700866059
+world.tscn::PackedScene::1337570090994655695::1700866059::0::1::::<><>::uid://ctkb0qycx8uir::::res://player/player.tscn<>uid://du2w8oo0fgfgc::::res://arts/Grass.png<>uid://ctols0edprkkx::::res://arts/Hills.png<>uid://b08hh6to0eqrf::::res://arts/Atlas-Props.png<>uid://bk8lio5mjju88::::res://arts/T1 - House Tileset.png<>uid://bley4x5afpxv5::::res://arts/taragonia_bw_mix_by_phyromatical_d76ewjp-pre.png<>uid://b4kdjipf28wpi::::res://arts/Tilled Dirt.png<>uid://dv4nq1f6e4647::::res://arts/GRASS+.png<>uid://dhaehh2bfpw7::::res://arts/TX Props.png<>uid://cabsjxytpdw5r::::res://arts/house_asset7.png<>uid://dcpl5ckky51mg::::res://arts/roads2W.png<>uid://b3b2mmi82ix7j::::res://arts/overworld_tileset_grass.png<>uid://dw8yoi2imfcys::::res://arts/house_asset5.png<>uid://cnu2yorc8tl0k::::res://arts/Water.png<>uid://mpone3bdn38b::::res://arts/Basic Grass Biom things 1.png<>uid://b0u83ivnitu64::::res://arts/TX Tileset Grass.png<>uid://cgmg47cgetc73::::res://arts/roomtile.png
